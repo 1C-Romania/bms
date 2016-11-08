@@ -65,7 +65,7 @@ Procedure Print(ObjectArray, PrintFormsCollection, PrintObjects, OutputParametrs
 		Message("en = 'TemplateName is empty!'; ro = 'TemplateName este goala!'; ru = 'TemplateName este goala!'");
 		Return;
 	EndTry;
-	
+	 /////Adelin testing github 08.11.2016
 	PrintManagement.OutputSpreadsheetDocumentToCollection(
 			PrintFormsCollection,
 			TemplateName,  												
@@ -221,5 +221,3 @@ Function CreatePrintForm(Ref, PrintObjects, TemplateName)
 	Return Spreadsheet;
 
 EndFunction 
-
-// SourceTree merge !!!!

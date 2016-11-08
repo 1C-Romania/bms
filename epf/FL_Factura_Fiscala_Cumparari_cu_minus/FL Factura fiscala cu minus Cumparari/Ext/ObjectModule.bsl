@@ -13,10 +13,10 @@ Function ExternalDataProcessorInfo() Export
 
 	RegistrationParametrs.Insert("Presentation", DestinationArray);
 	
-	RegistrationParametrs.Insert("Description", "Formele de listare la doc.Cumparari marfuri si servicii");
+	RegistrationParametrs.Insert("Description", "Forma de listare FF cu minus (Retur) la doc.Cumparari marfuri si servicii");
 	RegistrationParametrs.Insert("Version", "1.0"); 
 	RegistrationParametrs.Insert("SafeMode", False);
-	RegistrationParametrs.Insert("Information", "Formele de listare la doc. Cumparari marfuri si servicii");
+	RegistrationParametrs.Insert("Information", "Forma de listare FF cu minus (Retur) la doc.Cumparari marfuri si servicii");
 	
 	CommandTable = GetCommandTable();
 	

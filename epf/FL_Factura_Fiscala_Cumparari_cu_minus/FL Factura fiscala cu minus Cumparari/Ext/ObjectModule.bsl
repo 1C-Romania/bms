@@ -179,7 +179,13 @@ Function CreatePrintForm(Ref, PrintObjects, TemplateName)
 		Header1.Parameters["DocDate"] 		= Selection.DateOfIncomingDocument;
 		ERate = Selection.ExchangeRate;
 		Header1.Parameters["ERate"]= ERate;
-		
+		////////                                   ////////
+		//                                               //
+		//                                               //
+		//   0Rares0 testing github 08.11.2016 - 17:21   //
+		//                                               //
+		//                                               //
+		//////////                                 ////////
 		Spreadsheet.Put(Header1);
 		Spreadsheet.Put(AreaInventoryHeader);
 		SelectionExpenses = Selection.Expenses.Choose();

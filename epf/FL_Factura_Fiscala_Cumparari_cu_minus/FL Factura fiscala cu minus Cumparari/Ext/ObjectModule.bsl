@@ -1,8 +1,4 @@
-﻿////////////////////////////////////////////////////////
-//
-// Forma de Listare pt 1CBMS
-// Factura Fiscala Cumparari cu minus
-//
+﻿
 Function ExternalDataProcessorInfo() Export
 	
 	RegistrationParametrs = New Structure;
@@ -13,16 +9,16 @@ Function ExternalDataProcessorInfo() Export
 
 	RegistrationParametrs.Insert("Presentation", DestinationArray);
 	
-	RegistrationParametrs.Insert("Description", "Forma de listare FF cu minus (Retur) la doc.Cumparari marfuri si servicii");
-	RegistrationParametrs.Insert("Version", "1.0"); 
+	RegistrationParametrs.Insert("Description", "Forma de listare Factura fiscala(minus)");
+	RegistrationParametrs.Insert("Version", "2.2"); 
 	RegistrationParametrs.Insert("SafeMode", False);
-	RegistrationParametrs.Insert("Information", "Forma de listare FF cu minus (Retur) la doc.Cumparari marfuri si servicii");
+	RegistrationParametrs.Insert("Information", "Forma de listare Factura fiscala(minus)");
 	
 	CommandTable = GetCommandTable();
 	
 	AddCommand(CommandTable,
-	"NIR",						   
-	"NIR",   				 
+	"Factura fiscala",						   
+	"FacturaFiscalaMinus",   				 
 	"CallOfServerMethod",  								 
 	False,											
 	"MXLPrint");           									
@@ -65,7 +61,7 @@ Procedure Print(ObjectArray, PrintFormsCollection, PrintObjects, OutputParametrs
 		Message("en = 'TemplateName is empty!'; ro = 'TemplateName este goala!'; ru = 'TemplateName este goala!'");
 		Return;
 	EndTry;
-	 /////Adelin testing github 08.11.2016
+	
 	PrintManagement.OutputSpreadsheetDocumentToCollection(
 			PrintFormsCollection,
 			TemplateName,  												
@@ -85,6 +81,44 @@ Function CreatePrintForm(Ref, PrintObjects, TemplateName)
 	
 	Query = New Query();
 	Query.Text = 
+	
+//"SELECT
+//	|	InventoryReceipt.Counterparty AS Company,
+//	|	InventoryReceipt.Date,
+//	|	InventoryReceipt.Number,
+//	|	InventoryReceipt.DocumentBasis,
+//	|	InventoryReceipt.Entity,
+//	|	InventoryReceipt.DateOfIncomingDocument,
+//	|	InventoryReceipt.IncomingDocumentNo,
+//	|	InventoryReceipt.Responsible,
+//	|	InventoryReceipt.ExchangeRate,
+//	|	InventoryReceipt.DocumentCurrency,
+//	|	InventoryReceipt.Inventory.(
+//	|		LineNumber AS LineNumber,
+//	|		Nomenclature,
+//	|		UnitOfMeasure,
+//	|		Quantity,
+//	|		VATAmount,
+//	|		TotalAmount AS AmountTotal,
+//	|		Price,
+//	|		Amount,
+//	|		ExpenseAmount
+//	|	),
+//	|	InventoryReceipt.hiDocumentAmountWithoutVAT AS TotalFaraTVA,
+//	|	InventoryReceipt.hiDocumentVATAmount AS TotalTVA,
+//	|	InventoryReceipt.DocumentAmount AS Total,
+//	|	InventoryReceipt.AmountIncludesVAT AS SumaIncludeTva
+//	|FROM
+//	|	Document.InventoryReceipt AS InventoryReceipt
+//	|WHERE
+//	|	InventoryReceipt.Ref IN(&Ref)
+//	|
+//	|ORDER BY
+//	|	LineNumber";
+//	
+	
+	
+	
 	"SELECT
 	|	InventoryReceipt.Counterparty AS Company,
 	|	InventoryReceipt.Date,
@@ -95,129 +129,203 @@ Function CreatePrintForm(Ref, PrintObjects, TemplateName)
 	|	InventoryReceipt.IncomingDocumentNo,
 	|	InventoryReceipt.Responsible,
 	|	InventoryReceipt.Inventory.(
-	|		LineNumber,
+	|		LineNumber AS LineNumber,
 	|		Nomenclature,
 	|		UnitOfMeasure,
 	|		Quantity,
-	|		SUM(Quantity) AS Suma,
+	|		Quantity AS Suma,
 	|		VATAmount,
 	|		TotalAmount AS AmountTotal,
 	|		Price,
-	|		Amount,
-	|		ExpenseAmount
-	|	),
-	|	InventoryReceipt.Expenses.(
-	|		TotalAmount,
-	|		VATRate
+	|		Amount AS AmountWhitoutTVA
 	|	),
 	|	InventoryReceipt.ExchangeRate,
-	|	InventoryReceipt.DocumentCurrency
+	|	InventoryReceipt.DocumentCurrency,
+	|	InventoryReceipt.Entity.TIN AS NrOrcE,
+	|	InventoryReceipt.Entity.BankAccountByDefault.AccountNo AS BankAccountE,
+	|	InventoryReceipt.Entity.BankAccountByDefault.Bank AS BankE,
+	|	InventoryReceipt.Entity.Capital AS Capital,
+	|	InventoryReceipt.Counterparty.TIN AS NrOrcC,
+	|	InventoryReceipt.Counterparty.BankAccountByDefault.AccountNo AS BankAccountC,
+	|	InventoryReceipt.Counterparty.BankAccountByDefault.Bank AS BankC,
+	|	InventoryReceipt.hiDocumentVATAmount AS SDTotalTVA,
+	|	InventoryReceipt.hiDocumentAmountWithoutVAT AS SDFaraTVA,
+	|	InventoryReceipt.DocumentAmount AS SDTotal,
+	|	InventoryReceipt.TransactionType AS TipTranzactie,
+	|	InventoryReceipt.Author,
+	|	InventoryReceipt.DocumentBasis.Driver AS Driver,
+	|	InventoryReceipt.DocumentBasis.Readdressing AS Readdressing,
+	|	InventoryReceipt.DocumentBasis.Driver.IDCard AS DriverIDCard,
+	|	InventoryReceipt.DocumentBasis.Driver.PersonalCode AS DriverPersonalCode,
+	|	TransactionTypesInventoryReceipt.Ref AS RefTip,
+	|	TransactionTypesInventoryReceipt.Order AS OrderTip,
+	|	InventoryReceipt.Posted AS PostedA
 	|FROM
 	|	Document.InventoryReceipt AS InventoryReceipt
+	|		LEFT JOIN Enum.TransactionTypesInventoryReceipt AS TransactionTypesInventoryReceipt
+	|		ON InventoryReceipt.TransactionType = TransactionTypesInventoryReceipt.Ref
 	|WHERE
 	|	InventoryReceipt.Ref IN(&Ref)
 	|
-	|GROUP BY
-	|	InventoryReceipt.Inventory.(Quantity,
-	|	LineNumber,
-	|	Nomenclature,
-	|	UnitOfMeasure,
-	|	VATAmount,
-	|	TotalAmount,
-	|	Price,
-	|	Amount,
-	|	ExpenseAmount),
-	|	InventoryReceipt.Expenses.(TotalAmount,
-	|	VATRate)";
+	|ORDER BY
+	|	LineNumber";
+	
+	
 	
 	Query.Parameters.Insert("Ref", Ref);
 	Selection = Query.Execute().Choose();
 
 		AreaCaption	 		= Template.GetArea("Caption");
 		Header 				= Template.GetArea("Header");
-		Header1 			= Template.GetArea("Header1");
 		AreaInventoryHeader = Template.GetArea("InventoryHeader");
 		AreaInventory 		= Template.GetArea("Inventory");
 		Footer 				= Template.GetArea("Footer");
-		Totals 				= Template.GetArea("Totals");
-		Gestionari			= Template.GetArea("Gestionari");
 	Spreadsheet.Clear();
 
 	InsertPageBreak = False;
-	Cheltuieli  = 0;
-	Total       = 0;
 	While Selection.Next() Do
-		If InsertPageBreak Then
-			Spreadsheet.PutHorizontalPageBreak();
-		EndIf;
+	If InsertPageBreak Then
+		Spreadsheet.PutHorizontalPageBreak();
+	EndIf;
 		DocRate = WorkWithExchangeRates.GetCurrencyRate(Selection.DocumentCurrency, BegOfDay(Selection.Date)); 
 		NatRate = WorkWithExchangeRates.GetCurrencyRate(Constants.NationalCurrency.get(), BegOfDay(Selection.Date));
-		Try
-			Rate = DocRate.ExchangeRate / NatRate.ExchangeRate;
-		Except
-			Message("Cursul valutar nu este actualizat!");
-			Rate = 1;
-		EndTry;
-		
-
-		Spreadsheet.Put(AreaCaption);
-		InfoAboutVendor  = SmallBusinessServer.InfoAboutLegalEntityIndividual(Selection.Entity, Selection.Date, ,);
-		InfoAboutVendorC = SmallBusinessServer.InfoAboutLegalEntityIndividual(Selection.Company, Selection.Date, ,);
-		
-		Header.Parameters["CFE"] 		= Selection.Entity.CIO;
-		Header.Parameters["CFC"] 		= Selection.Company.CIO;
-		Header.Parameters["AdresaE"]	= SmallBusinessServer.EntitiesLongDescription(InfoAboutVendor, "LegalAddress,");
-		Header.Parameters["AdresaC"] 	= SmallBusinessServer.EntitiesLongDescription(InfoAboutVendorC, "LegalAddress,");
-		
-		Header.Parameters.Fill(Selection);
-		Spreadsheet.Put(Header, Selection.Level());
-		Header1.Parameters["DocumentBasis"] = Selection.DocumentBasis;
-		Header1.Parameters["Number"] 		= Selection.Number;
-		Header1.Parameters["Date"]			= Selection.Date;
-		Header1.Parameters["Company"]		= Selection.Company;
-		Header1.Parameters["DocNumber"] 	= Selection.IncomingDocumentNo;
-		Header1.Parameters["DocDate"] 		= Selection.DateOfIncomingDocument;
-		ERate = Selection.ExchangeRate;
-		Header1.Parameters["ERate"]= ERate;
-		////////                                   ////////
-		//                                               //
-		//                                               //
-		//   0Rares0 testing github 08.11.2016 - 17:21   //
-		//                                               //
-		//                                               //
-		//////////                                 ////////
-		Spreadsheet.Put(Header1);
-		Spreadsheet.Put(AreaInventoryHeader);
-		SelectionExpenses = Selection.Expenses.Choose();
-		While SelectionExpenses.Next() Do
-			Cheltuieli = Cheltuieli + SelectionExpenses.TotalAmount;
-			VAT = SelectionExpenses.VATRate;
-		EndDo;	
-		
-		SelectionInventory = Selection.Inventory.Choose();
-		While SelectionInventory.Next() Do
-			Expense = SelectionInventory.ExpenseAmount / (1 + ?(VAT <> Undefined, VAT.Rate / 100, 0));
-			AreaInventory.Parameters.Fill(SelectionInventory);
-			AreaInventory.Parameters["Price"]	= SelectionInventory.Price*ERate;
-			AreaInventory.Parameters["Amount"]	= (SelectionInventory.AmountTotal + Expense)*ERate;
-			AreaInventory.Parameters["Expenses"]= (Expense / SelectionInventory.Quantity)*ERate;
-			AreaInventory.Parameters["Unitar"]  = (SelectionInventory.Price + 
-													Expense)*ERate;
-			Spreadsheet.Put(AreaInventory, SelectionInventory.Level());
-			
-			Total								=  Total + ( SelectionInventory.AmountTotal) + Expense;
-		EndDo;
-
-		Totals.Parameters["Total"] = Total*ERate;
-		Spreadsheet.Put(Totals);
-		
-		Gestionari.Parameters.Fill(Selection);
-		Spreadsheet.Put(Gestionari);
-		Footer.Parameters.Fill(Selection);
-		Spreadsheet.Put(Footer);
-		InsertPageBreak = True;
-	EndDo;
+	Try
+		ERate = DocRate.ExchangeRate / NatRate.ExchangeRate;
+	Except
+		Message("Cursul valutar nu este actualizat!");
+		Rate = 1;
+	EndTry;
+	Spreadsheet.Put(AreaCaption);
 	
-	Return Spreadsheet;
+	Header.Parameters.Fill(Selection);
+		////////////////////////Header/////////////////////////////
+	InfoAboutVendor  = SmallBusinessServer.InfoAboutLegalEntityIndividual(Selection.Entity, Selection.Date, ,);
+	InfoAboutVendorC = SmallBusinessServer.InfoAboutLegalEntityIndividual(Selection.Company, Selection.Date, ,);
+		
+	Header.Parameters["CFE"] 		= Selection.Entity.CIO;
+	Header.Parameters["CFC"] 		= Selection.Company.CIO;
+	Header.Parameters["AdresaE"]	= SmallBusinessServer.EntitiesLongDescription(InfoAboutVendor, "LegalAddress,");
+	Header.Parameters["AdresaC"] 	= SmallBusinessServer.EntitiesLongDescription(InfoAboutVendorC, "LegalAddress,");
+	Header.Parameters["Number"] 	= Selection.Number;
+	Header.Parameters["Date"]		= Selection.Date;
+	Header.Parameters["ERate"]		= ERate;
+
+	
+	Spreadsheet.Put(Header, Selection.Level());
+		
+		////////////////////////Header/////////////////////////////
+
+//		Header1.Parameters["DocumentBasis"] = Selection.DocumentBasis;
+//				Header1.Parameters["Company"]		= Selection.Company;
+//		Header1.Parameters["DocNumber"] 	= Selection.IncomingDocumentNo;
+//		Header1.Parameters["DocDate"] 		= Selection.DateOfIncomingDocument;
+//		ERate = Selection.ExchangeRate;
+//		Header1.Parameters["ERate"]= ERate;	
+//		Spreadsheet.Put(Header1);
+
+///////////////////////////////AreaInventoryHeader/////////////////////////////////////
+	Spreadsheet.Put(AreaInventoryHeader);
+///////////////////////////////AreaInventoryHeader/////////////////////////////////////
+	
+
+	
+///////////////////////////////AreaInventory/////////////////////////////////////
+///////////////////////////////AreaInventory/////////////////////////////////////
+AreaInventory.Parameters.Fill(Selection);
+SelectionInventory = Selection.Inventory.Choose();
+While SelectionInventory.Next() Do
+	
+	
+	AreaInventory.Parameters["LineNumber"]	    =SelectionInventory.LineNumber;
+	AreaInventory.Parameters["Nomenclature"]	=SelectionInventory.Nomenclature;
+	AreaInventory.Parameters["Price"]	      	=Format(Round(SelectionInventory.Price*ERate,2),"NFD=2");
+	AreaInventory.Parameters["UnitOfMeasure"]	=SelectionInventory.UnitOfMeasure;
+	AreaInventory.Parameters["Quantity"]		=SelectionInventory.Quantity;				
+	
+Try
+	AreaInventory.Parameters["VATAmount"]		=Format(Round("-"+SelectionInventory.VATAmount*ERate,2),"NFD=2");
+Except
+			
+EndTry;
+	AreaInventory.Parameters["Amount"]	  		=Format(Round("-"+SelectionInventory.AmountWhitoutTVA*ERate,2),"NFD=2");
+			
+	i = SelectionInventory.LineNumber;
+Spreadsheet.Put(AreaInventory, SelectionInventory.Level());
+EndDo;
+	
+	
+
+	For i=i +1 To 35 Do 
+				
+	AreaInventory.Parameters["LineNumber"]				= i;
+	AreaInventory.Parameters["Nomenclature"]			= Undefined;
+	AreaInventory.Parameters["Price"]	     			= Undefined;
+	AreaInventory.Parameters["Amount"]	      			= Undefined;
+	AreaInventory.Parameters["Quantity"]	   			= Undefined;
+	AreaInventory.Parameters["UnitOfMeasure"]	      	= Undefined;
+Try
+	AreaInventory.Parameters["VATAmount"]		= Undefined;
+Except
+			
+EndTry;
+
+	Spreadsheet.Put(AreaInventory, SelectionInventory.Level());
+EndDo;
+	
+
+///////////////////////////////AreaInventoryHeader/////////////////////////////////////
+///////////////////////////////AreaInventoryHeader/////////////////////////////////////	
+
+
+//////////////////////Footer
+	Footer.Parameters["SDTotalTVA"]  =Format(Round("-"+Selection.SDTotalTVA*ERate,2),"NFD=2");
+	Footer.Parameters["SDFaraTVA"]   =Format(Round("-"+Selection.SDFaraTVA*ERate,2),"NFD=2");
+	Footer.Parameters["SDTotal"]     =Format(Round("-"+Selection.SDTotal*ERate,2),"NFD=2");
+	
+	Query		= New Query;
+		Query.Text	= 
+		"SELECT
+		|	UserEmployees.Employee,
+		|	UserEmployees.User
+		|FROM
+		|	InformationRegister.UserEmployees AS UserEmployees
+		|WHERE
+		|	UserEmployees.User = &Author";
+		
+		Query.SetParameter("Author", Selection.Author);
+		
+		Result		= Query.Execute();
+		SelectionD	= Result.Choose();
+		
+		While SelectionD.Next() Do
+			Try
+				Footer.Parameters["CNPU"]	= SelectionD.Employee.Ind.PersonalCode;
+				Footer.Parameters["CIU"]	= SelectionD.Employee.Ind.IDCard;
+				Footer.Parameters["User"]				= Selection.Author;	
+			Except
+			
+			EndTry;
+	Footer.Parameters["CNP"]				= Selection.DriverPersonalCode;
+	Footer.Parameters["Driver"]				= Selection.Driver;
+	Footer.Parameters["CI"]					= Selection.DriverIDCard;
+	Footer.Parameters["MijlocDeTransport"]	= Selection.Readdressing;
+	Footer.Parameters["Date"]				= Selection.Date;
+EndDo;
+		
+	
+		
+
+	Spreadsheet.Put(Footer);
+
+//////////////////////Footer
+
+	InsertPageBreak = True;
+	
+EndDo; 
+Message ("Atenție! Această imprimare este specifică doar pentru documentele cu tipul operațiunii ""Returnare de la cumpărător""");
+If Selection.PostedA = False Then Spreadsheet.BackgroundPicture = New Picture(GetTemplate("Template"), True);
+EndIf;
+
+Return Spreadsheet;                              
 
 EndFunction 

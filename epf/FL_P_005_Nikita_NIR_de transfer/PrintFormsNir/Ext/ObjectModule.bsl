@@ -96,7 +96,8 @@ Function CreatePrintForm(ObjectsArray, PrintObjects, TemplateName) Export
 	For Each Object In ObjectsArray Do
 		
 		Recipient = Object.BaseUnitPayee;
-		If Recipient.BaseUnitType <> Enums.StructuralUnitTypes.RetailAccrualAccounting Then
+		If NOT (Recipient.BaseUnitType = Enums.StructuralUnitTypes.RetailAccrualAccounting 
+			OR Recipient.BaseUnitType = Enums.StructuralUnitTypes.Retail) Then
 			Continue;
 		EndIf;
 		
@@ -109,6 +110,7 @@ Function CreatePrintForm(ObjectsArray, PrintObjects, TemplateName) Export
 		Query.SetParameter("Object",     Object);
 		Query.SetParameter("Period",     Object.Date);
 		Query.SetParameter("PricesKind", Recipient.RetailPriceKind);
+		Query.SetParameter("RecordType", AccumulationRecordType.Expense);
 		
 		TableGoods = Query.Execute().Unload();
 		
@@ -151,12 +153,14 @@ Function QueryText()
 	|	Inventory.Characteristic AS Characteristic,
 	|	Inventory.Quantity,
 	|	Inventory.Amount,
-	|	Inventory.VATRate
+	|	Inventory.VATRate,
+	|	Inventory.RecordType
 	|INTO ReceivedPrice
 	|FROM
 	|	AccumulationRegister.Inventory AS Inventory
 	|WHERE
 	|	Inventory.Recorder = &Object
+	|	AND Inventory.RecordType = &RecordType
 	|
 	|INDEX BY
 	|	Nomenclature,

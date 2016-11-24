@@ -96,8 +96,7 @@ Function CreatePrintForm(ObjectsArray, PrintObjects, TemplateName) Export
 	For Each Object In ObjectsArray Do
 		
 		Recipient = Object.BaseUnitPayee;
-		If NOT (Recipient.BaseUnitType = Enums.StructuralUnitTypes.RetailAccrualAccounting 
-			OR Recipient.BaseUnitType = Enums.StructuralUnitTypes.Retail) Then
+		If Recipient.BaseUnitType <> Enums.StructuralUnitTypes.RetailAccrualAccounting Then
 			Continue;
 		EndIf;
 		
@@ -110,7 +109,6 @@ Function CreatePrintForm(ObjectsArray, PrintObjects, TemplateName) Export
 		Query.SetParameter("Object",     Object);
 		Query.SetParameter("Period",     Object.Date);
 		Query.SetParameter("PricesKind", Recipient.RetailPriceKind);
-		Query.SetParameter("RecordType", AccumulationRecordType.Expense);
 		
 		TableGoods = Query.Execute().Unload();
 		
@@ -153,14 +151,12 @@ Function QueryText()
 	|	Inventory.Characteristic AS Characteristic,
 	|	Inventory.Quantity,
 	|	Inventory.Amount,
-	|	Inventory.VATRate,
-	|	Inventory.RecordType
+	|	Inventory.VATRate
 	|INTO ReceivedPrice
 	|FROM
 	|	AccumulationRegister.Inventory AS Inventory
 	|WHERE
 	|	Inventory.Recorder = &Object
-	|	AND Inventory.RecordType = &RecordType
 	|
 	|INDEX BY
 	|	Nomenclature,
@@ -174,9 +170,9 @@ Function QueryText()
 	|	InventoryTransferInventory.Characteristic,
 	|	InventoryTransferInventory.UnitOfMeasure AS Measure,
 	|	InventoryTransferInventory.Quantity AS QuantityAccording,
-	|	ReceivedPrice.Quantity AS QuantityReal,
-	|	ReceivedPrice.Amount / InventoryTransferInventory.Quantity AS AquisitionPrice,
-	|	ReceivedPrice.Amount AS ReceivedValueWithoutVAT,
+	|	InventoryTransferInventory.Quantity AS QuantityReal,
+	|	ReceivedPrice.Amount / ReceivedPrice.Quantity AS AquisitionPrice,
+	|	ReceivedPrice.Amount / ReceivedPrice.Quantity * InventoryTransferInventory.Quantity AS ReceivedValueWithoutVAT,
 	|	ReceivedPrice.Amount * (InventoryTransferInventory.Nomenclature.VATRate.Rate / 100) AS ReceivedVAT,
 	|	InventoryTransferInventory.Nomenclature.VATRate.Rate AS VATRate,
 	|	NomenclaturePricesSliceLast.Price AS SellingPrice,

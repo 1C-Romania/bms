@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="e2651264-26c1-4653-b908-cd9c9a3bd55d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesCashExpense" category="Ref">
+				<xr:TypeId>7abc2508-213a-4cb5-b8ba-c124af966175</xr:TypeId>
+				<xr:ValueId>106831b2-96b1-4c15-91db-e83cf4ff8967</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesCashExpense" category="Manager">
+				<xr:TypeId>07e2f36b-4ab1-46ca-b84a-46e72a5b7560</xr:TypeId>
+				<xr:ValueId>17a28070-488e-4e4c-a5fd-3ceb44da05bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesCashExpense" category="List">
+				<xr:TypeId>f00b0b41-83bd-4a52-a19b-dcebe25228dc</xr:TypeId>
+				<xr:ValueId>3104db52-984b-484a-9470-5444d9582eac</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesCashExpense</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

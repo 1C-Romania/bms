@@ -1,0 +1,1102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<CommandBarLocation>None</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<CommandSet>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>ListSettings</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+		<ExcludedCommand>Copy</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Delete</ExcludedCommand>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>UndoPosting</ExcludedCommand>
+		<ExcludedCommand>Post</ExcludedCommand>
+		<ExcludedCommand>Create</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>Change</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>CancelSearch</ExcludedCommand>
+		<ExcludedCommand>OutputList</ExcludedCommand>
+		<ExcludedCommand>Find</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>SetDateInterval</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>Refresh</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="CashGroup" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>PettyCash</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Касса</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>PettyCash</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cash group</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа касса</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Grupul casierie</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="GroupCashExtendedTooltip" id="61"/>
+			<ChildItems>
+				<InputField name="CashRegisterFilter" id="10">
+					<DataPath>CashRegister</DataPath>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ClearButton>true</ClearButton>
+					<ChoiceParameters>
+						<app:item name="Отбор.ТипКассы">
+							<app:value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">b77fbf18-04f0-4eda-8d4f-afe77551ffb3.9c1f84f7-e798-4ff8-9abf-865fae170807</Value>
+							</app:value>
+						</app:item>
+					</ChoiceParameters>
+					<ContextMenu name="CashRegisterFilterContextMenu" id="11"/>
+					<ExtendedTooltip name="CashRegisterFilterExtendedTooltip" id="62"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="CashRegisterReceipts" id="1">
+			<Representation>List</Representation>
+			<SkipOnInput>false</SkipOnInput>
+			<DefaultItem>true</DefaultItem>
+			<Width>80</Width>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>CashRegisterReceipts</DataPath>
+			<RowPictureDataPath>CashRegisterReceipts.DefaultPicture</RowPictureDataPath>
+			<CommandSet>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>Create</ExcludedCommand>
+			</CommandSet>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="CashRegisterReceiptsContextMenu" id="2">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<ButtonGroup name="FormCommandContextMenuGroup" id="41">
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Commands of form</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Команды формы</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Comenzile formai</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Context menu list command group</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа команды формы</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Grupul comenzile formei</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="FolderContextMenuFormCommandsExtendedTooltip" id="63"/>
+						<ChildItems>
+							<ButtonGroup name="FormCommandContextMenu" id="44">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Commands of form</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Команды формы</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Comenzile formai</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Context menu list command group</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа команды формы</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul comenzile formei</v8:content>
+									</v8:item>
+								</ToolTip>
+								<CommandSource>Item.CashRegisterReceipts</CommandSource>
+								<ExtendedTooltip name="ContextMenuFormCommandsExtendedTooltip" id="64"/>
+							</ButtonGroup>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</ContextMenu>
+			<AutoCommandBar name="CashRegisterReceiptsCommandBar" id="3">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<ButtonGroup name="CommandGroupForms" id="12">
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Commands of form</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Команды формы</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Comenzile formai</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Context menu list command group</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа команды формы</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Grupul comenzile formei</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="FormCommandGroupExtendedTooltip" id="65"/>
+						<ChildItems>
+							<ButtonGroup name="FormCommands" id="40">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Commands of form</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Команды формы</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Comenzile formai</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Context menu list command group</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа команды формы</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul comenzile formei</v8:content>
+									</v8:item>
+								</ToolTip>
+								<CommandSource>Item.CashRegisterReceipts</CommandSource>
+								<ExtendedTooltip name="FormCommandsExtendedTooltip" id="66"/>
+								<ChildItems>
+									<ButtonGroup name="FormPostCommand" id="90">
+										<Title>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Post command</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="FormPostCommandРасширеннаяПодсказка" id="91"/>
+										<ChildItems>
+											<Button name="FormPost" id="92">
+												<Type>CommandBarButton</Type>
+												<OnlyInAllActions>true</OnlyInAllActions>
+												<CommandName>Form.Item.CashRegisterReceipts.StandardCommand.Post</CommandName>
+												<ExtendedTooltip name="FormPostРасширеннаяПодсказка" id="93"/>
+											</Button>
+											<Button name="FormClearPosting" id="94">
+												<Type>CommandBarButton</Type>
+												<OnlyInAllActions>true</OnlyInAllActions>
+												<CommandName>Form.Item.CashRegisterReceipts.StandardCommand.UndoPosting</CommandName>
+												<ExtendedTooltip name="FormClearPostingРасширеннаяПодсказка" id="95"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+								</ChildItems>
+							</ButtonGroup>
+							<Popup name="Print" id="57">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Print</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Печать</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Imprimare</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Print</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Печать</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Imprimare</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="PrintExtendedTooltip" id="67"/>
+								<ChildItems>
+									<Button name="CashRegisterReceiptsPrintSalesReceipt" id="58">
+										<Type>CommandBarButton</Type>
+										<CommandName>Document.RetailReceipt.Command.PrintSalesReceipt</CommandName>
+										<DataPath>Items.CashRegisterReceipts.CurrentData.Ref</DataPath>
+										<ExtendedTooltip name="CashRegisterReceiptsPrintProductCheckExtendedTooltip" id="68"/>
+									</Button>
+								</ChildItems>
+							</Popup>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="CashRegisterReceiptsExtendedTooltip" id="69"/>
+			<SearchStringAddition name="CashRegisterReceiptsSearchString" id="81">
+				<AdditionSource>
+					<Item>CashRegisterReceipts</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="CashRegisterReceiptsSearchStringContextMenu" id="82"/>
+				<ExtendedTooltip name="CashRegisterReceiptsSearchStringExtendedTooltip" id="83"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="CashRegisterReceiptsViewStatus" id="84">
+				<AdditionSource>
+					<Item>CashRegisterReceipts</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="CashRegisterReceiptsViewStatusContextMenu" id="85"/>
+				<ExtendedTooltip name="CashRegisterReceiptsViewStatusExtendedTooltip" id="86"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="CashRegisterReceiptsSearchControl" id="87">
+				<AdditionSource>
+					<Item>CashRegisterReceipts</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="CashRegisterReceiptsSearchControlContextMenu" id="88"/>
+				<ExtendedTooltip name="CashRegisterReceiptsSearchControlExtendedTooltip" id="89"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Number" id="6">
+					<DataPath>CashRegisterReceipts.Number</DataPath>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="NumberContextMenu" id="7"/>
+					<ExtendedTooltip name="NumberExtendedTooltip" id="70"/>
+				</LabelField>
+				<LabelField name="Date" id="4">
+					<DataPath>CashRegisterReceipts.Date</DataPath>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="DateContextMenu" id="5"/>
+					<ExtendedTooltip name="DateExtendedTooltip" id="71"/>
+				</LabelField>
+				<LabelField name="Status" id="53">
+					<DataPath>CashRegisterReceipts.Status</DataPath>
+					<ContextMenu name="StateContextMenu" id="54"/>
+					<ExtendedTooltip name="StateExtendedTooltip" id="72"/>
+				</LabelField>
+				<LabelField name="RetailReceiptNo" id="24">
+					<DataPath>CashRegisterReceipts.RetailReceiptNo</DataPath>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="CRCheckNumberContextMenu" id="25"/>
+					<ExtendedTooltip name="CRCheckNumberExtendedTooltip" id="73"/>
+				</LabelField>
+				<CheckBoxField name="ThereIsBillForReturn" id="34">
+					<DataPath>CashRegisterReceipts.ThereIsBillForReturn</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Return</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Возврат</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Returnare</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="IsCheckForReturnContextMenu" id="35"/>
+					<ExtendedTooltip name="IsCheckForReturnExtendedTooltip" id="74"/>
+				</CheckBoxField>
+				<LabelField name="CashRegister" id="8">
+					<DataPath>CashRegisterReceipts.CashRegister</DataPath>
+					<ContextMenu name="CashDescCRContextMenu" id="9"/>
+					<ExtendedTooltip name="CashDescCRExtendedTooltip" id="75"/>
+				</LabelField>
+				<LabelField name="DocumentAmount" id="13">
+					<DataPath>CashRegisterReceipts.DocumentAmount</DataPath>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="DocumentTotalContextMenu" id="14"/>
+					<ExtendedTooltip name="DocumentTotalExtendedTooltip" id="76"/>
+				</LabelField>
+				<LabelField name="Currency" id="15">
+					<DataPath>1/29</DataPath>
+					<Width>9</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="CurrencyContextMenu" id="16"/>
+					<ExtendedTooltip name="CurrencyExtendedTooltip" id="77"/>
+				</LabelField>
+				<CheckBoxField name="Archival" id="36">
+					<DataPath>CashRegisterReceipts.Archival</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ArchiveContextMenu" id="37"/>
+					<ExtendedTooltip name="ArchivalExtendedTooltip" id="78"/>
+				</CheckBoxField>
+				<LabelField name="Comment" id="59">
+					<DataPath>CashRegisterReceipts.Comment</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="CommentContextMenu" id="60"/>
+					<ExtendedTooltip name="CommentExtendedTooltip" id="79"/>
+				</LabelField>
+				<LabelField name="Author" id="55">
+					<DataPath>CashRegisterReceipts.Author</DataPath>
+					<ContextMenu name="AuthorContextMenu" id="56"/>
+					<ExtendedTooltip name="AuthorExtendedTooltip" id="80"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="CashRegisterReceipts" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cash register receipts</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чеки ККМ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Încasări prin case de marcat</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>CashRegisterReceipts.ThereIsBillForReturn</Field>
+				<Field>CashRegisterReceipts.RetailReceiptNo</Field>
+				<Field>CashRegisterReceipts.CashSession</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>SELECT
+	DocumentCashRegisterReceipt.Ref,
+	DocumentCashRegisterReceipt.DeletionMark,
+	DocumentCashRegisterReceipt.Archival,
+	DocumentCashRegisterReceipt.Status,
+	DocumentCashRegisterReceipt.Number,
+	DocumentCashRegisterReceipt.Date,
+	DocumentCashRegisterReceipt.Posted,
+	DocumentCashRegisterReceipt.DocumentCurrency,
+	DocumentCashRegisterReceipt.PricesKind,
+	DocumentCashRegisterReceipt.CashRegister,
+	DocumentCashRegisterReceipt.CashSession,
+	DocumentCashRegisterReceipt.RetailReceiptNo,
+	DocumentCashRegisterReceipt.Entity,
+	DocumentCashRegisterReceipt.BaseUnit,
+	DocumentCashRegisterReceipt.DocumentAmount,
+	DocumentCashRegisterReceipt.CashReceived,
+	DocumentCashRegisterReceipt.AmountIncludesVAT,
+	DocumentCashRegisterReceipt.POSTerminal,
+	DocumentCashRegisterReceipt.Author,
+	CASE
+		WHEN RetailReceiptReturn.Ref IS NULL 
+			THEN FALSE
+		ELSE TRUE
+	END AS ThereIsBillForReturn,
+	DocumentCashRegisterReceipt.Comment
+FROM
+	Document.RetailReceipt AS DocumentCashRegisterReceipt
+		LEFT JOIN Document.RetailReceiptReturn AS RetailReceiptReturn
+			ON (RetailReceiptReturn.RetailReceipt = DocumentCashRegisterReceipt.Ref)
+			AND (RetailReceiptReturn.Posted)</QueryText>
+				<MainTable>Document.RetailReceipt</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:left xsi:type="dcscor:Field">CashRegister</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Catalog.CashRegisters.EmptyRef</dcsset:right>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:left xsi:type="dcscor:Field">Archival</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:use>false</dcsset:use>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:use>false</dcsset:use>
+									<dcsset:field>RetailReceiptNo</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:use>false</dcsset:use>
+									<dcsset:left xsi:type="dcscor:Field">RetailReceiptNo</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Text</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string"/>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="CashRegister" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cash register</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Касса ККМ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Casieria casei de marcat</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.CashRegisters</v8:Type>
+			</Type>
+			<Save>
+				<Field>CashRegister</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.2">
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<CommandBarLocation>None</CommandBarLocation>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<CommandSet>
+			<ExcludedCommand>No</ExcludedCommand>
+			<ExcludedCommand>CustomizeForm</ExcludedCommand>
+			<ExcludedCommand>ListSettings</ExcludedCommand>
+			<ExcludedCommand>SaveValues</ExcludedCommand>
+			<ExcludedCommand>SetDeletionMark</ExcludedCommand>
+			<ExcludedCommand>Copy</ExcludedCommand>
+			<ExcludedCommand>Close</ExcludedCommand>
+			<ExcludedCommand>Help</ExcludedCommand>
+			<ExcludedCommand>Delete</ExcludedCommand>
+			<ExcludedCommand>Abort</ExcludedCommand>
+			<ExcludedCommand>UndoPosting</ExcludedCommand>
+			<ExcludedCommand>Post</ExcludedCommand>
+			<ExcludedCommand>Create</ExcludedCommand>
+			<ExcludedCommand>Retry</ExcludedCommand>
+			<ExcludedCommand>Yes</ExcludedCommand>
+			<ExcludedCommand>Cancel</ExcludedCommand>
+			<ExcludedCommand>Change</ExcludedCommand>
+			<ExcludedCommand>RestoreValues</ExcludedCommand>
+			<ExcludedCommand>CancelSearch</ExcludedCommand>
+			<ExcludedCommand>OutputList</ExcludedCommand>
+			<ExcludedCommand>Find</ExcludedCommand>
+			<ExcludedCommand>Ignore</ExcludedCommand>
+			<ExcludedCommand>SetDateInterval</ExcludedCommand>
+			<ExcludedCommand>OK</ExcludedCommand>
+			<ExcludedCommand>Refresh</ExcludedCommand>
+		</CommandSet>
+		<AutoCommandBar name="FormCommandBar" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="CashGroup" id="27">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>PettyCash</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Касса</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>PettyCash</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cash group</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа касса</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Grupul casierie</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="GroupCashExtendedTooltip" id="61"/>
+				<ChildItems>
+					<InputField name="CashRegisterFilter" id="10">
+						<DataPath>CashRegister</DataPath>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ClearButton>true</ClearButton>
+						<ChoiceParameters>
+							<app:item name="Отбор.ТипКассы">
+								<app:value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation/>
+									<Value xsi:type="xr:DesignTimeRef">b77fbf18-04f0-4eda-8d4f-afe77551ffb3.9c1f84f7-e798-4ff8-9abf-865fae170807</Value>
+								</app:value>
+							</app:item>
+						</ChoiceParameters>
+						<ContextMenu name="CashRegisterFilterContextMenu" id="11"/>
+						<ExtendedTooltip name="CashRegisterFilterExtendedTooltip" id="62"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<Table name="CashRegisterReceipts" id="1">
+				<Representation>List</Representation>
+				<SkipOnInput>false</SkipOnInput>
+				<DefaultItem>true</DefaultItem>
+				<Width>80</Width>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<InitialTreeView>ExpandTopLevel</InitialTreeView>
+				<EnableStartDrag>true</EnableStartDrag>
+				<DataPath>CashRegisterReceipts</DataPath>
+				<RowPictureDataPath>CashRegisterReceipts.DefaultPicture</RowPictureDataPath>
+				<CommandSet>
+					<ExcludedCommand>Copy</ExcludedCommand>
+					<ExcludedCommand>Create</ExcludedCommand>
+				</CommandSet>
+				<SearchStringLocation>None</SearchStringLocation>
+				<ViewStatusLocation>None</ViewStatusLocation>
+				<SearchControlLocation>None</SearchControlLocation>
+				<AutoRefresh>false</AutoRefresh>
+				<AutoRefreshPeriod>60</AutoRefreshPeriod>
+				<Period>
+					<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+					<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+				</Period>
+				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+				<RestoreCurrentRow>false</RestoreCurrentRow>
+				<TopLevelParent xsi:nil="true"/>
+				<ShowRoot>true</ShowRoot>
+				<AllowRootChoice>false</AllowRootChoice>
+				<UpdateOnDataChange>Auto</UpdateOnDataChange>
+				<ContextMenu name="CashRegisterReceiptsContextMenu" id="2">
+					<Autofill>false</Autofill>
+					<ChildItems>
+						<ButtonGroup name="FormCommandContextMenuGroup" id="41">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Commands of form</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Команды формы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Comenzile formai</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Context menu list command group</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа команды формы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul comenzile formei</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="FolderContextMenuFormCommandsExtendedTooltip" id="63"/>
+							<ChildItems>
+								<ButtonGroup name="FormCommandContextMenu" id="44">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Commands of form</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команды формы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Comenzile formai</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Context menu list command group</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа команды формы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Grupul comenzile formei</v8:content>
+										</v8:item>
+									</ToolTip>
+									<CommandSource>Item.CashRegisterReceipts</CommandSource>
+									<ExtendedTooltip name="ContextMenuFormCommandsExtendedTooltip" id="64"/>
+								</ButtonGroup>
+							</ChildItems>
+						</ButtonGroup>
+					</ChildItems>
+				</ContextMenu>
+				<AutoCommandBar name="CashRegisterReceiptsCommandBar" id="3">
+					<Autofill>false</Autofill>
+					<ChildItems>
+						<ButtonGroup name="CommandGroupForms" id="12">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Commands of form</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Команды формы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Comenzile formai</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Context menu list command group</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа команды формы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul comenzile formei</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="FormCommandGroupExtendedTooltip" id="65"/>
+							<ChildItems>
+								<ButtonGroup name="FormCommands" id="40">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Commands of form</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команды формы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Comenzile formai</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Context menu list command group</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа команды формы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Grupul comenzile formei</v8:content>
+										</v8:item>
+									</ToolTip>
+									<CommandSource>Item.CashRegisterReceipts</CommandSource>
+									<ExtendedTooltip name="FormCommandsExtendedTooltip" id="66"/>
+								</ButtonGroup>
+								<Popup name="Print" id="57">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Print</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Печать</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Imprimare</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Print</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Печать</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Imprimare</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="PrintExtendedTooltip" id="67"/>
+									<ChildItems>
+										<Button name="CashRegisterReceiptsPrintSalesReceipt" id="58">
+											<Type>CommandBarButton</Type>
+											<CommandName>Document.RetailReceipt.Command.PrintSalesReceipt</CommandName>
+											<DataPath>Items.CashRegisterReceipts.CurrentData.Ref</DataPath>
+											<ExtendedTooltip name="CashRegisterReceiptsPrintProductCheckExtendedTooltip" id="68"/>
+										</Button>
+									</ChildItems>
+								</Popup>
+							</ChildItems>
+						</ButtonGroup>
+					</ChildItems>
+				</AutoCommandBar>
+				<ExtendedTooltip name="CashRegisterReceiptsExtendedTooltip" id="69"/>
+				<SearchStringAddition name="CashRegisterReceiptsSearchString" id="81">
+					<AdditionSource>
+						<Item>CashRegisterReceipts</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="CashRegisterReceiptsSearchStringContextMenu" id="82"/>
+					<ExtendedTooltip name="CashRegisterReceiptsSearchStringExtendedTooltip" id="83"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="CashRegisterReceiptsViewStatus" id="84">
+					<AdditionSource>
+						<Item>CashRegisterReceipts</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="CashRegisterReceiptsViewStatusContextMenu" id="85"/>
+					<ExtendedTooltip name="CashRegisterReceiptsViewStatusExtendedTooltip" id="86"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="CashRegisterReceiptsSearchControl" id="87">
+					<AdditionSource>
+						<Item>CashRegisterReceipts</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="CashRegisterReceiptsSearchControlContextMenu" id="88"/>
+					<ExtendedTooltip name="CashRegisterReceiptsSearchControlExtendedTooltip" id="89"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="Number" id="6">
+						<DataPath>CashRegisterReceipts.Number</DataPath>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="NumberContextMenu" id="7"/>
+						<ExtendedTooltip name="NumberExtendedTooltip" id="70"/>
+					</LabelField>
+					<LabelField name="Date" id="4">
+						<DataPath>CashRegisterReceipts.Date</DataPath>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="DateContextMenu" id="5"/>
+						<ExtendedTooltip name="DateExtendedTooltip" id="71"/>
+					</LabelField>
+					<LabelField name="Status" id="53">
+						<DataPath>CashRegisterReceipts.Status</DataPath>
+						<ContextMenu name="StateContextMenu" id="54"/>
+						<ExtendedTooltip name="StateExtendedTooltip" id="72"/>
+					</LabelField>
+					<LabelField name="RetailReceiptNo" id="24">
+						<DataPath>CashRegisterReceipts.RetailReceiptNo</DataPath>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="CRCheckNumberContextMenu" id="25"/>
+						<ExtendedTooltip name="CRCheckNumberExtendedTooltip" id="73"/>
+					</LabelField>
+					<CheckBoxField name="ThereIsBillForReturn" id="34">
+						<DataPath>CashRegisterReceipts.ThereIsBillForReturn</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Return</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Возврат</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Returnare</v8:content>
+							</v8:item>
+						</Title>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="IsCheckForReturnContextMenu" id="35"/>
+						<ExtendedTooltip name="IsCheckForReturnExtendedTooltip" id="74"/>
+					</CheckBoxField>
+					<LabelField name="CashRegister" id="8">
+						<DataPath>CashRegisterReceipts.CashRegister</DataPath>
+						<ContextMenu name="CashDescCRContextMenu" id="9"/>
+						<ExtendedTooltip name="CashDescCRExtendedTooltip" id="75"/>
+					</LabelField>
+					<LabelField name="DocumentAmount" id="13">
+						<DataPath>CashRegisterReceipts.DocumentAmount</DataPath>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="DocumentTotalContextMenu" id="14"/>
+						<ExtendedTooltip name="DocumentTotalExtendedTooltip" id="76"/>
+					</LabelField>
+					<LabelField name="Currency" id="15">
+						<DataPath>1/29</DataPath>
+						<Width>9</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="CurrencyContextMenu" id="16"/>
+						<ExtendedTooltip name="CurrencyExtendedTooltip" id="77"/>
+					</LabelField>
+					<CheckBoxField name="Archival" id="36">
+						<DataPath>CashRegisterReceipts.Archival</DataPath>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ArchiveContextMenu" id="37"/>
+						<ExtendedTooltip name="ArchivalExtendedTooltip" id="78"/>
+					</CheckBoxField>
+					<LabelField name="Comment" id="59">
+						<DataPath>CashRegisterReceipts.Comment</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="CommentContextMenu" id="60"/>
+						<ExtendedTooltip name="CommentExtendedTooltip" id="79"/>
+					</LabelField>
+					<LabelField name="Author" id="55">
+						<DataPath>CashRegisterReceipts.Author</DataPath>
+						<ContextMenu name="AuthorContextMenu" id="56"/>
+						<ExtendedTooltip name="AuthorExtendedTooltip" id="80"/>
+					</LabelField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="CashRegisterReceipts" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cash register receipts</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Чеки ККМ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Încasări prin case de marcat</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<UseAlways>
+					<Field>CashRegisterReceipts.ThereIsBillForReturn</Field>
+					<Field>CashRegisterReceipts.RetailReceiptNo</Field>
+					<Field>CashRegisterReceipts.CashSession</Field>
+				</UseAlways>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>true</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<QueryText>SELECT
+	DocumentCashRegisterReceipt.Ref,
+	DocumentCashRegisterReceipt.DeletionMark,
+	DocumentCashRegisterReceipt.Archival,
+	DocumentCashRegisterReceipt.Status,
+	DocumentCashRegisterReceipt.Number,
+	DocumentCashRegisterReceipt.Date,
+	DocumentCashRegisterReceipt.Posted,
+	DocumentCashRegisterReceipt.DocumentCurrency,
+	DocumentCashRegisterReceipt.PricesKind,
+	DocumentCashRegisterReceipt.CashRegister,
+	DocumentCashRegisterReceipt.CashSession,
+	DocumentCashRegisterReceipt.RetailReceiptNo,
+	DocumentCashRegisterReceipt.Entity,
+	DocumentCashRegisterReceipt.BaseUnit,
+	DocumentCashRegisterReceipt.DocumentAmount,
+	DocumentCashRegisterReceipt.CashReceived,
+	DocumentCashRegisterReceipt.AmountIncludesVAT,
+	DocumentCashRegisterReceipt.POSTerminal,
+	DocumentCashRegisterReceipt.Author,
+	CASE
+		WHEN RetailReceiptReturn.Ref IS NULL 
+			THEN FALSE
+		ELSE TRUE
+	END AS ThereIsBillForReturn,
+	DocumentCashRegisterReceipt.Comment
+FROM
+	Document.RetailReceipt AS DocumentCashRegisterReceipt
+		LEFT JOIN Document.RetailReceiptReturn AS RetailReceiptReturn
+			ON (RetailReceiptReturn.RetailReceipt = DocumentCashRegisterReceipt.Ref)
+			AND (RetailReceiptReturn.Posted)</QueryText>
+					<MainTable>Document.RetailReceipt</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:use>false</dcsset:use>
+								<dcsset:left xsi:type="dcscor:Field">CashRegister</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="dcscor:DesignTimeValue">Catalog.CashRegisters.EmptyRef</dcsset:right>
+								<dcsset:viewMode>Normal</dcsset:viewMode>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:use>false</dcsset:use>
+								<dcsset:left xsi:type="dcscor:Field">Archival</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+							</dcsset:item>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:item>
+								<dcsset:use>false</dcsset:use>
+								<dcsset:selection>
+									<dcsset:item>
+										<dcsset:use>false</dcsset:use>
+										<dcsset:field>RetailReceiptNo</dcsset:field>
+									</dcsset:item>
+								</dcsset:selection>
+								<dcsset:filter>
+									<dcsset:item xsi:type="dcsset:FilterItemComparison">
+										<dcsset:use>false</dcsset:use>
+										<dcsset:left xsi:type="dcscor:Field">RetailReceiptNo</dcsset:left>
+										<dcsset:comparisonType>Equal</dcsset:comparisonType>
+										<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+									</dcsset:item>
+								</dcsset:filter>
+								<dcsset:appearance>
+									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+										<dcscor:parameter>Text</dcscor:parameter>
+										<dcscor:value xsi:type="xs:string"/>
+									</dcscor:item>
+								</dcsset:appearance>
+							</dcsset:item>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+						</dcsset:conditionalAppearance>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+			<Attribute name="CashRegister" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cash register</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Касса ККМ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Casieria casei de marcat</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.CashRegisters</v8:Type>
+				</Type>
+				<Save>
+					<Field>CashRegister</Field>
+				</Save>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>

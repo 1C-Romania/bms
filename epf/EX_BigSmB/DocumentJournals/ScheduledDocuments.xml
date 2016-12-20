@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<DocumentJournal uuid="e79eeed6-3101-4696-bee1-f95f78f01601">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ScheduledDocuments" category="Selection">
+				<xr:TypeId>0736676c-6670-49b4-a093-e12111e87b43</xr:TypeId>
+				<xr:ValueId>5f153f94-a1ef-4425-895d-bd560fad05c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ScheduledDocuments" category="List">
+				<xr:TypeId>b06c8720-69f8-4b92-b280-1722d7928c51</xr:TypeId>
+				<xr:ValueId>e6789172-afe9-4484-80ed-88bd391dd5e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ScheduledDocuments" category="Manager">
+				<xr:TypeId>6f86c5c2-c004-41ae-94f1-044aa9d38a5b</xr:TypeId>
+				<xr:ValueId>d12b63d3-0aa2-4159-9fec-8f4d472805d6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ScheduledDocuments</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.MonthClosing</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="f0ab0395-28ae-40b9-9fa3-b1ea04fad8b6">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="e91c60bb-2605-44b0-be67-190b1a8e11b5">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="69c87500-376a-4b22-91f3-28f1a768329f">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="5995aa0b-a5e8-4ce8-b817-5a0997e4ddd2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesPayrollSheet" category="Ref">
+				<xr:TypeId>926e5906-0470-44c6-a357-9e7fd1767203</xr:TypeId>
+				<xr:ValueId>0f037397-d565-4185-aa13-d928427000ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesPayrollSheet" category="Manager">
+				<xr:TypeId>fcfbda0f-f952-4d0c-8f15-8fea63a73a35</xr:TypeId>
+				<xr:ValueId>a9c35aa9-0ec8-4074-bf73-b94ffa2676d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesPayrollSheet" category="List">
+				<xr:TypeId>c7e03301-0687-4d42-a3f4-a5c4d2b14de5</xr:TypeId>
+				<xr:ValueId>40ddc8a1-fa0d-485a-acd7-0ca755272b9a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesPayrollSheet</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<DocumentJournal uuid="6571af52-cc83-4019-896c-8fb3c8c12078">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.CashRegisterReceipts" category="Selection">
+				<xr:TypeId>46574d77-5cff-4b71-b17b-3f8b2b1bfb01</xr:TypeId>
+				<xr:ValueId>6d999e77-a042-4b6e-a5eb-876f9e9a398d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.CashRegisterReceipts" category="List">
+				<xr:TypeId>e8d28612-c45f-462e-9f6c-54db83636849</xr:TypeId>
+				<xr:ValueId>9e280a78-3290-4cf8-89b9-cdc27aa43882</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.CashRegisterReceipts" category="Manager">
+				<xr:TypeId>92862b68-aa2e-4334-9b0a-28edf8d992d3</xr:TypeId>
+				<xr:ValueId>9678fdac-ec4c-4bb9-b60a-ebc33dc3535a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CashRegisterReceipts</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.RetailReceipt</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="9bcf1d4b-a078-46fb-9b68-149467cf46f6">
+				<Properties>
+					<Name>Status</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="9ced90ab-754e-4d69-a268-444f458a2104">
+				<Properties>
+					<Name>RetailReceiptNo</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="f204bbc4-9ad8-42a3-94cf-4b6664f84408">
+				<Properties>
+					<Name>DocumentCurrency</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="bf01137b-cd3c-4e14-99f2-fa5c9cd905b1">
+				<Properties>
+					<Name>Archival</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="56d38740-ceb6-40bc-9bde-c3331be8394a">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="672cfbc4-ab6b-4a3c-8888-630d71af23c0">
+				<Properties>
+					<Name>DocumentAmount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="1e8041aa-b0ac-4874-8fe7-1a98855b7ed1">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="1c5654e3-096b-4b49-8f32-cc8094b91efe">
+				<Properties>
+					<Name>CashRegister</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="99a0e5c3-c2a1-4308-a8d2-07fcd03692dc">
+				<Properties>
+					<Name>CashSession</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="3025a1bc-f951-4e40-a1c6-2fc0bd069061">
+				<Properties>
+					<Name>Warehouse</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

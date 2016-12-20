@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="af1822a5-128e-4fef-8ba2-6c113e8e591b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.PettyCashReceipt" category="Object">
+				<xr:TypeId>8630f300-a16d-49d3-9e7b-e30fd697a76b</xr:TypeId>
+				<xr:ValueId>60e68244-bf2b-4f1f-b0b9-775e3866bab0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.PettyCashReceipt" category="Ref">
+				<xr:TypeId>d79edcb3-6bf0-40f1-b638-d5997e708b4b</xr:TypeId>
+				<xr:ValueId>85637c89-7c78-464b-96f1-7cc0cce044c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.PettyCashReceipt" category="Selection">
+				<xr:TypeId>eda3218d-4129-419b-a720-f9aae9f921c6</xr:TypeId>
+				<xr:ValueId>df02359b-2f89-4601-a067-a4d6bab120a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.PettyCashReceipt" category="List">
+				<xr:TypeId>c5a0ed38-79c5-4a88-bb59-5ab5cb90a65a</xr:TypeId>
+				<xr:ValueId>eaf55857-2357-4864-b6f1-f3cce410c67c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.PettyCashReceipt" category="Manager">
+				<xr:TypeId>4cb1b41c-2129-4363-8f59-0467cf8394b5</xr:TypeId>
+				<xr:ValueId>067f1ead-8e59-454e-bf0a-c5f5ee17f85a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>PettyCashReceipt</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="dbb47a5b-4f56-4600-98b9-5c28dbd3595c">
+				<Properties>
+					<Name>Application</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="12d3878a-8182-42d0-bb8e-7452c0dbd5f6">
+				<Properties>
+					<Name>CashCurrency</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Currencies</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="51d19821-0941-4fd5-9424-2af8bf27876b">
+				<Properties>
+					<Name>PettyCash</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.PettyCashes</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a18de1aa-44e2-49d8-873a-da607d96a7cd">
+				<Properties>
+					<Name>Counterparty</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Counterparties</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9df2a5ee-bb20-4a41-8de1-bb4da1477476">
+				<Properties>
+					<Name>DocumentAmount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0ea26fe8-f061-4d9f-828c-f7069a799939">
+				<Properties>
+					<Name>AcceptedFrom</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7332f73d-3449-4349-a457-87a951437b98">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ad883e74-0a0a-43d4-9f4a-76ec324b1ae5">
+				<Properties>
+					<Name>AdvanceHolder</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Employees</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f16e3805-4d0d-4970-b7fd-e4bbce4318ef">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="aeeb8ec3-a83c-46d8-b42d-e02f0eb0972f">
+				<Properties>
+					<Name>CashRegister</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.CashRegisters</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9f21f7b6-8d2d-4f66-b6ff-be3c61262599">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="15f1ef1d-c6a1-4512-b768-a8b023454e75">
+				<Properties>
+					<Name>Document</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b13ff7c2-77f7-41b7-b514-bac3b09d050e">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8e7a4b5c-bb8c-49ba-852d-70211c7eb724">
+				<Properties>
+					<Name>Article</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.CashFlowItems</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="03054662-3c46-43ae-94b3-9d6fb78268fa">
+				<Properties>
+					<Name>Correspondence</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Managerial</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7ef4440a-c4ee-40c3-a5b9-c7e6752a1ba6">
+				<Properties>
+					<Name>Basis</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0114a6d6-676d-44bd-ae47-4fda01dfa4f3">
+				<Properties>
+					<Name>TransactionType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.TransactionTypesCashReceipt</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+			<Command uuid="19493556-3f0a-4043-bfc4-d2d7be19f4ce">
+				<Properties>
+					<Name>PettyCashReceipt</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>CommandGroup.Print</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

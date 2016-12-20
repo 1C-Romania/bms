@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="de5fd361-4741-4e4b-8360-c001e86247f4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.CashTransfer" category="Object">
+				<xr:TypeId>5d8dd33d-97b5-487c-afd7-01142f083ca4</xr:TypeId>
+				<xr:ValueId>73d1475d-7b64-407c-9c9a-c866b727ee26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.CashTransfer" category="Ref">
+				<xr:TypeId>a64d395c-03cd-4ce1-97c7-230eb9b469cd</xr:TypeId>
+				<xr:ValueId>6ed302d1-000b-4626-92d3-7677c4296b09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.CashTransfer" category="Selection">
+				<xr:TypeId>b6e9b3aa-d162-4a55-abb3-1cbfa3f4e2bb</xr:TypeId>
+				<xr:ValueId>0daa268a-19a6-4ee8-bb79-740988273fd8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.CashTransfer" category="List">
+				<xr:TypeId>823bcb9f-9b3f-4176-acc2-f9c6c6657ece</xr:TypeId>
+				<xr:ValueId>d23dbccd-e6e6-4ed6-857b-3ffd651d120a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.CashTransfer" category="Manager">
+				<xr:TypeId>31f29ba8-2501-4d9f-a1db-4bef80ea2c80</xr:TypeId>
+				<xr:ValueId>07e6bff1-0d46-4094-b6be-023d5df8d4fa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CashTransfer</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="af9798e3-ddc7-44ed-9e4c-4c3833bc8229">
+				<Properties>
+					<Name>BankingAccountPayee</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BankAccounts</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="511b0a53-6dae-4600-aa62-79ddffcc582b">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="70440881-fb58-46b8-86c5-339f7298e9d4">
+				<Properties>
+					<Name>BankAccount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BankAccounts</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cbd10552-6e1e-43c3-9a97-d03f338c1df1">
+				<Properties>
+					<Name>PettyCash</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.PettyCashes</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="26610089-c671-4534-81fe-885406d96661">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a0109c32-ae70-4cb2-9ff0-b5e7cdb868e3">
+				<Properties>
+					<Name>CashFlowTypePayee</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.CashAssetTypes</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="77e34f6e-fe88-435f-b844-bc69c32fa5b0">
+				<Properties>
+					<Name>DocumentAmount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e64673f6-1dd2-47d5-a68c-3ab2ecb0466c">
+				<Properties>
+					<Name>CashType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.CashAssetTypes</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="09713efa-269f-4b89-aa73-02ecb2fbdd4d">
+				<Properties>
+					<Name>CashPayee</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.PettyCashes</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ad7db7c2-0d02-47af-974a-9140794dd80a">
+				<Properties>
+					<Name>CashCurrency</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Currencies</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d723b28f-f6b5-4a3c-8feb-f61a161c4669">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

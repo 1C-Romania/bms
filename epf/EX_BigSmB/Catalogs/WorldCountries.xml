@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="1ec6c319-80a6-4029-bed7-17710f605e74">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.WorldCountries" category="Object">
+				<xr:TypeId>b406d627-980c-41ca-a728-d65a402beefd</xr:TypeId>
+				<xr:ValueId>8aff79f3-2878-4b53-9654-d44174c70406</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.WorldCountries" category="Ref">
+				<xr:TypeId>c65eb9b2-7906-4aab-9e65-9a118103c3a7</xr:TypeId>
+				<xr:ValueId>1c6b967d-93e6-4252-8591-caeb07368014</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.WorldCountries" category="Selection">
+				<xr:TypeId>419eaa56-1664-46c8-bedb-04c107910899</xr:TypeId>
+				<xr:ValueId>36d39ff1-3dfe-46c5-af4b-2cdf95dd2e01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.WorldCountries" category="List">
+				<xr:TypeId>83597202-e9a6-448d-b256-b2e3432abe33</xr:TypeId>
+				<xr:ValueId>b46c13d9-368c-4b4c-b768-c1457cd350ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.WorldCountries" category="Manager">
+				<xr:TypeId>d51fb4d6-02e6-4230-a234-9b7c4662066a</xr:TypeId>
+				<xr:ValueId>06f343b7-8c89-4f45-9563-1f33e76b55d3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>WorldCountries</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

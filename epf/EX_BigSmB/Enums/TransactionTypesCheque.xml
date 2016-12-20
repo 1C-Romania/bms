@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="c261141d-d996-40be-b6a7-189db25ef3da">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesCheque" category="Ref">
+				<xr:TypeId>12fd3a12-8549-4892-aee4-b51c978344c8</xr:TypeId>
+				<xr:ValueId>9ffa4bcc-c853-495a-a560-631d321087d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesCheque" category="Manager">
+				<xr:TypeId>0043cf32-3e1a-4bb7-9f32-3182fae54138</xr:TypeId>
+				<xr:ValueId>b90101ff-dc09-4887-8a25-9841737dbfa9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesCheque" category="List">
+				<xr:TypeId>5c380ceb-884b-48ae-8fb9-e29ff0f74085</xr:TypeId>
+				<xr:ValueId>b3e6f90a-43ce-42ba-8571-1ececb89efdb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesCheque</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

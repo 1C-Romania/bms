@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="6b0e4394-5b57-49c6-964b-4e75ab1c5657">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Budget" category="Object">
+				<xr:TypeId>1ba677ee-08e5-4b19-b512-bbaaa3bf041a</xr:TypeId>
+				<xr:ValueId>7f73f369-917a-44d7-9eba-547fdc2c4645</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Budget" category="Ref">
+				<xr:TypeId>96dd2cd2-ffd0-4976-8625-7b3588a60166</xr:TypeId>
+				<xr:ValueId>82701c65-1524-4fe9-9396-b10de81826ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Budget" category="Selection">
+				<xr:TypeId>ed744c86-2de4-43c1-8013-867f85fca216</xr:TypeId>
+				<xr:ValueId>7d09032f-9851-4a4a-bc49-913541e055ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Budget" category="List">
+				<xr:TypeId>c3bd177a-06d2-4685-b000-1b67c321909a</xr:TypeId>
+				<xr:ValueId>32f5bfe2-8786-4332-b24a-dd044d58c2ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Budget" category="Manager">
+				<xr:TypeId>2973946b-8d8e-4132-9d18-785f2cb032a2</xr:TypeId>
+				<xr:ValueId>e9fdd95f-0f52-4af4-9790-4c37a321b618</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Budget</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="89cc99a4-cc48-4e3e-9fb8-27f9ac3ca91c">
+				<Properties>
+					<Name>PlanningPeriod</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.PlanningPeriods</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="29736f62-e782-4391-b80d-70f92aa2cf4b">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7b66c2ba-7251-4d60-9d0c-0c79086ffb6d">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="48d12317-8d6b-4809-945b-1b15dac612af">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

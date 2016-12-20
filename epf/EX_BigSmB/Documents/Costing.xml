@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="ad457b7c-341e-4bda-a868-611574d46d80">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Costing" category="Object">
+				<xr:TypeId>9807fdb2-974f-454f-870d-a3097fd9313c</xr:TypeId>
+				<xr:ValueId>4e4f16ae-65d3-4fea-8d59-dee1ac7d7b98</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Costing" category="Ref">
+				<xr:TypeId>eb13e742-2b1c-40db-a21a-146dcbae7e67</xr:TypeId>
+				<xr:ValueId>e92a4e09-f69b-4de5-b46e-2d1fbfa8a687</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Costing" category="Selection">
+				<xr:TypeId>3fc36e5f-5b30-40e6-ad32-cbd0096da106</xr:TypeId>
+				<xr:ValueId>cfcc0982-3f95-4e76-87d2-237034137112</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Costing" category="List">
+				<xr:TypeId>161bc71e-c27b-4bba-b496-336fc641273d</xr:TypeId>
+				<xr:ValueId>39531e71-d928-454c-8009-53126d09cd18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Costing" category="Manager">
+				<xr:TypeId>cf081357-5cca-4d96-bb1f-77c1ef07454d</xr:TypeId>
+				<xr:ValueId>97d28f21-669d-4068-aafa-2ca1e98f28aa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Costing</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="aaeca9e3-17f7-43f4-a429-cd4e54586d96">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b949d7c1-98af-46ee-9cbf-98e6527219e1">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="455608a7-7912-4e88-afeb-c1c16e8a7aca">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="30b538fe-3239-446d-8f58-6ced4240ee2c">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

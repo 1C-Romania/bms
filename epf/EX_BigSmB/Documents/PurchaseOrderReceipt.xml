@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="72b4e661-7ee0-4668-b29c-4d4e44a39074">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.PurchaseOrderReceipt" category="Object">
+				<xr:TypeId>c9b573ac-9da7-491b-a5f9-cf4fa30310c7</xr:TypeId>
+				<xr:ValueId>c2fb121e-e1c5-45eb-9d2d-50c42dee5ea2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.PurchaseOrderReceipt" category="Ref">
+				<xr:TypeId>eaabba17-f22b-4d15-a1b7-be9e208f5369</xr:TypeId>
+				<xr:ValueId>ad2aa798-42d2-4707-8c69-71bc9d2d4209</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.PurchaseOrderReceipt" category="Selection">
+				<xr:TypeId>7357b506-1d08-4797-956d-631529a824e2</xr:TypeId>
+				<xr:ValueId>9f2cbd05-1565-421d-8d3c-ffcd10bc956f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.PurchaseOrderReceipt" category="List">
+				<xr:TypeId>88d6ae59-9ba4-4b80-9762-c454042f5560</xr:TypeId>
+				<xr:ValueId>ffed00f0-c91b-4a8a-8934-84a752a2d2a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.PurchaseOrderReceipt" category="Manager">
+				<xr:TypeId>5471efd0-b2fa-4627-876b-e6704f86e2ec</xr:TypeId>
+				<xr:ValueId>c498e454-0df8-4711-aa30-d7ab8d1f63b0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>PurchaseOrderReceipt</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c4be9650-68bc-4f61-a391-177e599ee823">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="87232737-0d4f-4e5e-ae2a-782743db5605">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a9048b68-fdce-4774-859f-54e38097f872">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c802e30f-24b0-491f-9b12-e43a06231f45">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c0571080-fd2b-4aed-985b-39326f14d8bf">
+				<Properties>
+					<Name>Cell</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Cells</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

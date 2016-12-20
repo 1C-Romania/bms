@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="1acbc7fc-46ff-4f1a-b2ac-c3c38c24190b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.TaxTypes" category="Object">
+				<xr:TypeId>6fae443d-3d66-4255-86f3-b48db6191a97</xr:TypeId>
+				<xr:ValueId>bfb1939d-6017-47bd-b57a-ffa44a373761</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.TaxTypes" category="Ref">
+				<xr:TypeId>ad3b2d1c-b134-4c0f-977b-04560bc9e67d</xr:TypeId>
+				<xr:ValueId>8755165f-5e98-4926-993a-5ecc4404728d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.TaxTypes" category="Selection">
+				<xr:TypeId>cfbad75f-a6e5-4578-9b4e-4f5bb6cb1b44</xr:TypeId>
+				<xr:ValueId>55b4d5b8-49cd-4f7a-94c9-434e584d7fce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.TaxTypes" category="List">
+				<xr:TypeId>481ebe91-ddcd-4326-a953-e30ff49c9b61</xr:TypeId>
+				<xr:ValueId>6b64b2ca-a8a3-46f4-a719-edfdef01721e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.TaxTypes" category="Manager">
+				<xr:TypeId>6aee3b9a-b1ac-4807-8702-e59df051b17f</xr:TypeId>
+				<xr:ValueId>380a55a8-6e4b-4ef7-bcb4-a91df851ab8c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TaxTypes</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

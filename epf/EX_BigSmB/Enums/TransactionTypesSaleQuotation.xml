@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="aafeec70-01d9-4ae7-b949-f6e6e2ff401b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesSaleQuotation" category="Ref">
+				<xr:TypeId>5af1666b-c53a-4481-9839-0aeb0312919f</xr:TypeId>
+				<xr:ValueId>88d1cb7c-4087-4103-8e09-8084cdec52ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesSaleQuotation" category="Manager">
+				<xr:TypeId>92b6a03d-a9d7-49a5-9873-dd1c32ffdf79</xr:TypeId>
+				<xr:ValueId>54245408-bec2-4fff-8544-8841666dd849</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesSaleQuotation" category="List">
+				<xr:TypeId>e04a50f1-6e96-4df4-a331-001ccdee121c</xr:TypeId>
+				<xr:ValueId>f6cdf95f-a107-4587-8203-d40b7c40faa3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesSaleQuotation</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="92aa3f1f-5878-409d-ab5d-0914d18caa7a">
+				<Properties>
+					<Name>AccrualDifferences</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3bee3854-4b3a-4524-ab46-706aa4d9b041">
+				<Properties>
+					<Name>Sale</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3f8d651a-a2da-43eb-8395-c8398a2e317a">
+				<Properties>
+					<Name>Advance</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="e43b4baf-2f21-4ccb-9dc1-1b736ad949e0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.StatusesOfMutualSettlements" category="Ref">
+				<xr:TypeId>fcf8a321-0613-4d0d-b980-fc75784e31bd</xr:TypeId>
+				<xr:ValueId>b76099c5-bae8-4067-b20e-7297a9e8e33a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.StatusesOfMutualSettlements" category="Manager">
+				<xr:TypeId>bc46eae8-86e9-4258-9081-3e3670c9b966</xr:TypeId>
+				<xr:ValueId>c9098993-8366-43c0-8ff0-f3b49c356bc6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.StatusesOfMutualSettlements" category="List">
+				<xr:TypeId>23312ec4-f520-4957-b5d9-4fe0f165857c</xr:TypeId>
+				<xr:ValueId>be9ff85c-0e58-453d-9414-43a5239264b4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>StatusesOfMutualSettlements</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

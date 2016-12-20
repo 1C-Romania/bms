@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="f8126ee7-909e-4ddd-b371-c2c03d7b6abd">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.FAOutput" category="Object">
+				<xr:TypeId>d6f616e1-4356-45d5-a229-b9efe7a0c853</xr:TypeId>
+				<xr:ValueId>58f27db6-b81f-4f24-8d51-7b3e8f66f05e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.FAOutput" category="Ref">
+				<xr:TypeId>2471e822-2ab9-4eff-9f14-8e2d985ce4e3</xr:TypeId>
+				<xr:ValueId>d573ff26-7a88-46f7-8532-1bbcecef06cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.FAOutput" category="Selection">
+				<xr:TypeId>7af0e159-3398-442f-a0c2-925b2e43c4a2</xr:TypeId>
+				<xr:ValueId>27ec9137-cd5b-46fb-96ed-b1ea2554ad15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.FAOutput" category="List">
+				<xr:TypeId>f41dc040-fe65-44d1-bb20-0cd7d79c72f0</xr:TypeId>
+				<xr:ValueId>499aee04-4fb4-4e79-8ae8-504875e57cf7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.FAOutput" category="Manager">
+				<xr:TypeId>43fb3439-7afa-44d2-9839-33860df27c4a</xr:TypeId>
+				<xr:ValueId>c4ff8fc7-c81d-4112-ba92-f5b79c444594</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>FAOutput</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e5f9ece5-316b-46da-b7a6-cf7a419f70fb">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2a14ea67-b816-4746-9d15-55c8f55698b8">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cbc72620-2946-463a-85a6-0ee83637e3be">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+			<TabularSection uuid="1df08f05-2c62-443d-b30c-946c32cd5a54">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.FAOutput.FixedAssets" category="TabularSection">
+						<xr:TypeId>23dd6438-dcb8-47ea-85c2-e08e1684ac55</xr:TypeId>
+						<xr:ValueId>bf2e7315-dd5a-46b2-94aa-170f4296626a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.FAOutput.FixedAssets" category="TabularSectionRow">
+						<xr:TypeId>3f883db2-07b1-4266-a8eb-4ec27d664ffa</xr:TypeId>
+						<xr:ValueId>03ec4634-e248-49c0-8a67-20e7eecfd2af</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>FixedAssets</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="248c35e3-aef7-4c8e-a8f1-4cb0b27721bb">
+						<Properties>
+							<Name>FixedAsset</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.FixedAssets</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

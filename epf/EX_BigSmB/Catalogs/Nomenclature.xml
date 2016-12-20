@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="c2b8bcc1-9876-4155-85ee-3bbf873df487">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Nomenclature" category="Object">
+				<xr:TypeId>26cfbbc4-51df-4a02-98b3-a19cedb0bc50</xr:TypeId>
+				<xr:ValueId>24fd38d9-9c1b-4ebb-b2be-2b831e99a932</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Nomenclature" category="Ref">
+				<xr:TypeId>03b4bb92-3f9a-4f07-bb1a-f0cafdcf38d8</xr:TypeId>
+				<xr:ValueId>4f8fccc9-725e-4e6c-80d8-de40597ce759</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Nomenclature" category="Selection">
+				<xr:TypeId>46ff92ac-a3f8-4792-af0e-53bfdf377500</xr:TypeId>
+				<xr:ValueId>751a6c0f-3a3f-4a17-b331-76c46ad31faa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Nomenclature" category="List">
+				<xr:TypeId>77a3ef75-287a-4a91-82a5-552c88b09709</xr:TypeId>
+				<xr:ValueId>ed57e514-8e01-44a8-a497-7755f96f802c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Nomenclature" category="Manager">
+				<xr:TypeId>32f49cad-dc9f-47bb-8cf6-257217463681</xr:TypeId>
+				<xr:ValueId>38c48e76-e901-4c85-adaa-65233067bb4d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Nomenclature</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f6b8ca1f-2417-4749-8337-eeb8c44d4183">
+				<Properties>
+					<Name>NomenclatureType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c5b1ff11-76ad-4ba0-9ca6-59ba00208fe1">
+				<Properties>
+					<Name>UnitOfMeasure</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7d270a20-73ba-4a70-83fd-3bb21e1a8b78">
+				<Properties>
+					<Name>SKU</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="49e92771-9fff-4c5f-a419-fdb9c221c9e8">
+				<Properties>
+					<Name>OrderCompletionTerm</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="efc8d8b1-a68a-4f91-a76e-ee9ac966b90f">
+				<Properties>
+					<Name>BusinessActivity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d7bd26ef-377b-405d-a67b-1837036bcb94">
+				<Properties>
+					<Name>VATRate</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5c2daa9c-1329-4ce0-9030-ed48933abd84">
+				<Properties>
+					<Name>ReplenishTerm</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9ab761c9-5845-446a-b9f7-2187426a482a">
+				<Properties>
+					<Name>DescriptionFull</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b6a0fdb4-2749-40db-abf0-fdcad162d97b">
+				<Properties>
+					<Name>Cell</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9f56d024-c0f9-4c5b-acbc-cf13bf2d5c92">
+				<Properties>
+					<Name>UseBatches</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="44f181ea-4f0c-4860-a991-60fbf341dccd">
+				<Properties>
+					<Name>ExpensesGLAccount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="34f5f64c-0880-4885-a956-2155bc9d11f0">
+				<Properties>
+					<Name>PriceGroup</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="57e6ff0d-20b2-476c-94f5-7e5596023575">
+				<Properties>
+					<Name>Vendor</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7592e9d0-6f8d-457f-b159-4e7ccf88fce6">
+				<Properties>
+					<Name>ReplenishMethod</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7072ed38-6064-4156-97c7-7b5c49bce995">
+				<Properties>
+					<Name>Specification</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="77f8812a-30fd-4bb9-8e2a-688b05ae3db6">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="89235322-dbee-43ba-b920-5a5d02a16088">
+				<Properties>
+					<Name>NomenclatureGroup</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d5347a28-7e53-49f1-8a8b-f1cc27ba8899">
+				<Properties>
+					<Name>WriteOffMethod</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="10d26527-75f4-484a-a119-e09c549aff87">
+				<Properties>
+					<Name>InventoryGLAccount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="59dfffdc-ecc1-4c70-a171-f1b3daddb216">
+				<Properties>
+					<Name>UseCharacteristics</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6a3efe17-93c7-4b9f-9cdc-e42018321584">
+				<Properties>
+					<Name>Warehouse</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

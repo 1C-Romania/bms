@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="d2490e9e-d035-4740-b788-8002ffb00f21">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesSalesInvoice" category="Ref">
+				<xr:TypeId>206a02cb-fc83-442e-8b85-f7e2343460a7</xr:TypeId>
+				<xr:ValueId>5bae6012-6e0e-4a2d-a195-c279df2aab54</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesSalesInvoice" category="Manager">
+				<xr:TypeId>acd89e4f-36c5-42c4-a31e-3dd5331e2617</xr:TypeId>
+				<xr:ValueId>e1eb9324-8833-4a4b-b256-09b7b919e68f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesSalesInvoice" category="List">
+				<xr:TypeId>84e84228-1803-48e4-8375-9560c672fad7</xr:TypeId>
+				<xr:ValueId>e44c4f89-92cd-4eb9-9865-e748d1624169</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesSalesInvoice</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="e612579b-0242-4a0c-bd29-a566ebda0d13">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.CounterpartyContracts" category="Object">
+				<xr:TypeId>a0653aaa-9144-4bf7-b44c-377acbea4b34</xr:TypeId>
+				<xr:ValueId>24c73e7b-e882-4012-82d3-ed7d0df1a347</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.CounterpartyContracts" category="Ref">
+				<xr:TypeId>65a988fd-f4f3-417f-840b-0e4ed9addc6e</xr:TypeId>
+				<xr:ValueId>5dd3729d-2e3e-43ad-a06c-b4a1eacb992d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.CounterpartyContracts" category="Selection">
+				<xr:TypeId>a3806c04-3fda-4142-967c-2e6828a81d1c</xr:TypeId>
+				<xr:ValueId>aa9663d1-227d-43ae-8fe3-7494f4d212f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.CounterpartyContracts" category="List">
+				<xr:TypeId>e07e901b-f16b-4815-901f-2a114ef9ec63</xr:TypeId>
+				<xr:ValueId>63ac648a-c501-4c06-9906-11e9e76eb31a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.CounterpartyContracts" category="Manager">
+				<xr:TypeId>65666553-d878-41d1-8439-3cebae08fa90</xr:TypeId>
+				<xr:ValueId>2d57b356-1cf7-4a23-b6ef-450401eef036</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CounterpartyContracts</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,1332 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<CommandBarLocation>None</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="QuickFilters" id="54">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fast fillter</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Быстрые отборы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Filtrări rapide</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fast fillter</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Быстрые отборы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Filtrări rapide</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="FastFiltersExtendedTooltip" id="69"/>
+			<ChildItems>
+				<InputField name="FilterCounterparty" id="55">
+					<DataPath>FilterCounterparty</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<Width>21</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ContextMenu name="FilterCounterpartyContextMenu" id="56"/>
+					<ExtendedTooltip name="FilterCounterpartyExtendedTooltip" id="70"/>
+				</InputField>
+				<InputField name="FilterResponsible" id="57">
+					<DataPath>FilterResponsible</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<Width>21</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ContextMenu name="FilterResponsibleContextMenu" id="58"/>
+					<ExtendedTooltip name="FilterResponsibleExtendedTooltip" id="71"/>
+				</InputField>
+				<InputField name="FilterBasis" id="59">
+					<DataPath>FilterBasis</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<Width>21</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<ContextMenu name="FilterBasisContextMenu" id="60"/>
+					<ExtendedTooltip name="FilterBasisExtendedTooltip" id="72"/>
+				</InputField>
+				<InputField name="FilterEntity" id="61">
+					<DataPath>FilterEntity</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<Width>21</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<ContextMenu name="FilterEntityContextMenu" id="62"/>
+					<ExtendedTooltip name="FilterEntityExtendedTooltip" id="73"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="List" id="1">
+			<Representation>List</Representation>
+			<SkipOnInput>false</SkipOnInput>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>List</DataPath>
+			<RowPictureDataPath>List.DefaultPicture</RowPictureDataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="ListContextMenu" id="2"/>
+			<AutoCommandBar name="ListCommandBar" id="3">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<ButtonGroup name="FormCommands" id="65">
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Commands of form</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Команды формы</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Comenzile formai</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Commands of form</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Команды формы</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Comenzile formai</v8:content>
+							</v8:item>
+						</ToolTip>
+						<CommandSource>Form</CommandSource>
+						<ExtendedTooltip name="FormCommandsExtendedTooltip" id="74"/>
+						<ChildItems>
+							<ButtonGroup name="FormPostCommand" id="109">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Post command</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="FormPostCommandРасширеннаяПодсказка" id="110"/>
+								<ChildItems>
+									<Button name="FormPost" id="111">
+										<Type>CommandBarButton</Type>
+										<OnlyInAllActions>true</OnlyInAllActions>
+										<CommandName>Form.Item.List.StandardCommand.Post</CommandName>
+										<ExtendedTooltip name="FormPostРасширеннаяПодсказка" id="112"/>
+									</Button>
+									<Button name="FormClearPosting" id="113">
+										<Type>CommandBarButton</Type>
+										<OnlyInAllActions>true</OnlyInAllActions>
+										<CommandName>Form.Item.List.StandardCommand.UndoPosting</CommandName>
+										<ExtendedTooltip name="FormClearPostingРасширеннаяПодсказка" id="114"/>
+									</Button>
+								</ChildItems>
+							</ButtonGroup>
+						</ChildItems>
+					</ButtonGroup>
+					<Popup name="Reports" id="66">
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Reports</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отчеты</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Rapoarte</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Reports</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отчеты</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Rapoarte</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ReportsExtendedTooltip" id="75"/>
+						<ChildItems>
+							<Button name="AccountsPayableAnalysis" id="68">
+								<Type>CommandBarButton</Type>
+								<CommandName>Report.AccountsPayableAnalysis.Command.AccountPayableAnalysis</CommandName>
+								<DataPath>Items.List.CurrentData.Ref</DataPath>
+								<ExtendedTooltip name="AccountsPayableAnalysisExtendedTooltip" id="76"/>
+							</Button>
+							<Button name="MutualSettlements" id="67">
+								<Type>CommandBarButton</Type>
+								<CommandName>Report.MutualSettlements.Command.MutualSettlements</CommandName>
+								<DataPath>Items.List.CurrentData.Ref</DataPath>
+								<ExtendedTooltip name="MutualSettlementsExtendedTooltip" id="77"/>
+							</Button>
+						</ChildItems>
+					</Popup>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ListExtendedTooltip" id="78"/>
+			<SearchStringAddition name="ListSearchString" id="100">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ListSearchStringContextMenu" id="101"/>
+				<ExtendedTooltip name="ListSearchStringExtendedTooltip" id="102"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ListViewStatus" id="103">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ListViewStatusContextMenu" id="104"/>
+				<ExtendedTooltip name="ListViewStatusExtendedTooltip" id="105"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ListSearchControl" id="106">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ListSearchControlContextMenu" id="107"/>
+				<ExtendedTooltip name="ListSearchControlExtendedTooltip" id="108"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ListDate" id="4">
+					<DataPath>List.Date</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="DateListContextMenu" id="5"/>
+					<ExtendedTooltip name="DateListExtendedTooltip" id="79"/>
+				</LabelField>
+				<LabelField name="ListNumber" id="6">
+					<DataPath>List.Number</DataPath>
+					<ContextMenu name="NumberListContextMenu" id="7"/>
+					<ExtendedTooltip name="NumberListExtendedTooltip" id="80"/>
+				</LabelField>
+				<LabelField name="ListEntities" id="8">
+					<DataPath>1/65</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Entity</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Организация</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Organizație</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ListEntityContextMenu" id="9"/>
+					<ExtendedTooltip name="ListEntityExtendedTooltip" id="81"/>
+				</LabelField>
+				<LabelField name="ListDocumentBasis" id="12">
+					<DataPath>List.DocumentBasis</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Basis</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Pe baza</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основание</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ListDocumentBasisContextMenu" id="13"/>
+					<ExtendedTooltip name="ListDocumentBasisExtendedTooltip" id="82"/>
+				</LabelField>
+				<LabelField name="DocumentCurrencyList" id="22">
+					<DataPath>List.DocumentCurrency</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Currency</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Валюта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Valuta</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ListDocumentCurrencyContextMenu" id="23"/>
+					<ExtendedTooltip name="ListDocumentCurrencyExtendedTooltip" id="83"/>
+				</LabelField>
+				<LabelField name="DocumentSummList" id="48">
+					<DataPath>List.DocumentAmount</DataPath>
+					<ContextMenu name="ListDocumentSummContextMenu" id="49"/>
+					<ExtendedTooltip name="ListDocumentSummExtendedTooltip" id="84"/>
+				</LabelField>
+				<LabelField name="ListPaymentAmountTurnover" id="52">
+					<DataPath>List.AmountOfPaymentTurnover</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Paid</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оплачено</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Achitat</v8:content>
+						</v8:item>
+					</Title>
+					<Format>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>NFD=2</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>NFD=2</v8:content>
+						</v8:item>
+					</Format>
+					<ContextMenu name="ListAmountOfPaymentTurnoverContextMenu" id="53"/>
+					<ExtendedTooltip name="ListPaymentTotalTurnoverExtendedTooltip" id="85"/>
+				</LabelField>
+				<LabelField name="ListCounterparty" id="14">
+					<DataPath>List.Counterparty</DataPath>
+					<ContextMenu name="ListCounterpartyContextMenu" id="15"/>
+					<ExtendedTooltip name="ListCounterpartyExtendedTooltip" id="86"/>
+				</LabelField>
+				<LabelField name="ListAgreement" id="16">
+					<DataPath>List.Contract</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ListContractContextMenu" id="17"/>
+					<ExtendedTooltip name="ListContractExtendedTooltip" id="87"/>
+				</LabelField>
+				<LabelField name="CashAssetsTypeList" id="18">
+					<DataPath>List.CashType</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cash assets type</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип денежных средств</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Tipul de active în numerar</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="CashAssetsTypeListContextMenu" id="19"/>
+					<ExtendedTooltip name="CashAssetsTypeListExtendedTooltip" id="88"/>
+				</LabelField>
+				<LabelField name="BankAccountList" id="20">
+					<DataPath>List.BankAccount</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Bank account</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Банковский счет</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Cont bancar</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="BankAccountListContextMenu" id="21"/>
+					<ExtendedTooltip name="BankAccountListExtendedTooltip" id="89"/>
+				</LabelField>
+				<LabelField name="MultiplicityList" id="24">
+					<DataPath>List.Multiplicity</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ListUnitConversionFactorContextMenu" id="25"/>
+					<ExtendedTooltip name="ListUnitConversionFactorExtendedTooltip" id="90"/>
+				</LabelField>
+				<LabelField name="ListRate" id="26">
+					<DataPath>List.ExchangeRate</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ListRateContextMenu" id="27"/>
+					<ExtendedTooltip name="ListRateExtendedTooltip" id="91"/>
+				</LabelField>
+				<CheckBoxField name="ListAmountIncludesVAT" id="28">
+					<DataPath>List.AmountIncludesVAT</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Amount includes VAT</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма включает НДС</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Suma include TVA</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ListAmountIncludesVATContextMenu" id="29"/>
+					<ExtendedTooltip name="ListAmountIncludesVATExtendedTooltip" id="92"/>
+				</CheckBoxField>
+				<LabelField name="ListPriceKind" id="30">
+					<DataPath>List.PricesKind</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Price kind</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид цен</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Tipul prețurilor</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ListPriceTypeContextMenu" id="31"/>
+					<ExtendedTooltip name="ListPricesTypeExtendedTooltip" id="93"/>
+				</LabelField>
+				<LabelField name="ListDiscountMarginType" id="32">
+					<DataPath>List.DiscountMarkupKind</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Discount kind, markup</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид скидки, наценки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Tipul reducerii, adaosului la preț</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ListTypeDiscountMarginContextMenu" id="33"/>
+					<ExtendedTooltip name="ListTypeDiscountMarginExtendedTooltip" id="94"/>
+				</LabelField>
+				<LabelField name="ListDepartment" id="34">
+					<DataPath>List.Department</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="UnitListContextMenu" id="35"/>
+					<ExtendedTooltip name="ListDepartmentExtendedTooltip" id="95"/>
+				</LabelField>
+				<LabelField name="CashierList" id="42">
+					<DataPath>List.PettyCash</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="CashDescContextMenu" id="43"/>
+					<ExtendedTooltip name="CashDescListExtendedTooltip" id="96"/>
+				</LabelField>
+				<LabelField name="ListResponsible" id="44">
+					<DataPath>List.Responsible</DataPath>
+					<ContextMenu name="ListResponsibleContextMenu" id="45"/>
+					<ExtendedTooltip name="ListResponsibleExtendedTooltip" id="97"/>
+				</LabelField>
+				<LabelField name="CommentList" id="10">
+					<DataPath>List.Comment</DataPath>
+					<ContextMenu name="CommentListContextMenu" id="11"/>
+					<ExtendedTooltip name="CommentListExtendedTooltip" id="98"/>
+				</LabelField>
+				<LabelField name="ListAuthor" id="50">
+					<DataPath>List.Author</DataPath>
+					<ContextMenu name="AuthorListContextMenu" id="51"/>
+					<ExtendedTooltip name="AuthorListExtendedTooltip" id="99"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="List" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>SELECT
+	DocumentInvoiceForPayment.Ref,
+	DocumentInvoiceForPayment.DeletionMark,
+	DocumentInvoiceForPayment.Number,
+	DocumentInvoiceForPayment.Date,
+	DocumentInvoiceForPayment.Posted,
+	DocumentInvoiceForPayment.Entity,
+	DocumentInvoiceForPayment.Comment,
+	DocumentInvoiceForPayment.DocumentBasis,
+	DocumentInvoiceForPayment.Counterparty,
+	DocumentInvoiceForPayment.Contract,
+	DocumentInvoiceForPayment.CashType,
+	DocumentInvoiceForPayment.BankAccount,
+	DocumentInvoiceForPayment.DocumentCurrency,
+	DocumentInvoiceForPayment.Multiplicity,
+	DocumentInvoiceForPayment.ExchangeRate,
+	DocumentInvoiceForPayment.AmountIncludesVAT,
+	DocumentInvoiceForPayment.PricesKind,
+	DocumentInvoiceForPayment.DiscountMarkupKind,
+	DocumentInvoiceForPayment.Department,
+	DocumentInvoiceForPayment.DocumentAmount,
+	DocumentInvoiceForPayment.PettyCash,
+	DocumentInvoiceForPayment.Responsible,
+	DocumentInvoiceForPayment.PointInTime,
+	DocumentInvoiceForPayment.Author,
+	InvoicesAndOrdersPaymentTurnovers.AmountOfPaymentTurnover AS AmountOfPaymentTurnover
+FROM
+	Document.InvoiceForPayment AS DocumentInvoiceForPayment
+		LEFT JOIN AccumulationRegister.InvoicesAndOrdersPayment.Turnovers AS InvoicesAndOrdersPaymentTurnovers
+
+		ON DocumentInvoiceForPayment.Ref = InvoicesAndOrdersPaymentTurnovers.InvoiceForPayment</QueryText>
+				<MainTable>Document.InvoiceForPayment</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="FilterCounterparty" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Counterparty</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Partener</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Counterparties</v8:Type>
+			</Type>
+			<Save>
+				<Field>FilterCounterparty</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="FilterEntity" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Entity</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Organizație</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.MultipleCompanies</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="FilterResponsible" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Responsible</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Responsabil</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Employees</v8:Type>
+			</Type>
+			<Save>
+				<Field>FilterResponsible</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="FilterBasis" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Basis</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Pe baza</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DocumentRef.AcceptanceCertificate</v8:Type>
+				<v8:Type>cfg:DocumentRef.InventoryExpense</v8:Type>
+				<v8:Type>cfg:DocumentRef.CustomerOrder</v8:Type>
+				<v8:Type>cfg:DocumentRef.ProcessingReport</v8:Type>
+			</Type>
+			<Save>
+				<Field>FilterBasis</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.2">
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<CommandBarLocation>None</CommandBarLocation>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoCommandBar name="FormCommandBar" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="QuickFilters" id="54">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fast fillter</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Быстрые отборы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Filtrări rapide</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fast fillter</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Быстрые отборы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Filtrări rapide</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="FastFiltersExtendedTooltip" id="69"/>
+				<ChildItems>
+					<InputField name="FilterCounterparty" id="55">
+						<DataPath>FilterCounterparty</DataPath>
+						<TitleLocation>Top</TitleLocation>
+						<Width>21</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+						<ContextMenu name="FilterCounterpartyContextMenu" id="56"/>
+						<ExtendedTooltip name="FilterCounterpartyExtendedTooltip" id="70"/>
+					</InputField>
+					<InputField name="FilterResponsible" id="57">
+						<DataPath>FilterResponsible</DataPath>
+						<TitleLocation>Top</TitleLocation>
+						<Width>21</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+						<ContextMenu name="FilterResponsibleContextMenu" id="58"/>
+						<ExtendedTooltip name="FilterResponsibleExtendedTooltip" id="71"/>
+					</InputField>
+					<InputField name="FilterBasis" id="59">
+						<DataPath>FilterBasis</DataPath>
+						<TitleLocation>Top</TitleLocation>
+						<Width>21</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<ContextMenu name="FilterBasisContextMenu" id="60"/>
+						<ExtendedTooltip name="FilterBasisExtendedTooltip" id="72"/>
+					</InputField>
+					<InputField name="FilterEntity" id="61">
+						<DataPath>FilterEntity</DataPath>
+						<TitleLocation>Top</TitleLocation>
+						<Width>21</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<ContextMenu name="FilterEntityContextMenu" id="62"/>
+						<ExtendedTooltip name="FilterEntityExtendedTooltip" id="73"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<Table name="List" id="1">
+				<Representation>List</Representation>
+				<SkipOnInput>false</SkipOnInput>
+				<DefaultItem>true</DefaultItem>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<EnableStartDrag>true</EnableStartDrag>
+				<DataPath>List</DataPath>
+				<RowPictureDataPath>List.DefaultPicture</RowPictureDataPath>
+				<SearchStringLocation>None</SearchStringLocation>
+				<ViewStatusLocation>None</ViewStatusLocation>
+				<SearchControlLocation>None</SearchControlLocation>
+				<AutoRefresh>false</AutoRefresh>
+				<AutoRefreshPeriod>60</AutoRefreshPeriod>
+				<Period>
+					<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+					<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+				</Period>
+				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+				<RestoreCurrentRow>false</RestoreCurrentRow>
+				<TopLevelParent xsi:nil="true"/>
+				<ShowRoot>true</ShowRoot>
+				<AllowRootChoice>false</AllowRootChoice>
+				<UpdateOnDataChange>Auto</UpdateOnDataChange>
+				<ContextMenu name="ListContextMenu" id="2"/>
+				<AutoCommandBar name="ListCommandBar" id="3">
+					<Autofill>false</Autofill>
+					<ChildItems>
+						<ButtonGroup name="FormCommands" id="65">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Commands of form</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Команды формы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Comenzile formai</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Commands of form</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Команды формы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Comenzile formai</v8:content>
+								</v8:item>
+							</ToolTip>
+							<CommandSource>Form</CommandSource>
+							<ExtendedTooltip name="FormCommandsExtendedTooltip" id="74"/>
+						</ButtonGroup>
+						<Popup name="Reports" id="66">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Reports</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчеты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Rapoarte</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Reports</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчеты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Rapoarte</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ReportsExtendedTooltip" id="75"/>
+							<ChildItems>
+								<Button name="AccountsPayableAnalysis" id="68">
+									<Type>CommandBarButton</Type>
+									<CommandName>Report.AccountsPayableAnalysis.Command.AccountPayableAnalysis</CommandName>
+									<DataPath>Items.List.CurrentData.Ref</DataPath>
+									<ExtendedTooltip name="AccountsPayableAnalysisExtendedTooltip" id="76"/>
+								</Button>
+								<Button name="MutualSettlements" id="67">
+									<Type>CommandBarButton</Type>
+									<CommandName>Report.MutualSettlements.Command.MutualSettlements</CommandName>
+									<DataPath>Items.List.CurrentData.Ref</DataPath>
+									<ExtendedTooltip name="MutualSettlementsExtendedTooltip" id="77"/>
+								</Button>
+							</ChildItems>
+						</Popup>
+					</ChildItems>
+				</AutoCommandBar>
+				<ExtendedTooltip name="ListExtendedTooltip" id="78"/>
+				<SearchStringAddition name="ListSearchString" id="100">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ListSearchStringContextMenu" id="101"/>
+					<ExtendedTooltip name="ListSearchStringExtendedTooltip" id="102"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ListViewStatus" id="103">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ListViewStatusContextMenu" id="104"/>
+					<ExtendedTooltip name="ListViewStatusExtendedTooltip" id="105"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ListSearchControl" id="106">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ListSearchControlContextMenu" id="107"/>
+					<ExtendedTooltip name="ListSearchControlExtendedTooltip" id="108"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="ListDate" id="4">
+						<DataPath>List.Date</DataPath>
+						<DefaultItem>true</DefaultItem>
+						<ContextMenu name="DateListContextMenu" id="5"/>
+						<ExtendedTooltip name="DateListExtendedTooltip" id="79"/>
+					</LabelField>
+					<LabelField name="ListNumber" id="6">
+						<DataPath>List.Number</DataPath>
+						<ContextMenu name="NumberListContextMenu" id="7"/>
+						<ExtendedTooltip name="NumberListExtendedTooltip" id="80"/>
+					</LabelField>
+					<LabelField name="ListEntities" id="8">
+						<DataPath>1/65</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Entity</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Организация</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Organizație</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ListEntityContextMenu" id="9"/>
+						<ExtendedTooltip name="ListEntityExtendedTooltip" id="81"/>
+					</LabelField>
+					<LabelField name="ListDocumentBasis" id="12">
+						<DataPath>List.DocumentBasis</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Basis</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Pe baza</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Основание</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ListDocumentBasisContextMenu" id="13"/>
+						<ExtendedTooltip name="ListDocumentBasisExtendedTooltip" id="82"/>
+					</LabelField>
+					<LabelField name="DocumentCurrencyList" id="22">
+						<DataPath>List.DocumentCurrency</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Currency</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Валюта</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Valuta</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ListDocumentCurrencyContextMenu" id="23"/>
+						<ExtendedTooltip name="ListDocumentCurrencyExtendedTooltip" id="83"/>
+					</LabelField>
+					<LabelField name="DocumentSummList" id="48">
+						<DataPath>List.DocumentAmount</DataPath>
+						<ContextMenu name="ListDocumentSummContextMenu" id="49"/>
+						<ExtendedTooltip name="ListDocumentSummExtendedTooltip" id="84"/>
+					</LabelField>
+					<LabelField name="ListPaymentAmountTurnover" id="52">
+						<DataPath>List.AmountOfPaymentTurnover</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Paid</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Оплачено</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Achitat</v8:content>
+							</v8:item>
+						</Title>
+						<Format>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>NFD=2</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧДЦ=2</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>NFD=2</v8:content>
+							</v8:item>
+						</Format>
+						<ContextMenu name="ListAmountOfPaymentTurnoverContextMenu" id="53"/>
+						<ExtendedTooltip name="ListPaymentTotalTurnoverExtendedTooltip" id="85"/>
+					</LabelField>
+					<LabelField name="ListCounterparty" id="14">
+						<DataPath>List.Counterparty</DataPath>
+						<ContextMenu name="ListCounterpartyContextMenu" id="15"/>
+						<ExtendedTooltip name="ListCounterpartyExtendedTooltip" id="86"/>
+					</LabelField>
+					<LabelField name="ListAgreement" id="16">
+						<DataPath>List.Contract</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="ListContractContextMenu" id="17"/>
+						<ExtendedTooltip name="ListContractExtendedTooltip" id="87"/>
+					</LabelField>
+					<LabelField name="CashAssetsTypeList" id="18">
+						<DataPath>List.CashType</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Cash assets type</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Тип денежных средств</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Tipul de active în numerar</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="CashAssetsTypeListContextMenu" id="19"/>
+						<ExtendedTooltip name="CashAssetsTypeListExtendedTooltip" id="88"/>
+					</LabelField>
+					<LabelField name="BankAccountList" id="20">
+						<DataPath>List.BankAccount</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Bank account</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Банковский счет</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Cont bancar</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="BankAccountListContextMenu" id="21"/>
+						<ExtendedTooltip name="BankAccountListExtendedTooltip" id="89"/>
+					</LabelField>
+					<LabelField name="MultiplicityList" id="24">
+						<DataPath>List.Multiplicity</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="ListUnitConversionFactorContextMenu" id="25"/>
+						<ExtendedTooltip name="ListUnitConversionFactorExtendedTooltip" id="90"/>
+					</LabelField>
+					<LabelField name="ListRate" id="26">
+						<DataPath>List.ExchangeRate</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="ListRateContextMenu" id="27"/>
+						<ExtendedTooltip name="ListRateExtendedTooltip" id="91"/>
+					</LabelField>
+					<CheckBoxField name="ListAmountIncludesVAT" id="28">
+						<DataPath>List.AmountIncludesVAT</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Amount includes VAT</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сумма включает НДС</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Suma include TVA</v8:content>
+							</v8:item>
+						</Title>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ListAmountIncludesVATContextMenu" id="29"/>
+						<ExtendedTooltip name="ListAmountIncludesVATExtendedTooltip" id="92"/>
+					</CheckBoxField>
+					<LabelField name="ListPriceKind" id="30">
+						<DataPath>List.PricesKind</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Price kind</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Вид цен</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Tipul prețurilor</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ListPriceTypeContextMenu" id="31"/>
+						<ExtendedTooltip name="ListPricesTypeExtendedTooltip" id="93"/>
+					</LabelField>
+					<LabelField name="ListDiscountMarginType" id="32">
+						<DataPath>List.DiscountMarkupKind</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Discount kind, markup</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Вид скидки, наценки</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Tipul reducerii, adaosului la preț</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ListTypeDiscountMarginContextMenu" id="33"/>
+						<ExtendedTooltip name="ListTypeDiscountMarginExtendedTooltip" id="94"/>
+					</LabelField>
+					<LabelField name="ListDepartment" id="34">
+						<DataPath>List.Department</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="UnitListContextMenu" id="35"/>
+						<ExtendedTooltip name="ListDepartmentExtendedTooltip" id="95"/>
+					</LabelField>
+					<LabelField name="CashierList" id="42">
+						<DataPath>List.PettyCash</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="CashDescContextMenu" id="43"/>
+						<ExtendedTooltip name="CashDescListExtendedTooltip" id="96"/>
+					</LabelField>
+					<LabelField name="ListResponsible" id="44">
+						<DataPath>List.Responsible</DataPath>
+						<ContextMenu name="ListResponsibleContextMenu" id="45"/>
+						<ExtendedTooltip name="ListResponsibleExtendedTooltip" id="97"/>
+					</LabelField>
+					<LabelField name="CommentList" id="10">
+						<DataPath>List.Comment</DataPath>
+						<ContextMenu name="CommentListContextMenu" id="11"/>
+						<ExtendedTooltip name="CommentListExtendedTooltip" id="98"/>
+					</LabelField>
+					<LabelField name="ListAuthor" id="50">
+						<DataPath>List.Author</DataPath>
+						<ContextMenu name="AuthorListContextMenu" id="51"/>
+						<ExtendedTooltip name="AuthorListExtendedTooltip" id="99"/>
+					</LabelField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="List" id="1">
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>true</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<QueryText>SELECT
+	DocumentInvoiceForPayment.Ref,
+	DocumentInvoiceForPayment.DeletionMark,
+	DocumentInvoiceForPayment.Number,
+	DocumentInvoiceForPayment.Date,
+	DocumentInvoiceForPayment.Posted,
+	DocumentInvoiceForPayment.Entity,
+	DocumentInvoiceForPayment.Comment,
+	DocumentInvoiceForPayment.DocumentBasis,
+	DocumentInvoiceForPayment.Counterparty,
+	DocumentInvoiceForPayment.Contract,
+	DocumentInvoiceForPayment.CashType,
+	DocumentInvoiceForPayment.BankAccount,
+	DocumentInvoiceForPayment.DocumentCurrency,
+	DocumentInvoiceForPayment.Multiplicity,
+	DocumentInvoiceForPayment.ExchangeRate,
+	DocumentInvoiceForPayment.AmountIncludesVAT,
+	DocumentInvoiceForPayment.PricesKind,
+	DocumentInvoiceForPayment.DiscountMarkupKind,
+	DocumentInvoiceForPayment.Department,
+	DocumentInvoiceForPayment.DocumentAmount,
+	DocumentInvoiceForPayment.PettyCash,
+	DocumentInvoiceForPayment.Responsible,
+	DocumentInvoiceForPayment.PointInTime,
+	DocumentInvoiceForPayment.Author,
+	InvoicesAndOrdersPaymentTurnovers.AmountOfPaymentTurnover AS AmountOfPaymentTurnover
+FROM
+	Document.InvoiceForPayment AS DocumentInvoiceForPayment
+		LEFT JOIN AccumulationRegister.InvoicesAndOrdersPayment.Turnovers AS InvoicesAndOrdersPaymentTurnovers
+
+		ON DocumentInvoiceForPayment.Ref = InvoicesAndOrdersPaymentTurnovers.InvoiceForPayment</QueryText>
+					<MainTable>Document.InvoiceForPayment</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+						</dcsset:conditionalAppearance>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+			<Attribute name="FilterCounterparty" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Counterparty</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Контрагент</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Partener</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Counterparties</v8:Type>
+				</Type>
+				<Save>
+					<Field>FilterCounterparty</Field>
+				</Save>
+			</Attribute>
+			<Attribute name="FilterEntity" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Entity</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Организация</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Organizație</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+				</Type>
+				<FunctionalOptions>
+					<Item>FunctionalOption.MultipleCompanies</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="FilterResponsible" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Responsible</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Ответственный</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Responsabil</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Employees</v8:Type>
+				</Type>
+				<Save>
+					<Field>FilterResponsible</Field>
+				</Save>
+			</Attribute>
+			<Attribute name="FilterBasis" id="5">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Basis</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Основание</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Pe baza</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:DocumentRef.AcceptanceCertificate</v8:Type>
+					<v8:Type>cfg:DocumentRef.InventoryExpense</v8:Type>
+					<v8:Type>cfg:DocumentRef.CustomerOrder</v8:Type>
+					<v8:Type>cfg:DocumentRef.ProcessingReport</v8:Type>
+				</Type>
+				<Save>
+					<Field>FilterBasis</Field>
+				</Save>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>

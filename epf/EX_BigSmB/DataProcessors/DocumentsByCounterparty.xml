@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<DataProcessor uuid="41d428b5-ad3d-4b30-a7ce-792b8b373d10">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.DocumentsByCounterparty" category="Object">
+				<xr:TypeId>dcd43360-45ed-468c-9c76-994025bb5f45</xr:TypeId>
+				<xr:ValueId>9ef60356-3de9-4564-9335-aafa9d10bb6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.DocumentsByCounterparty" category="Manager">
+				<xr:TypeId>3be02985-2926-469f-9a90-87b2a65fde0d</xr:TypeId>
+				<xr:ValueId>5b5eaf94-7ce3-4a4d-b87f-b46957f6eba8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>DocumentsByCounterparty</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="1ace76ed-6b45-4bca-b3b1-f1d3d7c93d1d">
+				<Properties>
+					<Name>DocumentsBySupplierOrder</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+			<Command uuid="667888db-e97c-45c2-8dca-b7729a16ecde">
+				<Properties>
+					<Name>DocumentsByCustomerOrder</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

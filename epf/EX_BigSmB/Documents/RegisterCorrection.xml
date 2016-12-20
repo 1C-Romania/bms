@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="db04d693-8cd6-4ab0-a7aa-cd068b6f5d99">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.RegisterCorrection" category="Object">
+				<xr:TypeId>53404f85-9b0b-4920-96d0-ae445d80e02b</xr:TypeId>
+				<xr:ValueId>aa9115cb-199e-4bdf-b64b-119ee3a3a574</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.RegisterCorrection" category="Ref">
+				<xr:TypeId>b76f15f1-5a06-4e31-983e-ba0fe997303e</xr:TypeId>
+				<xr:ValueId>ec76019f-2ff0-4be4-aabc-c08babf93188</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.RegisterCorrection" category="Selection">
+				<xr:TypeId>7f664dd9-07f2-4e71-ae9d-82279e93cc44</xr:TypeId>
+				<xr:ValueId>0930cf8f-bebc-4fc3-a155-f806a4b77042</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.RegisterCorrection" category="List">
+				<xr:TypeId>c8001c50-e1ff-4112-82f3-d24ec4baca38</xr:TypeId>
+				<xr:ValueId>af68b89d-c7b4-4131-8e6a-9195db3705a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.RegisterCorrection" category="Manager">
+				<xr:TypeId>202591d5-6ee5-455c-a269-98417bb19162</xr:TypeId>
+				<xr:ValueId>e24c4020-2242-4548-8b4a-d4ffd9b33689</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>RegisterCorrection</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="947e6fa2-60ba-4031-a057-9dc5009b2c8f">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e752f47c-0a12-4ffc-9247-b2436af46239">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

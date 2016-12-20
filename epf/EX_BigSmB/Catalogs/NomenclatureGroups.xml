@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="b6320adb-6cca-4c33-a15a-5a3ff28a0e90">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.NomenclatureGroups" category="Object">
+				<xr:TypeId>0f3076f3-f885-434c-b2cc-6aeb4b15b602</xr:TypeId>
+				<xr:ValueId>e6291f84-b702-4230-8326-edbca592fe0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.NomenclatureGroups" category="Ref">
+				<xr:TypeId>4d6872d3-6aaa-4fbb-a672-644824af6a27</xr:TypeId>
+				<xr:ValueId>a2361827-ef6b-42ec-88c1-110f48ea81f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.NomenclatureGroups" category="Selection">
+				<xr:TypeId>d1cc5a69-4cbc-4238-81bb-6060e8ea4927</xr:TypeId>
+				<xr:ValueId>41e67477-3957-466e-944f-834bc1c5ed91</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.NomenclatureGroups" category="List">
+				<xr:TypeId>9d8081d0-7c86-499e-8510-6e3a7996c61f</xr:TypeId>
+				<xr:ValueId>ed096693-cd63-416f-b4cf-0a44ff0cf3c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.NomenclatureGroups" category="Manager">
+				<xr:TypeId>a5fed348-9019-497e-ae73-b2f8a96d08a1</xr:TypeId>
+				<xr:ValueId>f3a53c98-6ef1-4ef1-8c3e-3fd472480d8c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>NomenclatureGroups</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

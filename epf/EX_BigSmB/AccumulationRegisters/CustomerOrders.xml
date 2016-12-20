@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<AccumulationRegister uuid="8b2c3832-6d14-4870-baa7-2835bb1f6e86">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.CustomerOrders" category="Record">
+				<xr:TypeId>93e8a800-6fa1-4cf8-9d6d-509f073aa44d</xr:TypeId>
+				<xr:ValueId>ed6c5ba7-011a-4a7a-a1e0-29c15cb28c46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.CustomerOrders" category="Manager">
+				<xr:TypeId>13adb02e-fdf1-4e31-b215-e11399d57fe0</xr:TypeId>
+				<xr:ValueId>a49a5c37-a2e6-45a5-b7de-4b8407829ce9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.CustomerOrders" category="Selection">
+				<xr:TypeId>ef08f119-41d5-463a-a083-cde0c83512ae</xr:TypeId>
+				<xr:ValueId>92439743-45fd-44a1-beb3-bab384e9f34c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.CustomerOrders" category="List">
+				<xr:TypeId>bac936a2-1f98-4a58-9bef-7b20389674ea</xr:TypeId>
+				<xr:ValueId>5959c133-2d4f-4678-9192-bacae2995c1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.CustomerOrders" category="RecordSet">
+				<xr:TypeId>3d724a4f-c2ec-42ba-b940-da92188031d4</xr:TypeId>
+				<xr:ValueId>bc24cf78-4bde-4bad-8c6c-5f384c6cef42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.CustomerOrders" category="RecordKey">
+				<xr:TypeId>fa017bb0-f59b-4289-810c-e15b8f7adf87</xr:TypeId>
+				<xr:ValueId>3743f345-667e-48bd-8472-4dcaec856197</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CustomerOrders</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="667bd4f0-ae15-48b2-abaa-349b9208abc4">
+				<Properties>
+					<Name>CustomerOrder</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.CustomerOrder</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="8a6b407c-3860-4698-bdfe-f09aa2d5d7d6">
+				<Properties>
+					<Name>Nomenclature</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Nomenclature</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<DocumentJournal uuid="022ae370-9151-421f-8c77-5acbe59389fb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.HRMDocuments" category="Selection">
+				<xr:TypeId>e3945e8e-b599-4161-8613-5ac0d2b4d528</xr:TypeId>
+				<xr:ValueId>ab6fa720-2e13-49d6-b1a1-6cd6444f3058</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.HRMDocuments" category="List">
+				<xr:TypeId>9fe8d1a0-3dfe-4f8e-ad62-75f6ab005d67</xr:TypeId>
+				<xr:ValueId>e3402258-db5c-44cd-9ab0-4e585b4fc2b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.HRMDocuments" category="Manager">
+				<xr:TypeId>f888b8b3-d9b5-4217-b00b-73ccf8464c17</xr:TypeId>
+				<xr:ValueId>a530d05c-7f26-4799-aa38-eb577b9a32c2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>HRMDocuments</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Employment</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="b5192bd2-bfff-470c-b381-1b1f64a5fa39">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="b1968313-7e4d-4635-89a7-f2b4b30e1cd3">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

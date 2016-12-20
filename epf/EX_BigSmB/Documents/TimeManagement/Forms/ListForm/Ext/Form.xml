@@ -1,0 +1,758 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="FormCommandBar" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="FormCreate" id="28">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Create</CommandName>
+				<ExtendedTooltip name="FormCreateExtendedTooltip" id="32"/>
+			</Button>
+			<Button name="FormCopy" id="29">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Copy</CommandName>
+				<ExtendedTooltip name="FormCopyExtendedTooltip" id="33"/>
+			</Button>
+			<Button name="FormChange" id="30">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Change</CommandName>
+				<ExtendedTooltip name="FormChangeExtendedTooltip" id="34"/>
+			</Button>
+			<Button name="FormSetDeletionMark" id="31">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.SetDeletionMark</CommandName>
+				<ExtendedTooltip name="FormSetDeletionMarkExtendedTooltip" id="35"/>
+			</Button>
+			<ButtonGroup name="ListFilterPeriod" id="22">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Period</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Perioada</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Period</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Perioada</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ListFilterPeriodExtendedTooltip" id="36"/>
+				<ChildItems>
+					<Button name="ListSetInterval" id="23">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.StandardCommand.SetDateInterval</CommandName>
+						<ExtendedTooltip name="ListSetIntervalExtendedTooltip" id="37"/>
+					</Button>
+					<Button name="ListFilterDay" id="24">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.FilterDay</CommandName>
+						<ExtendedTooltip name="ListFilterDayExtendedTooltip" id="38"/>
+					</Button>
+					<Button name="ListFilterWeek" id="25">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.FilterWeek</CommandName>
+						<ExtendedTooltip name="ListFilterWeekExtendedTooltip" id="39"/>
+					</Button>
+					<Button name="ListFilterMonth" id="26">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.FilterMonth</CommandName>
+						<ExtendedTooltip name="ListFilterMonthExtendedTooltip" id="40"/>
+					</Button>
+				</ChildItems>
+			</ButtonGroup>
+			<ButtonGroup name="FormPostCommand" id="61">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Post command</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="FormPostCommandРасширеннаяПодсказка" id="62"/>
+				<ChildItems>
+					<Button name="FormPost" id="63">
+						<Type>CommandBarButton</Type>
+						<OnlyInAllActions>true</OnlyInAllActions>
+						<CommandName>Form.Item.List.StandardCommand.Post</CommandName>
+						<ExtendedTooltip name="FormPostРасширеннаяПодсказка" id="64"/>
+					</Button>
+					<Button name="FormClearPosting" id="65">
+						<Type>CommandBarButton</Type>
+						<OnlyInAllActions>true</OnlyInAllActions>
+						<CommandName>Form.Item.List.StandardCommand.UndoPosting</CommandName>
+						<ExtendedTooltip name="FormClearPostingРасширеннаяПодсказка" id="66"/>
+					</Button>
+				</ChildItems>
+			</ButtonGroup>
+			<ButtonGroup name="FormCommands" id="27">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Commands of form</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды формы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Comenzile formai</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Commands of form</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды формы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Comenzile formai</v8:content>
+					</v8:item>
+				</ToolTip>
+				<CommandSource>Form</CommandSource>
+				<ExtendedTooltip name="FormCommandsExtendedTooltip" id="41"/>
+			</ButtonGroup>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<Table name="List" id="1">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<SkipOnInput>false</SkipOnInput>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>List</DataPath>
+			<RowPictureDataPath>List.DefaultPicture</RowPictureDataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="ListContextMenu" id="2"/>
+			<AutoCommandBar name="ListCommandBar" id="3"/>
+			<ExtendedTooltip name="ListExtendedTooltip" id="42"/>
+			<SearchStringAddition name="ListSearchString" id="52">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ListSearchStringContextMenu" id="53"/>
+				<ExtendedTooltip name="ListSearchStringExtendedTooltip" id="54"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ListViewStatus" id="55">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ListViewStatusContextMenu" id="56"/>
+				<ExtendedTooltip name="ListViewStatusExtendedTooltip" id="57"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ListSearchControl" id="58">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ListSearchControlContextMenu" id="59"/>
+				<ExtendedTooltip name="ListSearchControlExtendedTooltip" id="60"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Date" id="4">
+					<DataPath>List.Date</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="DateContextMenu" id="5"/>
+					<ExtendedTooltip name="DateExtendedTooltip" id="43"/>
+				</LabelField>
+				<LabelField name="Number" id="6">
+					<DataPath>List.Number</DataPath>
+					<ContextMenu name="NumberContextMenu" id="7"/>
+					<ExtendedTooltip name="NumberExtendedTooltip" id="44"/>
+				</LabelField>
+				<LabelField name="Entity" id="8">
+					<DataPath>List.Entity</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="CounterpartyContextMenu" id="9"/>
+					<ExtendedTooltip name="CounterpartyExtendedTooltip" id="45"/>
+				</LabelField>
+				<LabelField name="BaseUnit" id="10">
+					<DataPath>List.BaseUnit</DataPath>
+					<ContextMenu name="StructuralUnitContextMenu" id="11"/>
+					<ExtendedTooltip name="StructuralUnitExtendedTooltip" id="46"/>
+				</LabelField>
+				<LabelField name="Employee" id="12">
+					<DataPath>List.Employee</DataPath>
+					<ContextMenu name="EmployeeContextMenu" id="13"/>
+					<ExtendedTooltip name="EmployeeExtendedTooltip" id="47"/>
+				</LabelField>
+				<LabelField name="DateFrom" id="16">
+					<DataPath>List.DateFrom</DataPath>
+					<ContextMenu name="DateFromContextMenu" id="17"/>
+					<ExtendedTooltip name="DateFromExtendedTooltip" id="48"/>
+				</LabelField>
+				<LabelField name="DateTo" id="18">
+					<DataPath>List.DateTo</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>To</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>până la</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>по</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="DateToContextMenu" id="19"/>
+					<ExtendedTooltip name="DateToExtendedTooltip" id="49"/>
+				</LabelField>
+				<LabelField name="Comment" id="14">
+					<DataPath>List.Comment</DataPath>
+					<ContextMenu name="CommentContextMenu" id="15"/>
+					<ExtendedTooltip name="CommentExtendedTooltip" id="50"/>
+				</LabelField>
+				<LabelField name="Author" id="20">
+					<DataPath>List.Author</DataPath>
+					<ContextMenu name="AuthorContextMenu" id="21"/>
+					<ExtendedTooltip name="AuthorExtendedTooltip" id="51"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="List" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Document.TimeManagement</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="FilterDay" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Day</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>День</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Ziua</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Day</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>День</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Ziua</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.DayPeriod</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="FilterMonth" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Month</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Месяц</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Luna</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Month</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Месяц</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Luna</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.MonthPeriod</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="FilterWeek" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Week</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Неделя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Săptămâna</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Week</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Неделя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Săptămâna</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.WeekPeriod</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
+	<BaseForm version="2.2">
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoCommandBar name="FormCommandBar" id="-1">
+			<Autofill>false</Autofill>
+			<ChildItems>
+				<Button name="FormCreate" id="28">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.StandardCommand.Create</CommandName>
+					<ExtendedTooltip name="FormCreateExtendedTooltip" id="32"/>
+				</Button>
+				<Button name="FormCopy" id="29">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.StandardCommand.Copy</CommandName>
+					<ExtendedTooltip name="FormCopyExtendedTooltip" id="33"/>
+				</Button>
+				<Button name="FormChange" id="30">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.StandardCommand.Change</CommandName>
+					<ExtendedTooltip name="FormChangeExtendedTooltip" id="34"/>
+				</Button>
+				<Button name="FormSetDeletionMark" id="31">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.StandardCommand.SetDeletionMark</CommandName>
+					<ExtendedTooltip name="FormSetDeletionMarkExtendedTooltip" id="35"/>
+				</Button>
+				<ButtonGroup name="ListFilterPeriod" id="22">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Period</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Perioada</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Period</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Perioada</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ListFilterPeriodExtendedTooltip" id="36"/>
+					<ChildItems>
+						<Button name="ListSetInterval" id="23">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.StandardCommand.SetDateInterval</CommandName>
+							<ExtendedTooltip name="ListSetIntervalExtendedTooltip" id="37"/>
+						</Button>
+						<Button name="ListFilterDay" id="24">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.FilterDay</CommandName>
+							<ExtendedTooltip name="ListFilterDayExtendedTooltip" id="38"/>
+						</Button>
+						<Button name="ListFilterWeek" id="25">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.FilterWeek</CommandName>
+							<ExtendedTooltip name="ListFilterWeekExtendedTooltip" id="39"/>
+						</Button>
+						<Button name="ListFilterMonth" id="26">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.FilterMonth</CommandName>
+							<ExtendedTooltip name="ListFilterMonthExtendedTooltip" id="40"/>
+						</Button>
+					</ChildItems>
+				</ButtonGroup>
+				<ButtonGroup name="FormCommands" id="27">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Commands of form</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды формы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Comenzile formai</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Commands of form</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды формы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Comenzile formai</v8:content>
+						</v8:item>
+					</ToolTip>
+					<CommandSource>Form</CommandSource>
+					<ExtendedTooltip name="FormCommandsExtendedTooltip" id="41"/>
+				</ButtonGroup>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<Table name="List" id="1">
+				<Representation>List</Representation>
+				<CommandBarLocation>None</CommandBarLocation>
+				<SkipOnInput>false</SkipOnInput>
+				<DefaultItem>true</DefaultItem>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<EnableStartDrag>true</EnableStartDrag>
+				<DataPath>List</DataPath>
+				<RowPictureDataPath>List.DefaultPicture</RowPictureDataPath>
+				<SearchStringLocation>None</SearchStringLocation>
+				<ViewStatusLocation>None</ViewStatusLocation>
+				<SearchControlLocation>None</SearchControlLocation>
+				<AutoRefresh>false</AutoRefresh>
+				<AutoRefreshPeriod>60</AutoRefreshPeriod>
+				<Period>
+					<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+					<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+				</Period>
+				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+				<RestoreCurrentRow>false</RestoreCurrentRow>
+				<TopLevelParent xsi:nil="true"/>
+				<ShowRoot>true</ShowRoot>
+				<AllowRootChoice>false</AllowRootChoice>
+				<UpdateOnDataChange>Auto</UpdateOnDataChange>
+				<ContextMenu name="ListContextMenu" id="2"/>
+				<AutoCommandBar name="ListCommandBar" id="3"/>
+				<ExtendedTooltip name="ListExtendedTooltip" id="42"/>
+				<SearchStringAddition name="ListSearchString" id="52">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ListSearchStringContextMenu" id="53"/>
+					<ExtendedTooltip name="ListSearchStringExtendedTooltip" id="54"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ListViewStatus" id="55">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ListViewStatusContextMenu" id="56"/>
+					<ExtendedTooltip name="ListViewStatusExtendedTooltip" id="57"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ListSearchControl" id="58">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ListSearchControlContextMenu" id="59"/>
+					<ExtendedTooltip name="ListSearchControlExtendedTooltip" id="60"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="Date" id="4">
+						<DataPath>List.Date</DataPath>
+						<DefaultItem>true</DefaultItem>
+						<ContextMenu name="DateContextMenu" id="5"/>
+						<ExtendedTooltip name="DateExtendedTooltip" id="43"/>
+					</LabelField>
+					<LabelField name="Number" id="6">
+						<DataPath>List.Number</DataPath>
+						<ContextMenu name="NumberContextMenu" id="7"/>
+						<ExtendedTooltip name="NumberExtendedTooltip" id="44"/>
+					</LabelField>
+					<LabelField name="Entity" id="8">
+						<DataPath>List.Entity</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="CounterpartyContextMenu" id="9"/>
+						<ExtendedTooltip name="CounterpartyExtendedTooltip" id="45"/>
+					</LabelField>
+					<LabelField name="BaseUnit" id="10">
+						<DataPath>List.BaseUnit</DataPath>
+						<ContextMenu name="StructuralUnitContextMenu" id="11"/>
+						<ExtendedTooltip name="StructuralUnitExtendedTooltip" id="46"/>
+					</LabelField>
+					<LabelField name="Employee" id="12">
+						<DataPath>List.Employee</DataPath>
+						<ContextMenu name="EmployeeContextMenu" id="13"/>
+						<ExtendedTooltip name="EmployeeExtendedTooltip" id="47"/>
+					</LabelField>
+					<LabelField name="DateFrom" id="16">
+						<DataPath>List.DateFrom</DataPath>
+						<ContextMenu name="DateFromContextMenu" id="17"/>
+						<ExtendedTooltip name="DateFromExtendedTooltip" id="48"/>
+					</LabelField>
+					<LabelField name="DateTo" id="18">
+						<DataPath>List.DateTo</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>To</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>până la</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>по</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="DateToContextMenu" id="19"/>
+						<ExtendedTooltip name="DateToExtendedTooltip" id="49"/>
+					</LabelField>
+					<LabelField name="Comment" id="14">
+						<DataPath>List.Comment</DataPath>
+						<ContextMenu name="CommentContextMenu" id="15"/>
+						<ExtendedTooltip name="CommentExtendedTooltip" id="50"/>
+					</LabelField>
+					<LabelField name="Author" id="20">
+						<DataPath>List.Author</DataPath>
+						<ContextMenu name="AuthorContextMenu" id="21"/>
+						<ExtendedTooltip name="AuthorExtendedTooltip" id="51"/>
+					</LabelField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="List" id="1">
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>false</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<MainTable>Document.TimeManagement</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+						</dcsset:conditionalAppearance>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+		</Attributes>
+		<Commands>
+			<Command name="FilterDay" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Day</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>День</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Ziua</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Day</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>День</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Ziua</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.DayPeriod</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+				<Representation>Picture</Representation>
+			</Command>
+			<Command name="FilterMonth" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Month</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Месяц</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Luna</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Month</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Месяц</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Luna</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.MonthPeriod</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+				<Representation>Picture</Representation>
+			</Command>
+			<Command name="FilterWeek" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Week</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Неделя</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Săptămâna</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Week</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Неделя</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Săptămâna</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.WeekPeriod</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+				<Representation>Picture</Representation>
+			</Command>
+		</Commands>
+	</BaseForm>
+</Form>

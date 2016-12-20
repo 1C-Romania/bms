@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="ac1bedd3-2792-4691-9a17-3f798d959844">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.CashSessionStatuses" category="Ref">
+				<xr:TypeId>dadf5d93-d067-40aa-bbf9-ada3b9e4983a</xr:TypeId>
+				<xr:ValueId>c474ad1a-d7b9-4466-bbf9-51a495287476</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.CashSessionStatuses" category="Manager">
+				<xr:TypeId>32e2e52b-f25d-4a4c-8ecd-72a006108768</xr:TypeId>
+				<xr:ValueId>db4d5f10-e683-492e-ad09-0da1ebadf474</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.CashSessionStatuses" category="List">
+				<xr:TypeId>00b52258-728c-4257-9051-0a64d52e4bf5</xr:TypeId>
+				<xr:ValueId>2d378d9e-6b95-4cd8-9dc1-bf86f4eac8a9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CashSessionStatuses</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="9ed33fd9-f848-4148-8789-481a784f2265">
+				<Properties>
+					<Name>IsOpen</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="98e463a7-7dcf-4af7-ad05-a3d2fe9bc3ef">
+				<Properties>
+					<Name>ClosedReceiptsArchived</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3f574192-d3af-48dc-acbc-abb1ad827f41">
+				<Properties>
+					<Name>Closed</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

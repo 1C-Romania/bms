@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="FormCommandBar" id="-1">
+		<ChildItems>
+			<ButtonGroup name="FormPostCommand" id="79">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Post command</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="FormPostCommandРасширеннаяПодсказка" id="80"/>
+				<ChildItems>
+					<Button name="FormPost" id="81">
+						<Type>CommandBarButton</Type>
+						<OnlyInAllActions>true</OnlyInAllActions>
+						<CommandName>Form.Item.List.StandardCommand.Post</CommandName>
+						<ExtendedTooltip name="FormPostРасширеннаяПодсказка" id="82"/>
+					</Button>
+					<Button name="FormClearPosting" id="83">
+						<Type>CommandBarButton</Type>
+						<OnlyInAllActions>true</OnlyInAllActions>
+						<CommandName>Form.Item.List.StandardCommand.UndoPosting</CommandName>
+						<ExtendedTooltip name="FormClearPostingРасширеннаяПодсказка" id="84"/>
+					</Button>
+				</ChildItems>
+			</ButtonGroup>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<Table name="List" id="1">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<SkipOnInput>false</SkipOnInput>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>List</DataPath>
+			<RowPictureDataPath>List.DefaultPicture</RowPictureDataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="ListContextMenu" id="2"/>
+			<AutoCommandBar name="ListCommandBar" id="3"/>
+			<ExtendedTooltip name="ListExtendedTooltip" id="58"/>
+			<SearchStringAddition name="ListSearchString" id="70">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ListSearchStringContextMenu" id="71"/>
+				<ExtendedTooltip name="ListSearchStringExtendedTooltip" id="72"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ListViewStatus" id="73">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ListViewStatusContextMenu" id="74"/>
+				<ExtendedTooltip name="ListViewStatusExtendedTooltip" id="75"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ListSearchControl" id="76">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ListSearchControlContextMenu" id="77"/>
+				<ExtendedTooltip name="ListSearchControlExtendedTooltip" id="78"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Date" id="4">
+					<DataPath>List.Date</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="DateContextMenu" id="5"/>
+					<ExtendedTooltip name="DateExtendedTooltip" id="59"/>
+				</LabelField>
+				<LabelField name="Number" id="6">
+					<DataPath>List.Number</DataPath>
+					<ContextMenu name="NumberContextMenu" id="7"/>
+					<ExtendedTooltip name="NumberExtendedTooltip" id="60"/>
+				</LabelField>
+				<LabelField name="Status" id="56">
+					<DataPath>List.Status</DataPath>
+					<ContextMenu name="StateContextMenu" id="57"/>
+					<ExtendedTooltip name="StateExtendedTooltip" id="61"/>
+				</LabelField>
+				<LabelField name="Entity" id="8">
+					<DataPath>List.Entity</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="CounterpartyContextMenu" id="9"/>
+					<ExtendedTooltip name="CounterpartyExtendedTooltip" id="62"/>
+				</LabelField>
+				<LabelField name="TransactionType" id="42">
+					<DataPath>List.TransactionType</DataPath>
+					<ContextMenu name="OperationTypeContextMenu" id="43"/>
+					<ExtendedTooltip name="OperationTypeExtendedTooltip" id="63"/>
+				</LabelField>
+				<LabelField name="BaseUnit" id="10">
+					<DataPath>List.BaseUnit</DataPath>
+					<ContextMenu name="StructuralUnitContextMenu" id="11"/>
+					<ExtendedTooltip name="StructuralUnitExtendedTooltip" id="64"/>
+				</LabelField>
+				<LabelField name="Employee" id="12">
+					<DataPath>List.Employee</DataPath>
+					<ContextMenu name="EmployeeContextMenu" id="13"/>
+					<ExtendedTooltip name="EmployeeExtendedTooltip" id="65"/>
+				</LabelField>
+				<LabelField name="DocumentAmount" id="54">
+					<DataPath>List.DocumentAmount</DataPath>
+					<ContextMenu name="DocumentTotalContextMenu" id="55"/>
+					<ExtendedTooltip name="DocumentTotalExtendedTooltip" id="66"/>
+				</LabelField>
+				<LabelField name="JobKind" id="22">
+					<DataPath>List.JobKind</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="TypeOfContextMenu" id="23"/>
+					<ExtendedTooltip name="TypeOfWorksExtendedTooltip" id="67"/>
+				</LabelField>
+				<LabelField name="Comment" id="36">
+					<DataPath>List.Comment</DataPath>
+					<ContextMenu name="CommentContextMenu" id="37"/>
+					<ExtendedTooltip name="CommentExtendedTooltip" id="68"/>
+				</LabelField>
+				<LabelField name="Author" id="50">
+					<DataPath>List.Author</DataPath>
+					<ContextMenu name="AuthorContextMenu" id="51"/>
+					<ExtendedTooltip name="AuthorExtendedTooltip" id="69"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="List" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>SELECT
+	DocumentSetToWork.Ref,
+	DocumentSetToWork.DataVersion,
+	DocumentSetToWork.DeletionMark,
+	DocumentSetToWork.Number,
+	DocumentSetToWork.Date,
+	DocumentSetToWork.Posted,
+	DocumentSetToWork.Entity,
+	DocumentSetToWork.TransactionType,
+	DocumentSetToWork.Status,
+	DocumentSetToWork.DeleteClosed,
+	DocumentSetToWork.JobKind,
+	DocumentSetToWork.PricesKind,
+	DocumentSetToWork.DeleteKeyResource,
+	DocumentSetToWork.Employee,
+	DocumentSetToWork.BaseUnit,
+	DocumentSetToWork.DocumentAmount,
+	DocumentSetToWork.JobKindPosition,
+	DocumentSetToWork.Event,
+	DocumentSetToWork.Comment,
+	DocumentSetToWork.Author,
+	DocumentSetToWork.Jobs.(
+		Ref,
+		LineNumber,
+		JobKind,
+		Customer,
+		Nomenclature,
+		Characteristic,
+		Day,
+		BeginTime,
+		EndingTime,
+		Duration,
+		DurationInHours,
+		Price,
+		Amount,
+		Comment
+	),
+	DocumentSetToWork.PointInTime,
+	CASE
+		WHEN NOT DocumentSetToWork.Posted
+				AND (DocumentSetToWork.Status = VALUE(Catalog.EventStatuses.Canceled)
+					OR DocumentSetToWork.Status = VALUE(Catalog.EventStatuses.Completed))
+				AND &amp;PeriodOfEnd = DATETIME(1, 1, 1)
+			THEN FALSE
+		WHEN &amp;PeriodOfBegin = DATETIME(1, 1, 1)
+				AND 1 IN
+					(SELECT TOP 1
+						1
+					FROM
+						AccumulationRegister.JobOrders AS TableOverdue
+					WHERE
+						TableOverdue.Recorder = DocumentSetToWork.Ref
+						AND TableOverdue.EndingTime &lt; &amp;PeriodOfEnd
+						AND TableOverdue.BeginTime &lt;&gt; DATETIME(1, 1, 1))
+			THEN TRUE
+		ELSE FALSE
+	END AS Overdue,
+	CASE
+		WHEN NOT DocumentSetToWork.Posted
+				AND (DocumentSetToWork.Status = VALUE(Catalog.EventStatuses.Canceled)
+					OR DocumentSetToWork.Status = VALUE(Catalog.EventStatuses.Completed))
+				AND &amp;PeriodOfEnd = DATETIME(1, 1, 1)
+			THEN FALSE
+		WHEN &amp;PeriodOfBegin &lt;&gt; DATETIME(1, 1, 1)
+				AND 1 IN
+					(SELECT TOP 1
+						1
+					FROM
+						AccumulationRegister.JobOrders AS TableForToday
+					WHERE
+						TableForToday.Recorder = DocumentSetToWork.Ref
+						AND TableForToday.EndingTime &gt;= &amp;PeriodOfEnd
+						AND TableForToday.BeginTime &lt;= &amp;PeriodOfBegin)
+			THEN TRUE
+		ELSE FALSE
+	END AS ForToday
+FROM
+	Document.JobOrder AS DocumentSetToWork</QueryText>
+				<MainTable>Document.JobOrder</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.2">
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoCommandBar name="FormCommandBar" id="-1"/>
+		<ChildItems>
+			<Table name="List" id="1">
+				<Representation>List</Representation>
+				<CommandBarLocation>None</CommandBarLocation>
+				<SkipOnInput>false</SkipOnInput>
+				<DefaultItem>true</DefaultItem>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<EnableStartDrag>true</EnableStartDrag>
+				<DataPath>List</DataPath>
+				<RowPictureDataPath>List.DefaultPicture</RowPictureDataPath>
+				<SearchStringLocation>None</SearchStringLocation>
+				<ViewStatusLocation>None</ViewStatusLocation>
+				<SearchControlLocation>None</SearchControlLocation>
+				<AutoRefresh>false</AutoRefresh>
+				<AutoRefreshPeriod>60</AutoRefreshPeriod>
+				<Period>
+					<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+					<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+				</Period>
+				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+				<RestoreCurrentRow>false</RestoreCurrentRow>
+				<TopLevelParent xsi:nil="true"/>
+				<ShowRoot>true</ShowRoot>
+				<AllowRootChoice>false</AllowRootChoice>
+				<UpdateOnDataChange>Auto</UpdateOnDataChange>
+				<ContextMenu name="ListContextMenu" id="2"/>
+				<AutoCommandBar name="ListCommandBar" id="3"/>
+				<ExtendedTooltip name="ListExtendedTooltip" id="58"/>
+				<SearchStringAddition name="ListSearchString" id="70">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ListSearchStringContextMenu" id="71"/>
+					<ExtendedTooltip name="ListSearchStringExtendedTooltip" id="72"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ListViewStatus" id="73">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ListViewStatusContextMenu" id="74"/>
+					<ExtendedTooltip name="ListViewStatusExtendedTooltip" id="75"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ListSearchControl" id="76">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ListSearchControlContextMenu" id="77"/>
+					<ExtendedTooltip name="ListSearchControlExtendedTooltip" id="78"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="Date" id="4">
+						<DataPath>List.Date</DataPath>
+						<DefaultItem>true</DefaultItem>
+						<ContextMenu name="DateContextMenu" id="5"/>
+						<ExtendedTooltip name="DateExtendedTooltip" id="59"/>
+					</LabelField>
+					<LabelField name="Number" id="6">
+						<DataPath>List.Number</DataPath>
+						<ContextMenu name="NumberContextMenu" id="7"/>
+						<ExtendedTooltip name="NumberExtendedTooltip" id="60"/>
+					</LabelField>
+					<LabelField name="Status" id="56">
+						<DataPath>List.Status</DataPath>
+						<ContextMenu name="StateContextMenu" id="57"/>
+						<ExtendedTooltip name="StateExtendedTooltip" id="61"/>
+					</LabelField>
+					<LabelField name="Entity" id="8">
+						<DataPath>List.Entity</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="CounterpartyContextMenu" id="9"/>
+						<ExtendedTooltip name="CounterpartyExtendedTooltip" id="62"/>
+					</LabelField>
+					<LabelField name="TransactionType" id="42">
+						<DataPath>List.TransactionType</DataPath>
+						<ContextMenu name="OperationTypeContextMenu" id="43"/>
+						<ExtendedTooltip name="OperationTypeExtendedTooltip" id="63"/>
+					</LabelField>
+					<LabelField name="BaseUnit" id="10">
+						<DataPath>List.BaseUnit</DataPath>
+						<ContextMenu name="StructuralUnitContextMenu" id="11"/>
+						<ExtendedTooltip name="StructuralUnitExtendedTooltip" id="64"/>
+					</LabelField>
+					<LabelField name="Employee" id="12">
+						<DataPath>List.Employee</DataPath>
+						<ContextMenu name="EmployeeContextMenu" id="13"/>
+						<ExtendedTooltip name="EmployeeExtendedTooltip" id="65"/>
+					</LabelField>
+					<LabelField name="DocumentAmount" id="54">
+						<DataPath>List.DocumentAmount</DataPath>
+						<ContextMenu name="DocumentTotalContextMenu" id="55"/>
+						<ExtendedTooltip name="DocumentTotalExtendedTooltip" id="66"/>
+					</LabelField>
+					<LabelField name="JobKind" id="22">
+						<DataPath>List.JobKind</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="TypeOfContextMenu" id="23"/>
+						<ExtendedTooltip name="TypeOfWorksExtendedTooltip" id="67"/>
+					</LabelField>
+					<LabelField name="Comment" id="36">
+						<DataPath>List.Comment</DataPath>
+						<ContextMenu name="CommentContextMenu" id="37"/>
+						<ExtendedTooltip name="CommentExtendedTooltip" id="68"/>
+					</LabelField>
+					<LabelField name="Author" id="50">
+						<DataPath>List.Author</DataPath>
+						<ContextMenu name="AuthorContextMenu" id="51"/>
+						<ExtendedTooltip name="AuthorExtendedTooltip" id="69"/>
+					</LabelField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="List" id="1">
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>true</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<QueryText>SELECT
+	DocumentSetToWork.Ref,
+	DocumentSetToWork.DataVersion,
+	DocumentSetToWork.DeletionMark,
+	DocumentSetToWork.Number,
+	DocumentSetToWork.Date,
+	DocumentSetToWork.Posted,
+	DocumentSetToWork.Entity,
+	DocumentSetToWork.TransactionType,
+	DocumentSetToWork.Status,
+	DocumentSetToWork.DeleteClosed,
+	DocumentSetToWork.JobKind,
+	DocumentSetToWork.PricesKind,
+	DocumentSetToWork.DeleteKeyResource,
+	DocumentSetToWork.Employee,
+	DocumentSetToWork.BaseUnit,
+	DocumentSetToWork.DocumentAmount,
+	DocumentSetToWork.JobKindPosition,
+	DocumentSetToWork.Event,
+	DocumentSetToWork.Comment,
+	DocumentSetToWork.Author,
+	DocumentSetToWork.Jobs.(
+		Ref,
+		LineNumber,
+		JobKind,
+		Customer,
+		Nomenclature,
+		Characteristic,
+		Day,
+		BeginTime,
+		EndingTime,
+		Duration,
+		DurationInHours,
+		Price,
+		Amount,
+		Comment
+	),
+	DocumentSetToWork.PointInTime,
+	CASE
+		WHEN NOT DocumentSetToWork.Posted
+				AND (DocumentSetToWork.Status = VALUE(Catalog.EventStatuses.Canceled)
+					OR DocumentSetToWork.Status = VALUE(Catalog.EventStatuses.Completed))
+				AND &amp;PeriodOfEnd = DATETIME(1, 1, 1)
+			THEN FALSE
+		WHEN &amp;PeriodOfBegin = DATETIME(1, 1, 1)
+				AND 1 IN
+					(SELECT TOP 1
+						1
+					FROM
+						AccumulationRegister.JobOrders AS TableOverdue
+					WHERE
+						TableOverdue.Recorder = DocumentSetToWork.Ref
+						AND TableOverdue.EndingTime &lt; &amp;PeriodOfEnd
+						AND TableOverdue.BeginTime &lt;&gt; DATETIME(1, 1, 1))
+			THEN TRUE
+		ELSE FALSE
+	END AS Overdue,
+	CASE
+		WHEN NOT DocumentSetToWork.Posted
+				AND (DocumentSetToWork.Status = VALUE(Catalog.EventStatuses.Canceled)
+					OR DocumentSetToWork.Status = VALUE(Catalog.EventStatuses.Completed))
+				AND &amp;PeriodOfEnd = DATETIME(1, 1, 1)
+			THEN FALSE
+		WHEN &amp;PeriodOfBegin &lt;&gt; DATETIME(1, 1, 1)
+				AND 1 IN
+					(SELECT TOP 1
+						1
+					FROM
+						AccumulationRegister.JobOrders AS TableForToday
+					WHERE
+						TableForToday.Recorder = DocumentSetToWork.Ref
+						AND TableForToday.EndingTime &gt;= &amp;PeriodOfEnd
+						AND TableForToday.BeginTime &lt;= &amp;PeriodOfBegin)
+			THEN TRUE
+		ELSE FALSE
+	END AS ForToday
+FROM
+	Document.JobOrder AS DocumentSetToWork</QueryText>
+					<MainTable>Document.JobOrder</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+						</dcsset:conditionalAppearance>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>

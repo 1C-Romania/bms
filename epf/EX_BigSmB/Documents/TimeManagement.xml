@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="6bb462de-faff-4fa0-9f7b-5a239ba48059">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.TimeManagement" category="Object">
+				<xr:TypeId>91450f19-31a7-46e7-b4dc-cf6ffafdcc2e</xr:TypeId>
+				<xr:ValueId>b492e532-a6b3-4c07-80b7-907eef15552e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.TimeManagement" category="Ref">
+				<xr:TypeId>7f70baec-4e91-4b1d-86fb-c9c63674c1ef</xr:TypeId>
+				<xr:ValueId>5c5d2ca4-382a-4f0d-85e0-11ab68d4397e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.TimeManagement" category="Selection">
+				<xr:TypeId>93311e51-c6bd-4e54-9439-23a4da0837fa</xr:TypeId>
+				<xr:ValueId>7cd886f9-e593-4bce-8c00-b5320905aa0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.TimeManagement" category="List">
+				<xr:TypeId>5dbbcc5c-463b-4875-968f-2a27ca261892</xr:TypeId>
+				<xr:ValueId>4f97e6f4-eb86-4e8b-9f59-bc55c6e323d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.TimeManagement" category="Manager">
+				<xr:TypeId>3b8eac51-94d7-4240-869a-966badab48fa</xr:TypeId>
+				<xr:ValueId>6f8ee9b3-873a-44d0-af2c-f78903c263c1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TimeManagement</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f7f215ac-c5a5-43f8-a92b-5c022bc66fac">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5d8e30f0-85a7-4337-9a85-a72cf794efb2">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fad2b4ca-ef71-4c65-95d8-2da9ee439eb0">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c32313a5-8d5a-4101-95c5-3bf49aff9631">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2e244c0f-0afa-4d07-b0c1-887124b0d926">
+				<Properties>
+					<Name>DateTo</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c762ffb9-2e5c-4f57-8395-620ed97e4266">
+				<Properties>
+					<Name>Employee</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Employees</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="98d7fad2-1573-4fd3-a819-5876034dd3ba">
+				<Properties>
+					<Name>DateFrom</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+			<TabularSection uuid="752b5c4e-361a-4639-a7f1-a4761f1ae303">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.TimeManagement.Operations" category="TabularSection">
+						<xr:TypeId>0524c927-f022-49d1-94cd-ae968f4c49fd</xr:TypeId>
+						<xr:ValueId>04e0c56b-93b3-44a5-8329-e6831d22d23f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.TimeManagement.Operations" category="TabularSectionRow">
+						<xr:TypeId>9c43faf5-8701-48aa-b700-7978e5564c34</xr:TypeId>
+						<xr:ValueId>4015abcc-9ac3-48fc-a1ba-133d2a46ce76</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Operations</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="40263a02-4e88-457d-b2c8-5431dfb766a3">
+						<Properties>
+							<Name>Customer</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

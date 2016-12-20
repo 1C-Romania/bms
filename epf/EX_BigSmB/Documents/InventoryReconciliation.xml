@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="bbfd393c-2dd5-4cfd-b71d-011cbbcdb5e1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.InventoryReconciliation" category="Object">
+				<xr:TypeId>2a6ca4cb-7310-467c-99d6-9131e257c9cb</xr:TypeId>
+				<xr:ValueId>97f4d37c-4946-4a98-b579-4f15f394baa3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.InventoryReconciliation" category="Ref">
+				<xr:TypeId>0d3ca35b-36a3-449a-b778-2de26d42ad1a</xr:TypeId>
+				<xr:ValueId>f817f9b6-d902-4212-b9b3-bc1d68efbb9c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.InventoryReconciliation" category="Selection">
+				<xr:TypeId>883b03e9-a8bf-4ab4-8c3b-5326a6eaebb6</xr:TypeId>
+				<xr:ValueId>39637b0a-42d6-4b1c-af5d-9951ee0b07b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.InventoryReconciliation" category="List">
+				<xr:TypeId>fbf2cc99-cc5a-4c8c-9038-0e93763333d2</xr:TypeId>
+				<xr:ValueId>c9fbb0ea-30d9-4d57-a971-e3ad43f43a99</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.InventoryReconciliation" category="Manager">
+				<xr:TypeId>a04fc0f8-d644-43b0-b322-2eaeb1babded</xr:TypeId>
+				<xr:ValueId>5a0d5707-d28e-4d90-9c6f-f3e0db31e5d1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>InventoryReconciliation</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="58a3edb3-8ac0-4a8f-ab78-00d0e33f0e85">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="341495ce-bff2-494c-aa22-f01009e70dad">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ac5466a6-dfb8-4220-b311-8d2eb645e495">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="615bc0b8-f706-4fb6-a4f0-5a60f41d714e">
+				<Properties>
+					<Name>Cell</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Cells</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e7da28a0-d560-46e1-9d55-f2ef062592ec">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

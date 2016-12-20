@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<InformationRegister uuid="95aa0713-e39b-45c1-b396-8fe28ab240a6">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.CurrencyRates" category="Record">
+				<xr:TypeId>8718c2d9-933b-4beb-b0cd-d4a6e5d05ed5</xr:TypeId>
+				<xr:ValueId>28e24e6d-b78e-4893-8ec6-0fd9f6c0a8c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.CurrencyRates" category="Manager">
+				<xr:TypeId>96f26f1d-166f-4bcc-b415-77a253fa5dd0</xr:TypeId>
+				<xr:ValueId>58fa5b2e-fd8e-4a2b-8cb8-4a9dfccf9d87</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.CurrencyRates" category="Selection">
+				<xr:TypeId>8974a05e-2c83-4010-a1d9-fb9b568dddba</xr:TypeId>
+				<xr:ValueId>5459a414-fbc2-453b-8ded-a00a8d4e2766</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.CurrencyRates" category="List">
+				<xr:TypeId>d6366113-3efa-4429-87a8-3319c1200281</xr:TypeId>
+				<xr:ValueId>91cf73cb-5f3a-49c6-9eea-952be64b7989</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.CurrencyRates" category="RecordSet">
+				<xr:TypeId>54da6ff3-983c-45d4-bf7b-2aee89848315</xr:TypeId>
+				<xr:ValueId>54ed0bb0-cccd-4140-85e0-3cd5c5b4577b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.CurrencyRates" category="RecordKey">
+				<xr:TypeId>8373079a-4c55-4b0e-90ce-e20d5ba20780</xr:TypeId>
+				<xr:ValueId>913017c6-9c1d-490a-8f3f-1a0fb200d2c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.CurrencyRates" category="RecordManager">
+				<xr:TypeId>7b17ae0f-cc78-48ac-9eef-e5362ae1f3ff</xr:TypeId>
+				<xr:ValueId>ec9b944f-c4b9-41fc-85b3-c15b547a523e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CurrencyRates</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="33fcfc7a-82ab-409f-a937-29caac1622ab">
+				<Properties>
+					<Name>ExchangeRate</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>4</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="fa62557b-a820-42f4-8024-0a885012bb0b">
+				<Properties>
+					<Name>Multiplicity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="cbe5bc5d-9a5c-433d-906b-80b90171937b">
+				<Properties>
+					<Name>Currency</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Currencies</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

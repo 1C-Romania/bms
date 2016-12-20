@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="f3f03666-4a2f-4593-8f4f-e0f4507bcdc5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.IncomingOutgoingEvent" category="Ref">
+				<xr:TypeId>af3c75bb-1009-429a-b659-49e80d344b9a</xr:TypeId>
+				<xr:ValueId>4253a82e-45c6-4a13-936f-2f4bf541e84f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.IncomingOutgoingEvent" category="Manager">
+				<xr:TypeId>48779899-c6ab-4fe4-9874-e274cee760c5</xr:TypeId>
+				<xr:ValueId>72d3b2b1-3434-4726-aaf2-743c35233344</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.IncomingOutgoingEvent" category="List">
+				<xr:TypeId>8193f90b-edf0-4ee1-b59b-663fcff87093</xr:TypeId>
+				<xr:ValueId>5a9d04ef-439f-442b-b60e-eb75f84b75c5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>IncomingOutgoingEvent</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b92ac62f-20e3-48f7-99a9-750e65d143bd">
+				<Properties>
+					<Name>Outgoing</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="776cf2ff-cf08-4e48-b27e-e99396edbba6">
+				<Properties>
+					<Name>Incoming</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

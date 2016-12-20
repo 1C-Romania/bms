@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="f0ea0ede-c6d0-4d80-b135-fccfcb69bda5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.OrderStatuses" category="Ref">
+				<xr:TypeId>0e138b11-8d2a-4901-8210-f5029f1c27ef</xr:TypeId>
+				<xr:ValueId>219ce830-761e-4119-9d33-c9ce85167265</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.OrderStatuses" category="Manager">
+				<xr:TypeId>2fda3d97-b81f-4c41-9e70-56ff26caf099</xr:TypeId>
+				<xr:ValueId>0c6bcae6-ba36-44c7-98d8-65a7dd9fccb4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.OrderStatuses" category="List">
+				<xr:TypeId>6a5294a9-21b8-4167-9a39-cc2338907d01</xr:TypeId>
+				<xr:ValueId>d3d6287d-15b1-4907-aa70-289620246498</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>OrderStatuses</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="261576de-585f-451f-bc55-125ed8d2f953">
+				<Properties>
+					<Name>Completed</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="74c268a5-8842-45cd-a07c-eb55d6809230">
+				<Properties>
+					<Name>InProcess</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f2035f7f-208b-40da-ae05-4c92daccf245">
+				<Properties>
+					<Name>Open</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

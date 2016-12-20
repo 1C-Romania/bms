@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="FormCommandBar" id="-1">
+		<ChildItems>
+			<ButtonGroup name="FormPostCommand" id="65">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Post command</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="FormPostCommandРасширеннаяПодсказка" id="66"/>
+				<ChildItems>
+					<Button name="FormPost" id="67">
+						<Type>CommandBarButton</Type>
+						<OnlyInAllActions>true</OnlyInAllActions>
+						<CommandName>Form.Item.List.StandardCommand.Post</CommandName>
+						<ExtendedTooltip name="FormPostРасширеннаяПодсказка" id="68"/>
+					</Button>
+					<Button name="FormClearPosting" id="69">
+						<Type>CommandBarButton</Type>
+						<OnlyInAllActions>true</OnlyInAllActions>
+						<CommandName>Form.Item.List.StandardCommand.UndoPosting</CommandName>
+						<ExtendedTooltip name="FormClearPostingРасширеннаяПодсказка" id="70"/>
+					</Button>
+				</ChildItems>
+			</ButtonGroup>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<Table name="List" id="1">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<SkipOnInput>false</SkipOnInput>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>List</DataPath>
+			<RowPictureDataPath>List.DefaultPicture</RowPictureDataPath>
+			<RowsPicture>
+				<xr:Ref>CommonPicture.Interactions</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</RowsPicture>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="ListContextMenu" id="2"/>
+			<AutoCommandBar name="ListCommandBar" id="3">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ListExtendedTooltip" id="38"/>
+			<SearchStringAddition name="ListSearchString" id="56">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ListSearchStringContextMenu" id="57"/>
+				<ExtendedTooltip name="ListSearchStringExtendedTooltip" id="58"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ListViewStatus" id="59">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ListViewStatusContextMenu" id="60"/>
+				<ExtendedTooltip name="ListViewStatusExtendedTooltip" id="61"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ListSearchControl" id="62">
+				<AdditionSource>
+					<Item>List</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ListSearchControlContextMenu" id="63"/>
+				<ExtendedTooltip name="ListSearchControlExtendedTooltip" id="64"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<PictureField name="PictureInteractions" id="32">
+					<DataPath>List.PictureNo</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.Interactions</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="PictureInteractionsContextMenu" id="33"/>
+					<ExtendedTooltip name="PictureInteractionsExtendedTooltip" id="39"/>
+				</PictureField>
+				<LabelField name="Date" id="4">
+					<DataPath>List.Date</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="DateContextMenu" id="5"/>
+					<ExtendedTooltip name="DateExtendedTooltip" id="40"/>
+				</LabelField>
+				<LabelField name="Number" id="6">
+					<DataPath>List.Number</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="NumberContextMenu" id="7"/>
+					<ExtendedTooltip name="NumberExtendedTooltip" id="41"/>
+				</LabelField>
+				<LabelField name="IncomingOutgoing" id="34">
+					<DataPath>List.IncomingOutgoing</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Type</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Tip</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="IncomingOutgoingContextMenu" id="35"/>
+					<ExtendedTooltip name="IncomingOutgoingExtendedTooltip" id="42"/>
+				</LabelField>
+				<LabelField name="Event" id="8">
+					<DataPath>List.EventType</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="EventContextMenu" id="9"/>
+					<ExtendedTooltip name="EventExtendedTooltip" id="43"/>
+				</LabelField>
+				<LabelField name="Subject" id="14">
+					<DataPath>List.Subject</DataPath>
+					<ContextMenu name="SubjectContextMenu" id="15"/>
+					<ExtendedTooltip name="SubjectExtendedTooltip" id="44"/>
+				</LabelField>
+				<LabelField name="Status" id="10">
+					<DataPath>List.Status</DataPath>
+					<ContextMenu name="StateContextMenu" id="11"/>
+					<ExtendedTooltip name="StateExtendedTooltip" id="45"/>
+				</LabelField>
+				<LabelField name="Counterparty" id="12">
+					<DataPath>List.Counterparty</DataPath>
+					<ContextMenu name="CounterpartyContextMenu" id="13"/>
+					<ExtendedTooltip name="CounterpartyExtendedTooltip" id="46"/>
+				</LabelField>
+				<LabelField name="MembersList" id="28">
+					<DataPath>List.MembersList</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Contact persons</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контактные лица</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Persoane de contact</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ParticipantListContextMenu" id="29"/>
+					<ExtendedTooltip name="ParticipantListExtendedTooltip" id="47"/>
+				</LabelField>
+				<LabelField name="Content" id="16">
+					<DataPath>List.Content</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Height>1</Height>
+					<ContextMenu name="ContentContextMenu" id="17"/>
+					<ExtendedTooltip name="ContentExtendedTooltip" id="48"/>
+				</LabelField>
+				<LabelField name="DocumentBasis" id="18">
+					<DataPath>List.DocumentBasis</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="DocumentBasisContextMenu" id="19"/>
+					<ExtendedTooltip name="DocumentBasisExtendedTooltip" id="49"/>
+				</LabelField>
+				<LabelField name="Project" id="36">
+					<DataPath>List.Project</DataPath>
+					<ContextMenu name="ProjectContextMenu" id="37"/>
+					<ExtendedTooltip name="ProjectExtendedTooltip" id="50"/>
+				</LabelField>
+				<LabelField name="EventBegin" id="20">
+					<DataPath>List.EventBegin</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="EventBeginContextMenu" id="21"/>
+					<ExtendedTooltip name="EventBeginExtendedTooltip" id="51"/>
+				</LabelField>
+				<LabelField name="EventEnding" id="22">
+					<DataPath>List.EventEnding</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="EventEndingContextMenu" id="23"/>
+					<ExtendedTooltip name="EventEndingExtendedTooltip" id="52"/>
+				</LabelField>
+				<LabelField name="Responsible" id="24">
+					<DataPath>List.Responsible</DataPath>
+					<ContextMenu name="ResponsibleContextMenu" id="25"/>
+					<ExtendedTooltip name="ResponsibleExtendedTooltip" id="53"/>
+				</LabelField>
+				<LabelField name="Author" id="30">
+					<DataPath>List.Author</DataPath>
+					<ContextMenu name="AuthorContextMenu" id="31"/>
+					<ExtendedTooltip name="AuthorExtendedTooltip" id="54"/>
+				</LabelField>
+				<LabelField name="Ref" id="26">
+					<DataPath>List.Ref</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="RefContextMenu" id="27"/>
+					<ExtendedTooltip name="RefExtendedTooltip" id="55"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="List" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>SELECT
+	CASE
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.PhoneCall)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Incoming)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 17
+					ELSE 7
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.PhoneCall)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Outgoing)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 12
+					ELSE 2
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.PrivateMeeting)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Incoming)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 15
+					ELSE 5
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.PrivateMeeting)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Outgoing)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 10
+					ELSE 0
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.ELetter)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Incoming)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 18
+					ELSE 8
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.ELetter)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Outgoing)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 13
+					ELSE 3
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.MailLetter)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Incoming)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 19
+					ELSE 9
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.MailLetter)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Outgoing)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 14
+					ELSE 4
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.Other)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Incoming)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 16
+					ELSE 6
+				END
+		ELSE CASE
+				WHEN DocumentEvent.DeletionMark
+					THEN 11
+				ELSE 1
+			END
+	END AS PictureNo,
+	DocumentEvent.Ref AS Ref,
+	DocumentEvent.DeletionMark AS DeletionMark,
+	DocumentEvent.Number AS Number,
+	DocumentEvent.Date AS Date,
+	DocumentEvent.Posted AS Posted,
+	DocumentEvent.EventType AS EventType,
+	DocumentEvent.State AS Status,
+	DocumentEvent.Counterparty AS Counterparty,
+	DocumentEvent.Subject AS Subject,
+	DocumentEvent.Content AS Content,
+	DocumentEvent.DocumentBasis AS DocumentBasis,
+	DocumentEvent.Project AS Project,
+	DocumentEvent.EventBegin AS EventBegin,
+	DocumentEvent.EventEnding AS EventEnding,
+	DocumentEvent.Author AS Author,
+	DocumentEvent.Responsible AS Responsible,
+	DocumentEvent.Parties.(
+		Ref,
+		LineNumber,
+		ContactPresentation,
+		HowToContact,
+		ContactPerson
+	) AS Parties,
+	DocumentEvent.PointInTime AS PointInTime,
+	DocumentEvent.MembersList AS MembersList,
+	DocumentEvent.IncomingOutgoingEvent AS IncomingOutgoing
+FROM
+	Document.Event AS DocumentEvent
+WHERE
+	(&amp;ContactFilled
+				AND DocumentEvent.Parties.ContactPerson = &amp;ContactPerson
+			OR NOT &amp;ContactFilled)</QueryText>
+				<MainTable>Document.Event</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.2">
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoCommandBar name="FormCommandBar" id="-1"/>
+		<ChildItems>
+			<Table name="List" id="1">
+				<Representation>List</Representation>
+				<CommandBarLocation>None</CommandBarLocation>
+				<SkipOnInput>false</SkipOnInput>
+				<DefaultItem>true</DefaultItem>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<EnableStartDrag>true</EnableStartDrag>
+				<DataPath>List</DataPath>
+				<RowPictureDataPath>List.DefaultPicture</RowPictureDataPath>
+				<RowsPicture>
+					<xr:Ref>CommonPicture.Interactions</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</RowsPicture>
+				<SearchStringLocation>None</SearchStringLocation>
+				<ViewStatusLocation>None</ViewStatusLocation>
+				<SearchControlLocation>None</SearchControlLocation>
+				<AutoRefresh>false</AutoRefresh>
+				<AutoRefreshPeriod>60</AutoRefreshPeriod>
+				<Period>
+					<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+					<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+				</Period>
+				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+				<RestoreCurrentRow>false</RestoreCurrentRow>
+				<TopLevelParent xsi:nil="true"/>
+				<ShowRoot>true</ShowRoot>
+				<AllowRootChoice>false</AllowRootChoice>
+				<UpdateOnDataChange>Auto</UpdateOnDataChange>
+				<ContextMenu name="ListContextMenu" id="2"/>
+				<AutoCommandBar name="ListCommandBar" id="3">
+					<Autofill>false</Autofill>
+				</AutoCommandBar>
+				<ExtendedTooltip name="ListExtendedTooltip" id="38"/>
+				<SearchStringAddition name="ListSearchString" id="56">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ListSearchStringContextMenu" id="57"/>
+					<ExtendedTooltip name="ListSearchStringExtendedTooltip" id="58"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ListViewStatus" id="59">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ListViewStatusContextMenu" id="60"/>
+					<ExtendedTooltip name="ListViewStatusExtendedTooltip" id="61"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ListSearchControl" id="62">
+					<AdditionSource>
+						<Item>List</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ListSearchControlContextMenu" id="63"/>
+					<ExtendedTooltip name="ListSearchControlExtendedTooltip" id="64"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<PictureField name="PictureInteractions" id="32">
+						<DataPath>List.PictureNo</DataPath>
+						<TitleLocation>None</TitleLocation>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ValuesPicture>
+							<xr:Ref>CommonPicture.Interactions</xr:Ref>
+							<xr:LoadTransparent>false</xr:LoadTransparent>
+						</ValuesPicture>
+						<ContextMenu name="PictureInteractionsContextMenu" id="33"/>
+						<ExtendedTooltip name="PictureInteractionsExtendedTooltip" id="39"/>
+					</PictureField>
+					<LabelField name="Date" id="4">
+						<DataPath>List.Date</DataPath>
+						<DefaultItem>true</DefaultItem>
+						<ContextMenu name="DateContextMenu" id="5"/>
+						<ExtendedTooltip name="DateExtendedTooltip" id="40"/>
+					</LabelField>
+					<LabelField name="Number" id="6">
+						<DataPath>List.Number</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="NumberContextMenu" id="7"/>
+						<ExtendedTooltip name="NumberExtendedTooltip" id="41"/>
+					</LabelField>
+					<LabelField name="IncomingOutgoing" id="34">
+						<DataPath>List.IncomingOutgoing</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Type</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Тип</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Tip</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="IncomingOutgoingContextMenu" id="35"/>
+						<ExtendedTooltip name="IncomingOutgoingExtendedTooltip" id="42"/>
+					</LabelField>
+					<LabelField name="Event" id="8">
+						<DataPath>List.EventType</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="EventContextMenu" id="9"/>
+						<ExtendedTooltip name="EventExtendedTooltip" id="43"/>
+					</LabelField>
+					<LabelField name="Subject" id="14">
+						<DataPath>List.Subject</DataPath>
+						<ContextMenu name="SubjectContextMenu" id="15"/>
+						<ExtendedTooltip name="SubjectExtendedTooltip" id="44"/>
+					</LabelField>
+					<LabelField name="Status" id="10">
+						<DataPath>List.Status</DataPath>
+						<ContextMenu name="StateContextMenu" id="11"/>
+						<ExtendedTooltip name="StateExtendedTooltip" id="45"/>
+					</LabelField>
+					<LabelField name="Counterparty" id="12">
+						<DataPath>List.Counterparty</DataPath>
+						<ContextMenu name="CounterpartyContextMenu" id="13"/>
+						<ExtendedTooltip name="CounterpartyExtendedTooltip" id="46"/>
+					</LabelField>
+					<LabelField name="MembersList" id="28">
+						<DataPath>List.MembersList</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Contact persons</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Контактные лица</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Persoane de contact</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ParticipantListContextMenu" id="29"/>
+						<ExtendedTooltip name="ParticipantListExtendedTooltip" id="47"/>
+					</LabelField>
+					<LabelField name="Content" id="16">
+						<DataPath>List.Content</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Height>1</Height>
+						<ContextMenu name="ContentContextMenu" id="17"/>
+						<ExtendedTooltip name="ContentExtendedTooltip" id="48"/>
+					</LabelField>
+					<LabelField name="DocumentBasis" id="18">
+						<DataPath>List.DocumentBasis</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="DocumentBasisContextMenu" id="19"/>
+						<ExtendedTooltip name="DocumentBasisExtendedTooltip" id="49"/>
+					</LabelField>
+					<LabelField name="Project" id="36">
+						<DataPath>List.Project</DataPath>
+						<ContextMenu name="ProjectContextMenu" id="37"/>
+						<ExtendedTooltip name="ProjectExtendedTooltip" id="50"/>
+					</LabelField>
+					<LabelField name="EventBegin" id="20">
+						<DataPath>List.EventBegin</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="EventBeginContextMenu" id="21"/>
+						<ExtendedTooltip name="EventBeginExtendedTooltip" id="51"/>
+					</LabelField>
+					<LabelField name="EventEnding" id="22">
+						<DataPath>List.EventEnding</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="EventEndingContextMenu" id="23"/>
+						<ExtendedTooltip name="EventEndingExtendedTooltip" id="52"/>
+					</LabelField>
+					<LabelField name="Responsible" id="24">
+						<DataPath>List.Responsible</DataPath>
+						<ContextMenu name="ResponsibleContextMenu" id="25"/>
+						<ExtendedTooltip name="ResponsibleExtendedTooltip" id="53"/>
+					</LabelField>
+					<LabelField name="Author" id="30">
+						<DataPath>List.Author</DataPath>
+						<ContextMenu name="AuthorContextMenu" id="31"/>
+						<ExtendedTooltip name="AuthorExtendedTooltip" id="54"/>
+					</LabelField>
+					<LabelField name="Ref" id="26">
+						<DataPath>List.Ref</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="RefContextMenu" id="27"/>
+						<ExtendedTooltip name="RefExtendedTooltip" id="55"/>
+					</LabelField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="List" id="1">
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>true</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<QueryText>SELECT
+	CASE
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.PhoneCall)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Incoming)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 17
+					ELSE 7
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.PhoneCall)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Outgoing)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 12
+					ELSE 2
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.PrivateMeeting)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Incoming)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 15
+					ELSE 5
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.PrivateMeeting)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Outgoing)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 10
+					ELSE 0
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.ELetter)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Incoming)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 18
+					ELSE 8
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.ELetter)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Outgoing)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 13
+					ELSE 3
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.MailLetter)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Incoming)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 19
+					ELSE 9
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.MailLetter)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Outgoing)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 14
+					ELSE 4
+				END
+		WHEN DocumentEvent.EventType = VALUE(Enum.EventTypes.Other)
+				AND DocumentEvent.IncomingOutgoingEvent = VALUE(Enum.IncomingOutgoingEvent.Incoming)
+			THEN CASE
+					WHEN DocumentEvent.DeletionMark
+						THEN 16
+					ELSE 6
+				END
+		ELSE CASE
+				WHEN DocumentEvent.DeletionMark
+					THEN 11
+				ELSE 1
+			END
+	END AS PictureNo,
+	DocumentEvent.Ref AS Ref,
+	DocumentEvent.DeletionMark AS DeletionMark,
+	DocumentEvent.Number AS Number,
+	DocumentEvent.Date AS Date,
+	DocumentEvent.Posted AS Posted,
+	DocumentEvent.EventType AS EventType,
+	DocumentEvent.State AS Status,
+	DocumentEvent.Counterparty AS Counterparty,
+	DocumentEvent.Subject AS Subject,
+	DocumentEvent.Content AS Content,
+	DocumentEvent.DocumentBasis AS DocumentBasis,
+	DocumentEvent.Project AS Project,
+	DocumentEvent.EventBegin AS EventBegin,
+	DocumentEvent.EventEnding AS EventEnding,
+	DocumentEvent.Author AS Author,
+	DocumentEvent.Responsible AS Responsible,
+	DocumentEvent.Parties.(
+		Ref,
+		LineNumber,
+		ContactPresentation,
+		HowToContact,
+		ContactPerson
+	) AS Parties,
+	DocumentEvent.PointInTime AS PointInTime,
+	DocumentEvent.MembersList AS MembersList,
+	DocumentEvent.IncomingOutgoingEvent AS IncomingOutgoing
+FROM
+	Document.Event AS DocumentEvent
+WHERE
+	(&amp;ContactFilled
+				AND DocumentEvent.Parties.ContactPerson = &amp;ContactPerson
+			OR NOT &amp;ContactFilled)</QueryText>
+					<MainTable>Document.Event</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+						</dcsset:conditionalAppearance>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>

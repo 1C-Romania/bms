@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="20d77100-f25d-4f75-9836-db1b302ab630">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.AcceptanceCertificate" category="Object">
+				<xr:TypeId>35ac13b1-4650-4e58-a8e4-c59f3ae8a4e9</xr:TypeId>
+				<xr:ValueId>09962de7-a877-4a0c-805a-75fe5706c4ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.AcceptanceCertificate" category="Ref">
+				<xr:TypeId>2749882b-7d14-4d06-9d31-fbbf69effa1f</xr:TypeId>
+				<xr:ValueId>d9daf923-99e4-4b09-a5e4-102d60e2d723</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.AcceptanceCertificate" category="Selection">
+				<xr:TypeId>a532bc62-0e30-43fb-af20-8f59816ac561</xr:TypeId>
+				<xr:ValueId>c4272110-49f2-4225-9222-c42b4de48cce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.AcceptanceCertificate" category="List">
+				<xr:TypeId>f850d438-374c-42c8-bd2a-0b758a89fa64</xr:TypeId>
+				<xr:ValueId>e77174c7-0b72-414f-bf20-0ea56071d8fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.AcceptanceCertificate" category="Manager">
+				<xr:TypeId>844f700c-957e-44ff-92ac-6764c13410da</xr:TypeId>
+				<xr:ValueId>d0a8a002-00c0-4037-9d37-4edd2ae71be7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>AcceptanceCertificate</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b02087b9-e4f6-4047-b358-e3c8f361a42c">
+				<Properties>
+					<Name>CustomerOrder</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.CustomerOrder</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4dab5831-56b1-4080-a7f9-b9781d8efa83">
+				<Properties>
+					<Name>Responsible</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Employees</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e4295fd6-a8dd-48c9-985c-98eab01c3d71">
+				<Properties>
+					<Name>Counterparty</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Counterparties</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5dd9864a-23b6-4991-bbed-58d43a7b7d62">
+				<Properties>
+					<Name>DocumentAmount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3cfc38dc-e7e9-4803-9f8a-884689e90b01">
+				<Properties>
+					<Name>IncludeVATInCost</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f65f3eeb-ce8d-4028-82b0-a82a618d56bf">
+				<Properties>
+					<Name>AmountIncludesVAT</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="df9ed7b2-a878-4cb9-afa4-5f663ec75a01">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c540106d-5ade-418d-876c-774ab1e1ee6d">
+				<Properties>
+					<Name>PricesKind</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.PriceKinds</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="efd17e4a-16f9-427a-af89-fbc11db7a6fb">
+				<Properties>
+					<Name>Contract</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.CounterpartyContracts</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1543bdc5-401a-4723-9bb9-b0405802ab68">
+				<Properties>
+					<Name>DiscountMarkupKind</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.MarkupAndDiscountTypes</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="50685f25-b730-4c0b-a5ec-51db807e1003">
+				<Properties>
+					<Name>Department</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8a84e52f-ef48-4dc8-a91f-a895b8ed9094">
+				<Properties>
+					<Name>DocumentBasis</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.InvoiceForPayment</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="18403060-cfaf-4b24-be49-3a8b022e9984">
+				<Properties>
+					<Name>DocumentCurrency</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Currencies</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b7c4aa6a-2a9b-4164-b932-b7d5fcdf91a5">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="44e321af-acc5-48bb-8bec-6feeb20daf87">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

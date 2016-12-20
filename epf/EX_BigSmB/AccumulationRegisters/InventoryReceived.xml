@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<AccumulationRegister uuid="20d01211-7a4b-4097-911a-83d388cba10f">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.InventoryReceived" category="Record">
+				<xr:TypeId>24823999-d602-4784-b9b2-35229c7b06a3</xr:TypeId>
+				<xr:ValueId>361d544d-35a8-42e0-8f2a-939bc3176b8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.InventoryReceived" category="Manager">
+				<xr:TypeId>1acc157c-e979-4f7d-99f7-baa7280f02f7</xr:TypeId>
+				<xr:ValueId>ff276534-9917-41c3-a2fe-c7fc24f22f96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.InventoryReceived" category="Selection">
+				<xr:TypeId>5bd5c4f5-e9fd-4a27-950a-4d93c10b2b77</xr:TypeId>
+				<xr:ValueId>60842f09-ff12-4f2f-a083-df4fb0609e77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.InventoryReceived" category="List">
+				<xr:TypeId>bd04b811-bf7c-42b5-9370-da0b46469ba2</xr:TypeId>
+				<xr:ValueId>b3afc8da-4d1b-4e55-8144-f0e043629770</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.InventoryReceived" category="RecordSet">
+				<xr:TypeId>8c557e6e-330a-45e7-a7fe-db18f4af2550</xr:TypeId>
+				<xr:ValueId>5303a897-773c-413e-94eb-8511d29dda3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.InventoryReceived" category="RecordKey">
+				<xr:TypeId>22522efd-5f7f-4091-902d-cdd6c7f0fb1b</xr:TypeId>
+				<xr:ValueId>20d957f5-7bc3-4e1b-bd4a-7bee69f46b81</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>InventoryReceived</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="bcd4ad21-ad05-40e5-a565-5bf0bd4edcb8">
+				<Properties>
+					<Name>Quantity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

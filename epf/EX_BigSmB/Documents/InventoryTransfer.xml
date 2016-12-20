@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="a38ef122-8bd8-4a11-ac74-660b594b051f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.InventoryTransfer" category="Object">
+				<xr:TypeId>e211ab51-d985-4269-abda-551b800d1969</xr:TypeId>
+				<xr:ValueId>54066ba3-051c-40d3-91c1-f712600f4a3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.InventoryTransfer" category="Ref">
+				<xr:TypeId>3fedaf92-db2d-48ea-8527-16d519ddeaa5</xr:TypeId>
+				<xr:ValueId>60be8fb5-61de-49fd-aa45-cf35c05beb2f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.InventoryTransfer" category="Selection">
+				<xr:TypeId>83b4cc01-44d6-415d-aae1-00763082d27a</xr:TypeId>
+				<xr:ValueId>d5fd35ce-da42-4c95-85c9-6f9897cec5d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.InventoryTransfer" category="List">
+				<xr:TypeId>92553ad4-be4d-49bc-a58d-1d63b55d1630</xr:TypeId>
+				<xr:ValueId>fa8d7c1b-afae-407b-a28c-b3f31c70e594</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.InventoryTransfer" category="Manager">
+				<xr:TypeId>365a7f6a-507d-4eab-ac1b-c43054d1190c</xr:TypeId>
+				<xr:ValueId>230795af-56a5-4129-b68d-1a5fe8f70d1b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>InventoryTransfer</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c7d3e94b-953f-4f5a-82fb-3a47593b681d">
+				<Properties>
+					<Name>Cell</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Cells</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e6bef316-c429-4f86-8767-05ab48127cce">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cb764f7f-4bf7-44d3-b595-845dcfed2aac">
+				<Properties>
+					<Name>BusinessActivity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BusinessActivities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="51694008-46ae-483b-bbd0-851411a6e624">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="99cba363-0fcf-4a36-9fc5-8a92ffc7f4c8">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4d5f41c9-ea75-4a1e-87e7-5b1d063e9b26">
+				<Properties>
+					<Name>BaseUnitPayee</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7474302d-c821-4026-b21c-9b8d64bf5c18">
+				<Properties>
+					<Name>CellPayee</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Cells</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7122684d-fb30-4f86-9a20-4c7a066c5516">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5b609856-3631-4fa7-adba-25e403de400c">
+				<Properties>
+					<Name>GLExpenseAccount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Managerial</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3e448b9d-0371-4f16-b6d6-c0638f5a2e70">
+				<Properties>
+					<Name>TransactionType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.TransactionTypesInventoryTransfer</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="065594cb-cb84-443a-b3fd-5d59c8ca7c6b">
+				<Properties>
+					<Name>CustomerOrder</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.CustomerOrder</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

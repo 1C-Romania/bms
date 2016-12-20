@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="4ee86b1e-0916-49d9-bde6-93e42f6af02a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Employees" category="Object">
+				<xr:TypeId>961c8bdf-a99f-4327-8d03-07e0b562350e</xr:TypeId>
+				<xr:ValueId>2fdba176-7dba-407e-94bf-737742d1085d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Employees" category="Ref">
+				<xr:TypeId>a5658447-7193-4675-ba66-77b4eb87f646</xr:TypeId>
+				<xr:ValueId>9d5e5c67-dff7-469c-8d0b-0dd752f05962</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Employees" category="Selection">
+				<xr:TypeId>a366aa7f-a1ab-42fc-9b8e-1605313c0d57</xr:TypeId>
+				<xr:ValueId>84b7cd87-29ec-46e9-bff1-e6c3a91d28f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Employees" category="List">
+				<xr:TypeId>88e382ec-e215-479c-8c10-2811d2a8a9fe</xr:TypeId>
+				<xr:ValueId>1ca4edac-72a0-40bc-908f-921e38e6c90b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Employees" category="Manager">
+				<xr:TypeId>0601c7a7-73f9-4cd8-980a-476f3f4fab1d</xr:TypeId>
+				<xr:ValueId>cd197b7c-38f8-4e21-9977-39beb8d2d707</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Employees</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>9</CodeLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

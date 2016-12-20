@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="804b6310-c579-4ae5-81e5-30851dc0d98a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.VATRates" category="Object">
+				<xr:TypeId>b7db665c-9e2d-4aa8-9d95-b786857f5b1e</xr:TypeId>
+				<xr:ValueId>496e111b-d8f8-445f-9c84-7981b25502aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.VATRates" category="Ref">
+				<xr:TypeId>10982689-3d9c-4476-8ef2-3451eac08ec0</xr:TypeId>
+				<xr:ValueId>08e11310-4277-4a7a-9841-aa6b8ecdfe11</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.VATRates" category="Selection">
+				<xr:TypeId>d6d5eee4-74fd-4ed9-9179-634141d5404e</xr:TypeId>
+				<xr:ValueId>c2cbcf9c-437d-4118-ac87-b594df71e5e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.VATRates" category="List">
+				<xr:TypeId>aab3e93e-f5df-4ea4-98e8-32d4c0008596</xr:TypeId>
+				<xr:ValueId>3d12bac7-a338-4349-a5b3-b27c14486253</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.VATRates" category="Manager">
+				<xr:TypeId>5dcb2820-cab3-4d0b-b9b4-6c829ab22cd2</xr:TypeId>
+				<xr:ValueId>8843e432-c4ae-4033-89fa-edf86b0a4176</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>VATRates</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

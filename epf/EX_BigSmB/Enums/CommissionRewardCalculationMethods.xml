@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="e06c324e-6107-4c4f-9200-7b66a9b844f6">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.CommissionRewardCalculationMethods" category="Ref">
+				<xr:TypeId>b21cae4d-69b1-4761-aa0e-bb36497ff8be</xr:TypeId>
+				<xr:ValueId>f1349e1d-7c25-4de7-b715-2080f162903c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.CommissionRewardCalculationMethods" category="Manager">
+				<xr:TypeId>7c4c49fe-50c5-4c54-b6bf-4738754a5592</xr:TypeId>
+				<xr:ValueId>fbc5072b-5360-4e27-88ae-35c12ccdceb5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.CommissionRewardCalculationMethods" category="List">
+				<xr:TypeId>c9e0c7f1-549a-4f32-964a-b3020b981420</xr:TypeId>
+				<xr:ValueId>d26a8405-06d8-43f6-ba0c-c29f8a85a583</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CommissionRewardCalculationMethods</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

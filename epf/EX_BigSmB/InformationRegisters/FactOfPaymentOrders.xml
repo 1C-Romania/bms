@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<InformationRegister uuid="60f67ac9-940a-4a70-bd39-e705388e742a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.FactOfPaymentOrders" category="Record">
+				<xr:TypeId>d4e11b18-9637-4357-88ca-58f23cb5d1d6</xr:TypeId>
+				<xr:ValueId>a7acf3c7-1f10-43e1-b0a2-2ff7c459f0da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.FactOfPaymentOrders" category="Manager">
+				<xr:TypeId>4ddbf14d-d100-4452-bf9a-655d438d355f</xr:TypeId>
+				<xr:ValueId>234d09bd-f781-44e1-8882-0fe2ca627f12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.FactOfPaymentOrders" category="Selection">
+				<xr:TypeId>1ab7d636-bce9-40c3-a02e-e6fefdcc1489</xr:TypeId>
+				<xr:ValueId>9c43bfdc-5552-4f00-bdb9-a2b1052564b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.FactOfPaymentOrders" category="List">
+				<xr:TypeId>01ec34d9-ef7a-42a3-bad0-8f4e9e7b454d</xr:TypeId>
+				<xr:ValueId>1142341a-a610-4254-b32c-200df94c216b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.FactOfPaymentOrders" category="RecordSet">
+				<xr:TypeId>3b4cd44d-941b-4e22-a9d7-7797932cb723</xr:TypeId>
+				<xr:ValueId>93bed80d-a4a5-430a-8c2d-3968119fa403</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.FactOfPaymentOrders" category="RecordKey">
+				<xr:TypeId>44a05f48-a533-4671-9ec7-30076f77f653</xr:TypeId>
+				<xr:ValueId>6978a990-e81d-4b18-ab14-bb81babb10b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.FactOfPaymentOrders" category="RecordManager">
+				<xr:TypeId>50e92267-37eb-4ae8-8e63-8b7a2b54f1d5</xr:TypeId>
+				<xr:ValueId>04d50723-2e1d-4255-bf6f-ce247965ba67</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>FactOfPaymentOrders</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="49469281-7819-482f-a122-506cad88fe16">
+				<Properties>
+					<Name>Amount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="8d8034b0-17e3-4c71-9a45-cfc30c4aa897">
+				<Properties>
+					<Name>AmountOfAdvance</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="be9d531a-73d4-4067-8b59-30475edfe2d2">
+				<Properties>
+					<Name>AmountOfPayment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="4fd433d4-6215-4579-af18-86ef08045dfc">
+				<Properties>
+					<Name>InvoiceForPayment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

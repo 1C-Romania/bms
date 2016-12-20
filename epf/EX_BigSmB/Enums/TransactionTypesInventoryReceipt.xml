@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="208b44c3-b65b-4122-a147-4719cc0e1956">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesInventoryReceipt" category="Ref">
+				<xr:TypeId>1d94b66f-8cbd-46fb-8ae1-46652e73ecbb</xr:TypeId>
+				<xr:ValueId>f38cb27b-ead1-4d23-b010-431e059b3efb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesInventoryReceipt" category="Manager">
+				<xr:TypeId>5321ea39-c72b-4d32-bc6a-8989565ccc0c</xr:TypeId>
+				<xr:ValueId>5a3bf6b8-e262-483d-b25a-9723c8bd2d63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesInventoryReceipt" category="List">
+				<xr:TypeId>80eebecf-7960-4a57-8c14-6a48a187700d</xr:TypeId>
+				<xr:ValueId>4eaab559-1174-4a64-a34d-e07a2a787b7c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesInventoryReceipt</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

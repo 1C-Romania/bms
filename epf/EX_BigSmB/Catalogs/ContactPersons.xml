@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="0a47e015-eb4a-4321-9a3c-7e4beabba5a2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ContactPersons" category="Object">
+				<xr:TypeId>0b4da5f6-ad20-432c-9df9-8cc5deb5b366</xr:TypeId>
+				<xr:ValueId>4cde524c-dfc4-4e28-9e1b-cd79e40ce4fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ContactPersons" category="Ref">
+				<xr:TypeId>0a11575f-3bd7-4d4d-a7bd-1af32515627c</xr:TypeId>
+				<xr:ValueId>d077bd6c-c039-4155-a01d-1a14832166ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ContactPersons" category="Selection">
+				<xr:TypeId>4791aa46-0db0-4aa6-86a1-a3265bf2e564</xr:TypeId>
+				<xr:ValueId>8131f908-2ded-4e88-9486-ff3fd603d1ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ContactPersons" category="List">
+				<xr:TypeId>d44abe75-f4c3-4095-9942-c8b037f9b8ae</xr:TypeId>
+				<xr:ValueId>3b23d5fb-ba5b-430d-975f-0365528dd2c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ContactPersons" category="Manager">
+				<xr:TypeId>f2f962a8-0d22-4909-9167-16343bde810e</xr:TypeId>
+				<xr:ValueId>f681e4bc-0b3d-446c-9ade-d0be648a3c90</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ContactPersons</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="d3783c70-52de-4c9e-a9e3-dfb9cab476ef">
+				<Properties>
+					<Name>OpenContactPersons</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

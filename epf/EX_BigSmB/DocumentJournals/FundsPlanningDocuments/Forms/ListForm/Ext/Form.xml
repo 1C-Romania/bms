@@ -1,0 +1,2212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<CommandBarLocation>None</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Filters" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filters</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отборы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Filtre</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filters</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отборы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Filtre</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="FiltersExtendedTooltip" id="73"/>
+			<ChildItems>
+				<InputField name="BankAccountPettyCash" id="37">
+					<DataPath>BankAccountPettyCash</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<Wrap>false</Wrap>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<ContextMenu name="BankAccountCashContextMenu" id="38"/>
+					<ExtendedTooltip name="BankAccountCashExtendedTooltip" id="74"/>
+				</InputField>
+				<InputField name="Counterparty" id="39">
+					<DataPath>Counterparty</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<Wrap>false</Wrap>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ContextMenu name="CounterpartyContextMenu" id="40"/>
+					<ExtendedTooltip name="CounterpartyExtendedTooltip" id="75"/>
+				</InputField>
+				<InputField name="DocumentType" id="35">
+					<DataPath>DocumentTypePresentation</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<Wrap>false</Wrap>
+					<ChoiceButton>true</ChoiceButton>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<TextEdit>false</TextEdit>
+					<ChoiceListButton>true</ChoiceListButton>
+					<ContextMenu name="DocumentTypeContextMenu" id="36"/>
+					<ExtendedTooltip name="DocumentTypeExtendedTooltip" id="76"/>
+				</InputField>
+				<InputField name="Entity" id="33">
+					<DataPath>Entity</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<Wrap>false</Wrap>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<ContextMenu name="CounterpartyContextMenu" id="34"/>
+					<ExtendedTooltip name="CounterpartyExtendedTooltip" id="77"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ListGroup" id="62">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group list</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Grupul lista</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group list</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Grupul lista</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ListGroupExtendedTooltip" id="78"/>
+			<ChildItems>
+				<Table name="List" id="1">
+					<Representation>List</Representation>
+					<SkipOnInput>false</SkipOnInput>
+					<DefaultItem>true</DefaultItem>
+					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<EnableStartDrag>true</EnableStartDrag>
+					<DataPath>List</DataPath>
+					<RowPictureDataPath>List.DefaultPicture</RowPictureDataPath>
+					<SearchStringLocation>None</SearchStringLocation>
+					<ViewStatusLocation>None</ViewStatusLocation>
+					<SearchControlLocation>None</SearchControlLocation>
+					<AutoRefresh>false</AutoRefresh>
+					<AutoRefreshPeriod>60</AutoRefreshPeriod>
+					<Period>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</Period>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<RestoreCurrentRow>false</RestoreCurrentRow>
+					<TopLevelParent xsi:nil="true"/>
+					<ShowRoot>false</ShowRoot>
+					<AllowRootChoice>false</AllowRootChoice>
+					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<ContextMenu name="ListContextMenu" id="2"/>
+					<AutoCommandBar name="ListCommandBar" id="3">
+						<ChildItems>
+							<ButtonGroup name="FormPostCommand" id="119">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Post command</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="FormPostCommandРасширеннаяПодсказка" id="120"/>
+								<ChildItems>
+									<Button name="FormPost" id="121">
+										<Type>CommandBarButton</Type>
+										<OnlyInAllActions>true</OnlyInAllActions>
+										<CommandName>Form.Item.List.StandardCommand.Post</CommandName>
+										<ExtendedTooltip name="FormPostРасширеннаяПодсказка" id="122"/>
+									</Button>
+									<Button name="FormClearPosting" id="123">
+										<Type>CommandBarButton</Type>
+										<OnlyInAllActions>true</OnlyInAllActions>
+										<CommandName>Form.Item.List.StandardCommand.UndoPosting</CommandName>
+										<ExtendedTooltip name="FormClearPostingРасширеннаяПодсказка" id="124"/>
+									</Button>
+								</ChildItems>
+							</ButtonGroup>
+							<ButtonGroup name="Filter" id="56">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Filter</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отбор</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Filtru</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Filter</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отбор</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Filtru</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="FilterExtendedTooltip" id="79"/>
+								<ChildItems>
+									<Button name="ListListFilterDay" id="52">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ListFilterDay</CommandName>
+										<ExtendedTooltip name="ListListFilterDayExtendedTooltip" id="80"/>
+									</Button>
+									<Button name="ListListFilterWeek" id="54">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ListFilterWeek</CommandName>
+										<ExtendedTooltip name="ListListFilterWeekExtendedTooltip" id="81"/>
+									</Button>
+									<Button name="ListListFilterMonth" id="53">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ListFilterMonth</CommandName>
+										<ExtendedTooltip name="ListListFilterMonthExtendedTooltip" id="82"/>
+									</Button>
+									<Button name="ListListFilterClear" id="55">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ListFilterClear</CommandName>
+										<ExtendedTooltip name="ListListFilterClearExtendedTooltip" id="83"/>
+									</Button>
+								</ChildItems>
+							</ButtonGroup>
+							<Button name="ListChangeForm" id="72">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
+								<ExtendedTooltip name="ListChangeFormExtendedTooltip" id="84"/>
+							</Button>
+							<Button name="ListHelp" id="71">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.StandardCommand.Help</CommandName>
+								<ExtendedTooltip name="HelpListExtendedTooltip" id="85"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ListExtendedTooltip" id="86"/>
+					<SearchStringAddition name="ListSearchString" id="110">
+						<AdditionSource>
+							<Item>List</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ListSearchStringContextMenu" id="111"/>
+						<ExtendedTooltip name="ListSearchStringExtendedTooltip" id="112"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ListViewStatus" id="113">
+						<AdditionSource>
+							<Item>List</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ListViewStatusContextMenu" id="114"/>
+						<ExtendedTooltip name="ListViewStatusExtendedTooltip" id="115"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ListSearchControl" id="116">
+						<AdditionSource>
+							<Item>List</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ListSearchControlContextMenu" id="117"/>
+						<ExtendedTooltip name="ListSearchControlExtendedTooltip" id="118"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="ListDate" id="4">
+							<DataPath>List.Date</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Date</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Data</v8:content>
+								</v8:item>
+							</Title>
+							<Height>2</Height>
+							<ContextMenu name="DateListContextMenu" id="5"/>
+							<ExtendedTooltip name="DateListExtendedTooltip" id="87"/>
+						</LabelField>
+						<LabelField name="AmountReceipt" id="48">
+							<DataPath>List.AmountReceipt</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>To receive</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>К поступлению</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Spre intrare</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="AmountReceiptContextMenu" id="49"/>
+							<ExtendedTooltip name="AmountOfReceiptExtendedTooltip" id="88"/>
+						</LabelField>
+						<LabelField name="AmountExpense" id="50">
+							<DataPath>List.AmountExpense</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>For writeoff</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>К списанию</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Spre casare</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ExpenseAmountContextMenu" id="51"/>
+							<ExtendedTooltip name="ExpenseAmountExtendedTooltip" id="89"/>
+						</LabelField>
+						<LabelField name="CurrencyList" id="24">
+							<DataPath>List.Currency</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Currency</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Валюта</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Valuta</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="CurrencyListContextMenu" id="25"/>
+							<ExtendedTooltip name="CurrencyListExtendedTooltip" id="90"/>
+						</LabelField>
+						<LabelField name="ListNumber" id="6">
+							<DataPath>List.Number</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Number</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номер</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Numărul</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="NumberListContextMenu" id="7"/>
+							<ExtendedTooltip name="NumberListExtendedTooltip" id="91"/>
+						</LabelField>
+						<LabelField name="TypeList" id="8">
+							<DataPath>List.Type</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Type</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тип</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Tip</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="TypeListContextMenu" id="9"/>
+							<ExtendedTooltip name="TypeListExtendedTooltip" id="92"/>
+						</LabelField>
+						<LabelField name="ListEntities" id="10">
+							<DataPath>List.Entity</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Entity</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Организация</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Organizație</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ListEntityContextMenu" id="11"/>
+							<ExtendedTooltip name="ListEntityExtendedTooltip" id="93"/>
+						</LabelField>
+						<LabelField name="CashAssetsTypeList" id="12">
+							<DataPath>List.CashType</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>nal. / Noncash payment.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Нал. / Безнал.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Numerar/Transfer</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="CashAssetsTypeListContextMenu" id="13"/>
+							<ExtendedTooltip name="CashAssetsTypeListExtendedTooltip" id="94"/>
+						</LabelField>
+						<ColumnGroup name="GroupBankAccountPettyCash" id="47">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Account / Petty Cash</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Банковский счет / Касса</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Cont bancar / Casierie</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Account / Petty Cash</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Банковский счет / Касса</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Cont bancar / Casierie</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>InCell</Group>
+							<ExtendedTooltip name="GroupBankAccountPettyCashExtendedTooltip" id="95"/>
+							<ChildItems>
+								<LabelField name="BankAccountList" id="45">
+									<DataPath>List.BankAccount</DataPath>
+									<ContextMenu name="BankAccountListContextMenu" id="46"/>
+									<ExtendedTooltip name="BankAccountListExtendedTooltip" id="96"/>
+								</LabelField>
+								<LabelField name="CashierList" id="14">
+									<DataPath>List.PettyCash</DataPath>
+									<ContextMenu name="CashDescContextMenu" id="15"/>
+									<ExtendedTooltip name="CashDescListExtendedTooltip" id="97"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+						<LabelField name="ArticleList" id="16">
+							<DataPath>List.Article</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Article</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Статья</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Capitol/atricol</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ArticleListContextMenu" id="17"/>
+							<ExtendedTooltip name="ArticleListExtendedTooltip" id="98"/>
+						</LabelField>
+						<LabelField name="ListCounterparty" id="18">
+							<DataPath>List.Counterparty</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Counterparty</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Контрагент</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Partener</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ListCounterpartyContextMenu" id="19"/>
+							<ExtendedTooltip name="ListCounterpartyExtendedTooltip" id="99"/>
+						</LabelField>
+						<LabelField name="CommentList" id="26">
+							<DataPath>List.Comment</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Comment</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Комментарий</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Comentariu</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="CommentListContextMenu" id="27"/>
+							<ExtendedTooltip name="CommentListExtendedTooltip" id="100"/>
+						</LabelField>
+						<LabelField name="ListAuthor" id="43">
+							<DataPath>List.Author</DataPath>
+							<ContextMenu name="AuthorListContextMenu" id="44"/>
+							<ExtendedTooltip name="AuthorListExtendedTooltip" id="101"/>
+						</LabelField>
+					</ChildItems>
+				</Table>
+				<UsualGroup name="TotalsGroup" id="57">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group totals</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа итоги</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Grupul totaluri</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group totals</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа итоги</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Grupul totaluri</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>25</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="TotalsGroupExtendedTooltip" id="102"/>
+					<ChildItems>
+						<LabelField name="Date" id="63">
+							<DataPath>Items.List.CurrentData.Date</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<Format>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>DF=dd.MM.yyyy</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДФ=dd.MM.yyyy</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>DF=dd.MM.yyyy</v8:content>
+								</v8:item>
+							</Format>
+							<TextColor>style:MinorInscriptionText</TextColor>
+							<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+							<ContextMenu name="DateContextMenu" id="64"/>
+							<ExtendedTooltip name="DateExtendedTooltip" id="103"/>
+						</LabelField>
+						<UsualGroup name="GroupTotalReceipt" id="67">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group amount receipt</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма приход</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul suma intrare</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group amount receipt</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма приход</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul suma intrare</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="GroupTotalReceiptExtendedTooltip" id="104"/>
+							<ChildItems>
+								<InputField name="AmountOfReceiptForDay" id="58">
+									<DataPath>Items.List.CurrentData.AmountOfReceiptForDay</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>To receive</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>К поступлению</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Spre intrare</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>true</HorizontalStretch>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>NFD=2</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧДЦ=2</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>NFD=2</v8:content>
+										</v8:item>
+									</EditFormat>
+									<TextColor>style:MinorInscriptionText</TextColor>
+									<BackColor>style:FormBackColor</BackColor>
+									<BorderColor>style:FormBackColor</BorderColor>
+									<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<ContextMenu name="AmountOfReceiptForDayContextMenu" id="59"/>
+									<ExtendedTooltip name="AmountOfReceiptForDayExtendedTooltip" id="105"/>
+								</InputField>
+								<LabelField name="AmountOfReceiptCurrency" id="65">
+									<DataPath>Items.List.CurrentData.Currency</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="AmountOfReceiptCurrencyContextMenu" id="66"/>
+									<ExtendedTooltip name="AmountOfReceiptCurrencyExtendedTooltip" id="106"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="GroupTotalExpense" id="68">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group amount expense</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма расход</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul suma ieșire</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group amount expense</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сумма расход</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul suma ieșire</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="GroupExtendedTooltipExpenseAmount" id="107"/>
+							<ChildItems>
+								<InputField name="ExpenseAmountPerDay" id="60">
+									<DataPath>Items.List.CurrentData.ExpenseAmountPerDay</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>For writeoff</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>К списанию</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Spre casare</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>true</HorizontalStretch>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>NFD=2</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧДЦ=2</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>NFD=2</v8:content>
+										</v8:item>
+									</EditFormat>
+									<TextColor>style:MinorInscriptionText</TextColor>
+									<BackColor>style:FormBackColor</BackColor>
+									<BorderColor>style:FormBackColor</BorderColor>
+									<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<ContextMenu name="ExpenseAmountPerDayContextMenu" id="61"/>
+									<ExtendedTooltip name="ExpenseAmountPerDayExtendedTooltip" id="108"/>
+								</InputField>
+								<LabelField name="ExpenseAmountCurrency" id="69">
+									<DataPath>Items.List.CurrentData.Currency</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Width>3</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ExpenseAmountCurrencyContextMenu" id="70"/>
+									<ExtendedTooltip name="ExpenseAmountCurrencyExtendedTooltip" id="109"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="List" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>SELECT
+	DocumentJournalPaymentCalendar.Ref,
+	DocumentJournalPaymentCalendar.Date,
+	DocumentJournalPaymentCalendar.DeletionMark,
+	DocumentJournalPaymentCalendar.Number,
+	DocumentJournalPaymentCalendar.Posted,
+	DocumentJournalPaymentCalendar.Entity,
+	DocumentJournalPaymentCalendar.CashType,
+	CASE
+		WHEN DocumentJournalPaymentCalendar.CashType = VALUE(Enum.CashAssetTypes.Cash)
+			THEN DocumentJournalPaymentCalendar.PettyCash
+		ELSE UNDEFINED
+	END AS PettyCash,
+	DocumentJournalPaymentCalendar.Article,
+	DocumentJournalPaymentCalendar.Counterparty,
+	DocumentJournalPaymentCalendar.AmountReceipt,
+	DocumentJournalPaymentCalendar.AmountExpense,
+	DocumentJournalPaymentCalendar.Currency,
+	CAST(DocumentJournalPaymentCalendar.Comment AS STRING(255)) AS Comment,
+	DocumentJournalPaymentCalendar.Author,
+	CASE
+		WHEN DocumentJournalPaymentCalendar.CashType = VALUE(Enum.CashAssetTypes.Noncash)
+			THEN DocumentJournalPaymentCalendar.BankAccount
+		ELSE UNDEFINED
+	END AS BankAccount,
+	DocumentJournalPaymentCalendar.Type,
+	SUM(AmountPerDay.AmountReceipt) AS AmountOfReceiptForDay,
+	SUM(AmountPerDay.AmountExpense) AS ExpenseAmountPerDay
+FROM
+	DocumentJournal.FundsPlanningDocuments AS DocumentJournalPaymentCalendar
+		LEFT JOIN DocumentJournal.FundsPlanningDocuments AS AmountPerDay
+			ON (BEGINOFPERIOD(DocumentJournalPaymentCalendar.Date, Day) = BEGINOFPERIOD(AmountPerDay.Date, Day))
+			AND DocumentJournalPaymentCalendar.Currency = AmountPerDay.Currency
+			AND (AmountPerDay.Posted)
+
+GROUP  BY
+	DocumentJournalPaymentCalendar.Ref,
+	DocumentJournalPaymentCalendar.Date,
+	DocumentJournalPaymentCalendar.DeletionMark,
+	DocumentJournalPaymentCalendar.Number,
+	DocumentJournalPaymentCalendar.Posted,
+	DocumentJournalPaymentCalendar.Entity,
+	DocumentJournalPaymentCalendar.CashType,
+	DocumentJournalPaymentCalendar.Article,
+	DocumentJournalPaymentCalendar.Counterparty,
+	DocumentJournalPaymentCalendar.AmountReceipt,
+	DocumentJournalPaymentCalendar.AmountExpense,
+	DocumentJournalPaymentCalendar.Currency,
+	DocumentJournalPaymentCalendar.Author,
+	DocumentJournalPaymentCalendar.Type,
+	CASE
+		WHEN DocumentJournalPaymentCalendar.CashType = VALUE(Enum.CashAssetTypes.Cash)
+			THEN DocumentJournalPaymentCalendar.PettyCash
+		ELSE UNDEFINED
+	END,
+	CAST(DocumentJournalPaymentCalendar.Comment AS STRING(255)),
+	CASE
+		WHEN DocumentJournalPaymentCalendar.CashType = VALUE(Enum.CashAssetTypes.Noncash)
+			THEN DocumentJournalPaymentCalendar.BankAccount
+		ELSE UNDEFINED
+	END</QueryText>
+				<MainTable>DocumentJournal.FundsPlanningDocuments</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="DocumentTypes" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Document types</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типы документов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Tipuri de documente</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="DocumentType" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Document type</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип документа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Tipul documentului</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Entity" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Entity</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Organizație</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+			</Type>
+			<Save>
+				<Field>Entity</Field>
+			</Save>
+			<FunctionalOptions>
+				<Item>FunctionalOption.MultipleCompanies</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="Counterparty" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Counterparty</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Partener</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Counterparties</v8:Type>
+			</Type>
+			<Save>
+				<Field>Counterparty</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="BankAccountPettyCash" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Account / Petty Cash</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Банковский счет / Касса</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Cont bancar / Casierie</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.BankAccounts</v8:Type>
+				<v8:Type>cfg:CatalogRef.PettyCashes</v8:Type>
+			</Type>
+			<Save>
+				<Field>BankAccountPettyCash</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="DocumentTypePresentation" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Document type</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип документа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Tipul documentului</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>DocumentTypePresentation</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ListFilterDay" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Day</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>День</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Ziua</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cash documents filter day</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать только за этот день</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Ziua</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.DayPeriod</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ListFilterMonth" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Month</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Месяц</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Luna</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cash documents filter month</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Cash documents filter month</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать только за этот месяц</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.MonthPeriod</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+		</Command>
+		<Command name="ListFilterWeek" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Week</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Неделя</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Săptămâna</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cash documents filter week</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать только за эту неделю</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Cash documents filter week</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.WeekPeriod</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+		</Command>
+		<Command name="ListFilterClear" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cash documents filter clean</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить установленный период</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Cash documents filter clean</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Cash documents filter clean</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить установленный период</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Cash documents filter clean</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ResetInterval</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+		</Command>
+	</Commands>
+	<BaseForm version="2.2">
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<CommandBarLocation>None</CommandBarLocation>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoCommandBar name="FormCommandBar" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="Filters" id="30">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Filters</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отборы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Filtre</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Filters</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отборы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Filtre</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="FiltersExtendedTooltip" id="73"/>
+				<ChildItems>
+					<InputField name="BankAccountPettyCash" id="37">
+						<DataPath>BankAccountPettyCash</DataPath>
+						<TitleLocation>Top</TitleLocation>
+						<Wrap>false</Wrap>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<ContextMenu name="BankAccountCashContextMenu" id="38"/>
+						<ExtendedTooltip name="BankAccountCashExtendedTooltip" id="74"/>
+					</InputField>
+					<InputField name="Counterparty" id="39">
+						<DataPath>Counterparty</DataPath>
+						<TitleLocation>Top</TitleLocation>
+						<Wrap>false</Wrap>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+						<ContextMenu name="CounterpartyContextMenu" id="40"/>
+						<ExtendedTooltip name="CounterpartyExtendedTooltip" id="75"/>
+					</InputField>
+					<InputField name="DocumentType" id="35">
+						<DataPath>DocumentTypePresentation</DataPath>
+						<TitleLocation>Top</TitleLocation>
+						<Wrap>false</Wrap>
+						<ChoiceButton>true</ChoiceButton>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<TextEdit>false</TextEdit>
+						<ChoiceListButton>true</ChoiceListButton>
+						<ContextMenu name="DocumentTypeContextMenu" id="36"/>
+						<ExtendedTooltip name="DocumentTypeExtendedTooltip" id="76"/>
+					</InputField>
+					<InputField name="Entity" id="33">
+						<DataPath>Entity</DataPath>
+						<TitleLocation>Top</TitleLocation>
+						<Wrap>false</Wrap>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<ContextMenu name="CounterpartyContextMenu" id="34"/>
+						<ExtendedTooltip name="CounterpartyExtendedTooltip" id="77"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ListGroup" id="62">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Group list</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа список</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Grupul lista</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Group list</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа список</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Grupul lista</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ListGroupExtendedTooltip" id="78"/>
+				<ChildItems>
+					<Table name="List" id="1">
+						<Representation>List</Representation>
+						<SkipOnInput>false</SkipOnInput>
+						<DefaultItem>true</DefaultItem>
+						<UseAlternationRowColor>true</UseAlternationRowColor>
+						<EnableStartDrag>true</EnableStartDrag>
+						<DataPath>List</DataPath>
+						<RowPictureDataPath>List.DefaultPicture</RowPictureDataPath>
+						<SearchStringLocation>None</SearchStringLocation>
+						<ViewStatusLocation>None</ViewStatusLocation>
+						<SearchControlLocation>None</SearchControlLocation>
+						<AutoRefresh>false</AutoRefresh>
+						<AutoRefreshPeriod>60</AutoRefreshPeriod>
+						<Period>
+							<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+							<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+							<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+						</Period>
+						<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+						<RestoreCurrentRow>false</RestoreCurrentRow>
+						<TopLevelParent xsi:nil="true"/>
+						<ShowRoot>false</ShowRoot>
+						<AllowRootChoice>false</AllowRootChoice>
+						<UpdateOnDataChange>Auto</UpdateOnDataChange>
+						<ContextMenu name="ListContextMenu" id="2"/>
+						<AutoCommandBar name="ListCommandBar" id="3">
+							<ChildItems>
+								<ButtonGroup name="Filter" id="56">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Filter</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отбор</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Filtru</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Filter</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отбор</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Filtru</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="FilterExtendedTooltip" id="79"/>
+									<ChildItems>
+										<Button name="ListListFilterDay" id="52">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.ListFilterDay</CommandName>
+											<ExtendedTooltip name="ListListFilterDayExtendedTooltip" id="80"/>
+										</Button>
+										<Button name="ListListFilterWeek" id="54">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.ListFilterWeek</CommandName>
+											<ExtendedTooltip name="ListListFilterWeekExtendedTooltip" id="81"/>
+										</Button>
+										<Button name="ListListFilterMonth" id="53">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.ListFilterMonth</CommandName>
+											<ExtendedTooltip name="ListListFilterMonthExtendedTooltip" id="82"/>
+										</Button>
+										<Button name="ListListFilterClear" id="55">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.ListFilterClear</CommandName>
+											<ExtendedTooltip name="ListListFilterClearExtendedTooltip" id="83"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
+								<Button name="ListChangeForm" id="72">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
+									<ExtendedTooltip name="ListChangeFormExtendedTooltip" id="84"/>
+								</Button>
+								<Button name="ListHelp" id="71">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.StandardCommand.Help</CommandName>
+									<ExtendedTooltip name="HelpListExtendedTooltip" id="85"/>
+								</Button>
+							</ChildItems>
+						</AutoCommandBar>
+						<ExtendedTooltip name="ListExtendedTooltip" id="86"/>
+						<SearchStringAddition name="ListSearchString" id="110">
+							<AdditionSource>
+								<Item>List</Item>
+								<Type>SearchStringRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ListSearchStringContextMenu" id="111"/>
+							<ExtendedTooltip name="ListSearchStringExtendedTooltip" id="112"/>
+						</SearchStringAddition>
+						<ViewStatusAddition name="ListViewStatus" id="113">
+							<AdditionSource>
+								<Item>List</Item>
+								<Type>ViewStatusRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ListViewStatusContextMenu" id="114"/>
+							<ExtendedTooltip name="ListViewStatusExtendedTooltip" id="115"/>
+						</ViewStatusAddition>
+						<SearchControlAddition name="ListSearchControl" id="116">
+							<AdditionSource>
+								<Item>List</Item>
+								<Type>SearchControl</Type>
+							</AdditionSource>
+							<ContextMenu name="ListSearchControlContextMenu" id="117"/>
+							<ExtendedTooltip name="ListSearchControlExtendedTooltip" id="118"/>
+						</SearchControlAddition>
+						<ChildItems>
+							<LabelField name="ListDate" id="4">
+								<DataPath>List.Date</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Date</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дата</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Data</v8:content>
+									</v8:item>
+								</Title>
+								<Height>2</Height>
+								<ContextMenu name="DateListContextMenu" id="5"/>
+								<ExtendedTooltip name="DateListExtendedTooltip" id="87"/>
+							</LabelField>
+							<LabelField name="AmountReceipt" id="48">
+								<DataPath>List.AmountReceipt</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>To receive</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>К поступлению</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Spre intrare</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="AmountReceiptContextMenu" id="49"/>
+								<ExtendedTooltip name="AmountOfReceiptExtendedTooltip" id="88"/>
+							</LabelField>
+							<LabelField name="AmountExpense" id="50">
+								<DataPath>List.AmountExpense</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>For writeoff</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>К списанию</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Spre casare</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ExpenseAmountContextMenu" id="51"/>
+								<ExtendedTooltip name="ExpenseAmountExtendedTooltip" id="89"/>
+							</LabelField>
+							<LabelField name="CurrencyList" id="24">
+								<DataPath>List.Currency</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Currency</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Валюта</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Valuta</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="CurrencyListContextMenu" id="25"/>
+								<ExtendedTooltip name="CurrencyListExtendedTooltip" id="90"/>
+							</LabelField>
+							<LabelField name="ListNumber" id="6">
+								<DataPath>List.Number</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Number</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Номер</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Numărul</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="NumberListContextMenu" id="7"/>
+								<ExtendedTooltip name="NumberListExtendedTooltip" id="91"/>
+							</LabelField>
+							<LabelField name="TypeList" id="8">
+								<DataPath>List.Type</DataPath>
+								<DefaultItem>true</DefaultItem>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Type</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Тип</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Tip</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="TypeListContextMenu" id="9"/>
+								<ExtendedTooltip name="TypeListExtendedTooltip" id="92"/>
+							</LabelField>
+							<LabelField name="ListEntities" id="10">
+								<DataPath>List.Entity</DataPath>
+								<UserVisible>
+									<xr:Common>false</xr:Common>
+								</UserVisible>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Entity</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Организация</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Organizație</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ListEntityContextMenu" id="11"/>
+								<ExtendedTooltip name="ListEntityExtendedTooltip" id="93"/>
+							</LabelField>
+							<LabelField name="CashAssetsTypeList" id="12">
+								<DataPath>List.CashType</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>nal. / Noncash payment.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Нал. / Безнал.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Numerar/Transfer</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="CashAssetsTypeListContextMenu" id="13"/>
+								<ExtendedTooltip name="CashAssetsTypeListExtendedTooltip" id="94"/>
+							</LabelField>
+							<ColumnGroup name="GroupBankAccountPettyCash" id="47">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Account / Petty Cash</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Банковский счет / Касса</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Cont bancar / Casierie</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Account / Petty Cash</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Банковский счет / Касса</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Cont bancar / Casierie</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>InCell</Group>
+								<ExtendedTooltip name="GroupBankAccountPettyCashExtendedTooltip" id="95"/>
+								<ChildItems>
+									<LabelField name="BankAccountList" id="45">
+										<DataPath>List.BankAccount</DataPath>
+										<ContextMenu name="BankAccountListContextMenu" id="46"/>
+										<ExtendedTooltip name="BankAccountListExtendedTooltip" id="96"/>
+									</LabelField>
+									<LabelField name="CashierList" id="14">
+										<DataPath>List.PettyCash</DataPath>
+										<ContextMenu name="CashDescContextMenu" id="15"/>
+										<ExtendedTooltip name="CashDescListExtendedTooltip" id="97"/>
+									</LabelField>
+								</ChildItems>
+							</ColumnGroup>
+							<LabelField name="ArticleList" id="16">
+								<DataPath>List.Article</DataPath>
+								<UserVisible>
+									<xr:Common>false</xr:Common>
+								</UserVisible>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Article</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Статья</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Capitol/atricol</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ArticleListContextMenu" id="17"/>
+								<ExtendedTooltip name="ArticleListExtendedTooltip" id="98"/>
+							</LabelField>
+							<LabelField name="ListCounterparty" id="18">
+								<DataPath>List.Counterparty</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Counterparty</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Контрагент</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Partener</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ListCounterpartyContextMenu" id="19"/>
+								<ExtendedTooltip name="ListCounterpartyExtendedTooltip" id="99"/>
+							</LabelField>
+							<LabelField name="CommentList" id="26">
+								<DataPath>List.Comment</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Comment</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Комментарий</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Comentariu</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="CommentListContextMenu" id="27"/>
+								<ExtendedTooltip name="CommentListExtendedTooltip" id="100"/>
+							</LabelField>
+							<LabelField name="ListAuthor" id="43">
+								<DataPath>List.Author</DataPath>
+								<ContextMenu name="AuthorListContextMenu" id="44"/>
+								<ExtendedTooltip name="AuthorListExtendedTooltip" id="101"/>
+							</LabelField>
+						</ChildItems>
+					</Table>
+					<UsualGroup name="TotalsGroup" id="57">
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Group totals</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа итоги</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Grupul totaluri</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Group totals</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа итоги</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Grupul totaluri</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Width>25</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<Group>Vertical</Group>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="TotalsGroupExtendedTooltip" id="102"/>
+						<ChildItems>
+							<LabelField name="Date" id="63">
+								<DataPath>Items.List.CurrentData.Date</DataPath>
+								<TitleLocation>None</TitleLocation>
+								<Format>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>DF=dd.MM.yyyy</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ДФ=dd.MM.yyyy</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>DF=dd.MM.yyyy</v8:content>
+									</v8:item>
+								</Format>
+								<TextColor>style:MinorInscriptionText</TextColor>
+								<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+								<ContextMenu name="DateContextMenu" id="64"/>
+								<ExtendedTooltip name="DateExtendedTooltip" id="103"/>
+							</LabelField>
+							<UsualGroup name="GroupTotalReceipt" id="67">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group amount receipt</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа сумма приход</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul suma intrare</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group amount receipt</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа сумма приход</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul suma intrare</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="GroupTotalReceiptExtendedTooltip" id="104"/>
+								<ChildItems>
+									<InputField name="AmountOfReceiptForDay" id="58">
+										<DataPath>Items.List.CurrentData.AmountOfReceiptForDay</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>To receive</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>К поступлению</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Spre intrare</v8:content>
+											</v8:item>
+										</Title>
+										<HorizontalStretch>true</HorizontalStretch>
+										<EditFormat>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>NFD=2</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ЧДЦ=2</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>NFD=2</v8:content>
+											</v8:item>
+										</EditFormat>
+										<TextColor>style:MinorInscriptionText</TextColor>
+										<BackColor>style:FormBackColor</BackColor>
+										<BorderColor>style:FormBackColor</BorderColor>
+										<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+										<ContextMenu name="AmountOfReceiptForDayContextMenu" id="59"/>
+										<ExtendedTooltip name="AmountOfReceiptForDayExtendedTooltip" id="105"/>
+									</InputField>
+									<LabelField name="AmountOfReceiptCurrency" id="65">
+										<DataPath>Items.List.CurrentData.Currency</DataPath>
+										<TitleLocation>None</TitleLocation>
+										<Width>3</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="AmountOfReceiptCurrencyContextMenu" id="66"/>
+										<ExtendedTooltip name="AmountOfReceiptCurrencyExtendedTooltip" id="106"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="GroupTotalExpense" id="68">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group amount expense</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа сумма расход</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul suma ieșire</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group amount expense</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа сумма расход</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul suma ieșire</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="GroupExtendedTooltipExpenseAmount" id="107"/>
+								<ChildItems>
+									<InputField name="ExpenseAmountPerDay" id="60">
+										<DataPath>Items.List.CurrentData.ExpenseAmountPerDay</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>For writeoff</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>К списанию</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Spre casare</v8:content>
+											</v8:item>
+										</Title>
+										<HorizontalStretch>true</HorizontalStretch>
+										<EditFormat>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>NFD=2</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ЧДЦ=2</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>NFD=2</v8:content>
+											</v8:item>
+										</EditFormat>
+										<TextColor>style:MinorInscriptionText</TextColor>
+										<BackColor>style:FormBackColor</BackColor>
+										<BorderColor>style:FormBackColor</BorderColor>
+										<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+										<ContextMenu name="ExpenseAmountPerDayContextMenu" id="61"/>
+										<ExtendedTooltip name="ExpenseAmountPerDayExtendedTooltip" id="108"/>
+									</InputField>
+									<LabelField name="ExpenseAmountCurrency" id="69">
+										<DataPath>Items.List.CurrentData.Currency</DataPath>
+										<TitleLocation>None</TitleLocation>
+										<Width>3</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="ExpenseAmountCurrencyContextMenu" id="70"/>
+										<ExtendedTooltip name="ExpenseAmountCurrencyExtendedTooltip" id="109"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="List" id="1">
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>true</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<QueryText>SELECT
+	DocumentJournalPaymentCalendar.Ref,
+	DocumentJournalPaymentCalendar.Date,
+	DocumentJournalPaymentCalendar.DeletionMark,
+	DocumentJournalPaymentCalendar.Number,
+	DocumentJournalPaymentCalendar.Posted,
+	DocumentJournalPaymentCalendar.Entity,
+	DocumentJournalPaymentCalendar.CashType,
+	CASE
+		WHEN DocumentJournalPaymentCalendar.CashType = VALUE(Enum.CashAssetTypes.Cash)
+			THEN DocumentJournalPaymentCalendar.PettyCash
+		ELSE UNDEFINED
+	END AS PettyCash,
+	DocumentJournalPaymentCalendar.Article,
+	DocumentJournalPaymentCalendar.Counterparty,
+	DocumentJournalPaymentCalendar.AmountReceipt,
+	DocumentJournalPaymentCalendar.AmountExpense,
+	DocumentJournalPaymentCalendar.Currency,
+	CAST(DocumentJournalPaymentCalendar.Comment AS STRING(255)) AS Comment,
+	DocumentJournalPaymentCalendar.Author,
+	CASE
+		WHEN DocumentJournalPaymentCalendar.CashType = VALUE(Enum.CashAssetTypes.Noncash)
+			THEN DocumentJournalPaymentCalendar.BankAccount
+		ELSE UNDEFINED
+	END AS BankAccount,
+	DocumentJournalPaymentCalendar.Type,
+	SUM(AmountPerDay.AmountReceipt) AS AmountOfReceiptForDay,
+	SUM(AmountPerDay.AmountExpense) AS ExpenseAmountPerDay
+FROM
+	DocumentJournal.FundsPlanningDocuments AS DocumentJournalPaymentCalendar
+		LEFT JOIN DocumentJournal.FundsPlanningDocuments AS AmountPerDay
+			ON (BEGINOFPERIOD(DocumentJournalPaymentCalendar.Date, Day) = BEGINOFPERIOD(AmountPerDay.Date, Day))
+			AND DocumentJournalPaymentCalendar.Currency = AmountPerDay.Currency
+			AND (AmountPerDay.Posted)
+
+GROUP  BY
+	DocumentJournalPaymentCalendar.Ref,
+	DocumentJournalPaymentCalendar.Date,
+	DocumentJournalPaymentCalendar.DeletionMark,
+	DocumentJournalPaymentCalendar.Number,
+	DocumentJournalPaymentCalendar.Posted,
+	DocumentJournalPaymentCalendar.Entity,
+	DocumentJournalPaymentCalendar.CashType,
+	DocumentJournalPaymentCalendar.Article,
+	DocumentJournalPaymentCalendar.Counterparty,
+	DocumentJournalPaymentCalendar.AmountReceipt,
+	DocumentJournalPaymentCalendar.AmountExpense,
+	DocumentJournalPaymentCalendar.Currency,
+	DocumentJournalPaymentCalendar.Author,
+	DocumentJournalPaymentCalendar.Type,
+	CASE
+		WHEN DocumentJournalPaymentCalendar.CashType = VALUE(Enum.CashAssetTypes.Cash)
+			THEN DocumentJournalPaymentCalendar.PettyCash
+		ELSE UNDEFINED
+	END,
+	CAST(DocumentJournalPaymentCalendar.Comment AS STRING(255)),
+	CASE
+		WHEN DocumentJournalPaymentCalendar.CashType = VALUE(Enum.CashAssetTypes.Noncash)
+			THEN DocumentJournalPaymentCalendar.BankAccount
+		ELSE UNDEFINED
+	END</QueryText>
+					<MainTable>DocumentJournal.FundsPlanningDocuments</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+						</dcsset:conditionalAppearance>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+			<Attribute name="DocumentTypes" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Document types</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Типы документов</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Tipuri de documente</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>v8:ValueListType</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="DocumentType" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Document type</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Тип документа</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Tipul documentului</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="Entity" id="5">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Entity</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Организация</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Organizație</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+				</Type>
+				<Save>
+					<Field>Entity</Field>
+				</Save>
+				<FunctionalOptions>
+					<Item>FunctionalOption.MultipleCompanies</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="Counterparty" id="6">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Counterparty</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Контрагент</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Partener</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Counterparties</v8:Type>
+				</Type>
+				<Save>
+					<Field>Counterparty</Field>
+				</Save>
+			</Attribute>
+			<Attribute name="BankAccountPettyCash" id="7">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Account / Petty Cash</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Банковский счет / Касса</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Cont bancar / Casierie</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.BankAccounts</v8:Type>
+					<v8:Type>cfg:CatalogRef.PettyCashes</v8:Type>
+				</Type>
+				<Save>
+					<Field>BankAccountPettyCash</Field>
+				</Save>
+			</Attribute>
+			<Attribute name="DocumentTypePresentation" id="8">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Document type</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Тип документа</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Tipul documentului</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<Save>
+					<Field>DocumentTypePresentation</Field>
+				</Save>
+			</Attribute>
+		</Attributes>
+		<Commands>
+			<Command name="ListFilterDay" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Day</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>День</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Ziua</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cash documents filter day</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Показать только за этот день</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Ziua</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.DayPeriod</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+				<Representation>Picture</Representation>
+			</Command>
+			<Command name="ListFilterMonth" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Month</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Месяц</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Luna</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cash documents filter month</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Показать только за этот месяц</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Cash documents filter month</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.MonthPeriod</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+			</Command>
+			<Command name="ListFilterWeek" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Week</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Неделя</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Săptămâna</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cash documents filter week</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Показать только за эту неделю</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Cash documents filter week</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.WeekPeriod</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+			</Command>
+			<Command name="ListFilterClear" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cash documents filter clean</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Очистить установленный период</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Cash documents filter clean</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Cash documents filter clean</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Очистить установленный период</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Cash documents filter clean</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.ResetInterval</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+			</Command>
+		</Commands>
+	</BaseForm>
+</Form>

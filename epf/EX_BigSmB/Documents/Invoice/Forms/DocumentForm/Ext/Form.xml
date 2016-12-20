@@ -1,0 +1,4947 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<Events>
+		<Event name="OnOpen" callType="Before">BSB_OnOpen</Event>
+		<Event name="OnCreateAtServer" callType="Before">BSB_OnCreateAtServer</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Header" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Antet</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Horizontal</Group>
+			<Representation>StrongSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="HeaderExtendedTooltip" id="188"/>
+			<ChildItems>
+				<UsualGroup name="LeftColumn" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Left column</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Левая колонка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Coloana din stânga</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="LeftColumnExtendedTooltip" id="189"/>
+					<ChildItems>
+						<UsualGroup name="NumberDateGroup" id="81">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group number date</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа номер дата</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul numărul data</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group number date</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа номер дата</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul numărul data</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="NumberDateGroupExtendedTooltip" id="190"/>
+							<ChildItems>
+								<InputField name="Number" id="82">
+									<DataPath>Object.Number</DataPath>
+									<SkipOnInput>true</SkipOnInput>
+									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Wrap>false</Wrap>
+									<ContextMenu name="NumberContextMenu" id="83"/>
+									<ExtendedTooltip name="NumberExtendedTooltip" id="191"/>
+								</InputField>
+								<InputField name="Date" id="84">
+									<DataPath>Object.Date</DataPath>
+									<SkipOnInput>true</SkipOnInput>
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>from</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>от</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>de la</v8:content>
+										</v8:item>
+									</Title>
+									<Width>15</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Wrap>false</Wrap>
+									<ContextMenu name="DateContextMenu" id="85"/>
+									<ExtendedTooltip name="DateExtendedTooltip" id="192"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="Entity" id="86">
+							<DataPath>Object.Entity</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<Width>33</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Wrap>false</Wrap>
+							<ContextMenu name="CounterpartyContextMenu" id="87"/>
+							<ExtendedTooltip name="CounterpartyExtendedTooltip" id="193"/>
+						</InputField>
+						<UsualGroup name="GroupDocumentBasis" id="91">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group document basis</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа документ основание</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul document temei</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="GroupDocumentBasisExtendedTooltip" id="194"/>
+							<ChildItems>
+								<Pages name="BasisPages" id="140">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Basis pages</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страницы основания</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Paginile bazei</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Basis pages</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страницы основания</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Paginile bazei</v8:content>
+										</v8:item>
+									</ToolTip>
+									<PagesRepresentation>None</PagesRepresentation>
+									<ExtendedTooltip name="PagesBasesExtendedTooltip" id="195"/>
+									<ChildItems>
+										<Page name="PageDocumentBasis" id="141">
+											<Title>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Page document basis</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница документ основание</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Pagina document temei</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Page document basis</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница документ основание</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Pagina document temei</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="PageDocumentBasisExtendedTooltip" id="196"/>
+											<ChildItems>
+												<UsualGroup name="PageLabelDocumentBasis" id="149">
+													<Title>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Page label document basis</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница надпись документ основание</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ro</v8:lang>
+															<v8:content>Pagina înscris document temei</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Page label document basis</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница надпись документ основание</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ro</v8:lang>
+															<v8:content>Pagina înscris document temei</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Horizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="PageLabelDocumentBasisExtendedTooltip" id="197"/>
+													<ChildItems>
+														<LabelDecoration name="Decoration1" id="150">
+															<Width>8</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Basis:</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Основание:</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>ro</v8:lang>
+																	<v8:content>Pe baza:</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="Decoration1ContextMenu" id="151"/>
+															<ExtendedTooltip name="Decoration1ExtendedTooltip" id="198"/>
+														</LabelDecoration>
+														<InputField name="DocumentBasis" id="142">
+															<DataPath>Object.DocumentBasis</DataPath>
+															<SkipOnInput>true</SkipOnInput>
+															<TitleLocation>None</TitleLocation>
+															<Width>21</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="DocumentBasisContextMenu" id="143"/>
+															<ExtendedTooltip name="DocumentBasisExtendedTooltip" id="199"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</Page>
+										<Page name="PageBasisDocuments" id="144">
+											<Title>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Page basis documents</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница документы основания</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Pagina documente temei</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Page basis documents</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница документы основания</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Pagina documente temei</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="PageBasisDocumentsExtendedTooltip" id="200"/>
+											<ChildItems>
+												<UsualGroup name="GroupGoToList" id="154">
+													<Title>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Group go to list</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа перейти к списку</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ro</v8:lang>
+															<v8:content>Grupul trecere la listă</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Group go to list</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа перейти к списку</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ro</v8:lang>
+															<v8:content>Grupul trecere la listă</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Horizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="NavigateToListGroupExtendedTooltip" id="201"/>
+													<ChildItems>
+														<LabelDecoration name="GoToList" id="145">
+															<Width>33</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Group go to list of the documents array</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Перейти к списку документов оснований...</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>ro</v8:lang>
+																	<v8:content>Trecere la lista documentelor temei...</v8:content>
+																</v8:item>
+															</Title>
+															<Hyperlink>true</Hyperlink>
+															<ContextMenu name="GoToListContextMenu" id="146"/>
+															<ExtendedTooltip name="GotoListExtendedTooltip" id="202"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</Page>
+									</ChildItems>
+								</Pages>
+								<CommandBar name="BasisDocumentsCommandBar" id="147">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Basis documents command bar</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Документы основания командная панель</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Documente temei panou de comenzi</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Basis documents command bar</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Документы основания командная панель</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Documente temei panou de comenzi</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>6</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ExtendedTooltip name="BasicDocumentsCommandPanelExtendedTooltip" id="203"/>
+									<ChildItems>
+										<Button name="BasisDocumentsEditInList" id="148">
+											<Type>CommandBarButton</Type>
+											<SkipOnInput>true</SkipOnInput>
+											<CommandName>Form.Command.BasisDocumentsEditInList</CommandName>
+											<ExtendedTooltip name="BasisDocumentsEditListExtendedTooltip" id="204"/>
+										</Button>
+									</ChildItems>
+								</CommandBar>
+								<Button name="FillByBasis" id="94">
+									<Type>UsualButton</Type>
+									<SkipOnInput>true</SkipOnInput>
+									<CommandName>Form.Command.FillByBasis</CommandName>
+									<ExtendedTooltip name="FillByBasisExtendedTooltip" id="205"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="NumberAndSeries" id="279">
+							<Title>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Number and series</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Number and series</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="NumberAndSeriesExtendedTooltip" id="280"/>
+							<ChildItems>
+								<InputField name="Series" id="281">
+									<DataPath>Object.Series</DataPath>
+									<ContextMenu name="SeriesContextMenu" id="282"/>
+									<ExtendedTooltip name="SeriesExtendedTooltip" id="283"/>
+								</InputField>
+								<InputField name="InvoiceNumber" id="284">
+									<DataPath>Object.InvoiceNumber</DataPath>
+									<ContextMenu name="InvoiceNumberContextMenu" id="285"/>
+									<ExtendedTooltip name="InvoiceNumberExtendedTooltip" id="286"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="RightColumn" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>OWRight column</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правая колонка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Coloana din dreapta</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="RightColumnExtendedTooltip" id="206"/>
+					<ChildItems>
+						<InputField name="TransactionType" id="88">
+							<DataPath>Object.TransactionType</DataPath>
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<SkipOnInput>true</SkipOnInput>
+							<Width>33</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Wrap>false</Wrap>
+							<ChoiceButton>true</ChoiceButton>
+							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>false</OpenButton>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.TransactionTypesSaleQuotation.EnumValue.Sale</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.TransactionTypesSaleQuotation.EnumValue.Advance</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation/>
+										<Value xsi:type="xr:DesignTimeRef">Enum.TransactionTypesSaleQuotation.EnumValue.AccrualDifferences</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ChoiceListButton>false</ChoiceListButton>
+							<BackColor>style:AdministratingFieldBackground</BackColor>
+							<ContextMenu name="OperationTypeContextMenu" id="89"/>
+							<ExtendedTooltip name="OperationTypeExtendedTooltip" id="207"/>
+						</InputField>
+						<InputField name="Counterparty" id="5">
+							<DataPath>Object.Counterparty</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>33</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Wrap>false</Wrap>
+							<ContextMenu name="CounterpartyContextMenu" id="6"/>
+							<ExtendedTooltip name="CounterpartyExtendedTooltip" id="208"/>
+						</InputField>
+						<InputField name="Contract" id="8">
+							<DataPath>Object.Contract</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>33</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Wrap>false</Wrap>
+							<ContextMenu name="ContractContextMenu" id="9"/>
+							<ExtendedTooltip name="ContractExtendedTooltip" id="209"/>
+						</InputField>
+						<LabelField name="PaymentDocuments" id="155">
+							<DataPath>PaymentDocuments</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<Width>34</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="DocumentsPaymentsContextMenu" id="156"/>
+							<ExtendedTooltip name="DocumentsPaymentsExtendedTooltip" id="210"/>
+						</LabelField>
+						<UsualGroup name="GroupPricesAndCurrency" id="80">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group prices and currency</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа цены и валюта</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul prețuri și valuta</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group prices and currency</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа цены и валюта</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul prețuri și valuta</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="FolderPricesAndCurrencyExtendedTooltip" id="211"/>
+							<ChildItems>
+								<LabelField name="PricesAndCurrency" id="65">
+									<DataPath>PricesAndCurrency</DataPath>
+									<SkipOnInput>true</SkipOnInput>
+									<TitleLocation>None</TitleLocation>
+									<HorizontalAlign>Right</HorizontalAlign>
+									<Width>43</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<TextColor>#000080</TextColor>
+									<ContextMenu name="PricesAndCurrencyContextMenu" id="66"/>
+									<ExtendedTooltip name="PricesAndCurrencyExtendedTooltip" id="212"/>
+								</LabelField>
+								<Button name="EditPricesAndCurrency" id="67">
+									<Type>UsualButton</Type>
+									<SkipOnInput>true</SkipOnInput>
+									<CommandName>Form.Command.EditPricesAndCurrency</CommandName>
+									<ExtendedTooltip name="EditPricesAndCurrencyExtendedTooltip" id="213"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Pages" id="113">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Pagini</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Pagini</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="PagesExtendedTooltip" id="214"/>
+			<ChildItems>
+				<Page name="GroupInventory" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Inventory</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Запасы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Stocuri</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="InventoryGroupExtendedTooltip" id="215"/>
+					<ChildItems>
+						<Table name="Inventory" id="14">
+							<Representation>List</Representation>
+							<SkipOnInput>false</SkipOnInput>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Object.Inventory</DataPath>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="InventoryContextMenu" id="15">
+								<ChildItems>
+									<Button name="SetCCDNumber" id="176">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.SetCCDNumber</CommandName>
+										<ExtendedTooltip name="SetCCDNomberExtendedTooltip" id="216"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
+							<AutoCommandBar name="InventoryCommandPanel" id="16">
+								<ChildItems>
+									<Button name="InventorySearchByBarcode" id="112">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Command.SearchByBarcode</CommandName>
+										<ExtendedTooltip name="InventorySearchByBarCodeExtendedTooltip" id="217"/>
+									</Button>
+									<Button name="InventoryLoadDataFromDTC" id="130">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.LoadDataFromDTC</CommandName>
+										<ExtendedTooltip name="InventoryLoadDataFromSDExtendedTooltip" id="218"/>
+									</Button>
+									<Button name="InventoryGetWeight" id="128">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.GetWeight</CommandName>
+										<ExtendedTooltip name="InventoryGetWeightExtendedTooltip" id="219"/>
+									</Button>
+									<Button name="InventorySelection" id="79">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>true</SkipOnInput>
+										<CommandName>Form.Command.Pick</CommandName>
+										<ExtendedTooltip name="InventorySelectionExtendedTooltip" id="220"/>
+									</Button>
+									<Popup name="GroupFillCCDNumbers" id="185">
+										<Title>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>CCD Numbers</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Номера ГТД</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Numerele DVM</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Fill CCD numbers</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Заполнить номера ГТД</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Completare numerele DVM</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="GroupFillCCDNumbersExtendedTooltip" id="221"/>
+										<ChildItems>
+											<Button name="InventoryFillCCDNumbers" id="102">
+												<Type>CommandBarButton</Type>
+												<SkipOnInput>false</SkipOnInput>
+												<CommandName>Form.Command.FillCCDNumbers</CommandName>
+												<ExtendedTooltip name="InventoryFillCCDNumbersExtendedTooltip" id="222"/>
+											</Button>
+											<Button name="InventorySelectionCCDNumber" id="187">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.PickUpCFDNumber</CommandName>
+												<ExtendedTooltip name="InventoryPickUpCCDNumberExtendedTooltip" id="223"/>
+											</Button>
+										</ChildItems>
+									</Popup>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="InventoryExtendedTooltip" id="224"/>
+							<SearchStringAddition name="InventorySearchString" id="287">
+								<AdditionSource>
+									<Item>Inventory</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="InventorySearchStringContextMenu" id="288"/>
+								<ExtendedTooltip name="InventorySearchStringExtendedTooltip" id="289"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="InventoryViewStatus" id="290">
+								<AdditionSource>
+									<Item>Inventory</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="InventoryViewStatusContextMenu" id="291"/>
+								<ExtendedTooltip name="InventoryViewStatusExtendedTooltip" id="292"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="InventorySearchControl" id="293">
+								<AdditionSource>
+									<Item>Inventory</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="InventorySearchControlContextMenu" id="294"/>
+								<ExtendedTooltip name="InventorySearchControlExtendedTooltip" id="295"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="InventoryLineNumber" id="17">
+									<DataPath>Object.Inventory.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Wrap>false</Wrap>
+									<ContextMenu name="InventoryStringsNumberContextMenu" id="18"/>
+									<ExtendedTooltip name="InventoryStringsNumberExtendedTooltip" id="225"/>
+								</InputField>
+								<InputField name="InventoryNomenclature" id="19">
+									<DataPath>Object.Inventory.Nomenclature</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Wrap>false</Wrap>
+									<ContextMenu name="InventoryNomenclatureContextMenu" id="20"/>
+									<ExtendedTooltip name="InventoryNomenclatureExtendedTooltip" id="226"/>
+								</InputField>
+								<InputField name="InventoryCharacteristic" id="21">
+									<DataPath>Object.Inventory.Characteristic</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Wrap>false</Wrap>
+									<ContextMenu name="InventoryCharacteristicContextMenu" id="22"/>
+									<ExtendedTooltip name="InventoryCharacteristicExtendedTooltip" id="227"/>
+								</InputField>
+								<InputField name="InventoryBatch" id="23">
+									<DataPath>Object.Inventory.Batch</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Wrap>false</Wrap>
+									<ContextMenu name="InventoryBatchContextMenu" id="24"/>
+									<ExtendedTooltip name="InventoryBatchExtendedTooltip" id="228"/>
+								</InputField>
+								<InputField name="InventoryContent" id="100">
+									<DataPath>Object.Inventory.Content</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<DropListButton>true</DropListButton>
+									<ChoiceListButton>true</ChoiceListButton>
+									<ContextMenu name="InventoryContentContextMenu" id="101"/>
+									<ExtendedTooltip name="InventoryContentExtendedTooltip" id="229"/>
+								</InputField>
+								<InputField name="InventoryQuantity" id="25">
+									<DataPath>Object.Inventory.Quantity</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Wrap>false</Wrap>
+									<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<ContextMenu name="InventoryQuantityComtextMenu" id="26"/>
+									<ExtendedTooltip name="InventoryQuantityExtendedTooltip" id="230"/>
+								</InputField>
+								<InputField name="InventoryUnitOfMeasure" id="27">
+									<DataPath>Object.Inventory.UnitOfMeasure</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>8</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Wrap>false</Wrap>
+									<DropListButton>true</DropListButton>
+									<ChoiceButton>false</ChoiceButton>
+									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+									<ClearButton>false</ClearButton>
+									<SpinButton>false</SpinButton>
+									<OpenButton>false</OpenButton>
+									<CreateButton>false</CreateButton>
+									<ListChoiceMode>true</ListChoiceMode>
+									<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<TextEdit>false</TextEdit>
+									<ChoiceListButton>true</ChoiceListButton>
+									<ContextMenu name="InventoryUnitOfMeasurementContextMenu" id="28"/>
+									<ExtendedTooltip name="InventoryUnitOfMeasurementExtendedTooltip" id="231"/>
+								</InputField>
+								<InputField name="InventoryPrice" id="29">
+									<DataPath>Object.Inventory.Price</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Wrap>false</Wrap>
+									<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<ContextMenu name="InventoryPriceContextMenu" id="30"/>
+									<ExtendedTooltip name="InventoryPriceExtendedTooltip" id="232"/>
+								</InputField>
+								<InputField name="InventoryAmount" id="31">
+									<DataPath>Object.Inventory.Amount</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Wrap>false</Wrap>
+									<ContextMenu name="InventorySummContextMenu" id="32"/>
+									<ExtendedTooltip name="InventorySummExtendedTooltip" id="233"/>
+								</InputField>
+								<InputField name="InventoryVATRate" id="33">
+									<DataPath>Object.Inventory.VATRate</DataPath>
+									<SkipOnInput>true</SkipOnInput>
+									<EditMode>EnterOnInput</EditMode>
+									<Wrap>false</Wrap>
+									<ContextMenu name="InventoryVATRateContextMenu" id="34"/>
+									<ExtendedTooltip name="InventoryVATRateExtendedTooltip" id="234"/>
+								</InputField>
+								<InputField name="InventoryVATAmount" id="35">
+									<DataPath>Object.Inventory.VATAmount</DataPath>
+									<SkipOnInput>true</SkipOnInput>
+									<EditMode>EnterOnInput</EditMode>
+									<Wrap>false</Wrap>
+									<ContextMenu name="InventoryVATAmountContextMenu" id="36"/>
+									<ExtendedTooltip name="InventoryVATAmountExtendedTooltip" id="235"/>
+								</InputField>
+								<InputField name="InventoryAmountTotal" id="37">
+									<DataPath>Object.Inventory.TotalAmount</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<SkipOnInput>true</SkipOnInput>
+									<EditMode>EnterOnInput</EditMode>
+									<Wrap>false</Wrap>
+									<ContextMenu name="InventoryAmountTotalContextMenu" id="38"/>
+									<ExtendedTooltip name="InventoryAmountTotalExtendedTooltip" id="236"/>
+								</InputField>
+								<InputField name="InventoryCountryOfOrigin" id="39">
+									<DataPath>Object.Inventory.CountryOfOrigin</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>27</Width>
+									<Wrap>false</Wrap>
+									<ContextMenu name="InventoryCountryOfOriginContextMenu" id="40"/>
+									<ExtendedTooltip name="InventoryCountryOfOriginExtendedTooltip" id="237"/>
+								</InputField>
+								<InputField name="InventoryCCDNo" id="41">
+									<DataPath>Object.Inventory.CCDNo</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Wrap>false</Wrap>
+									<ContextMenu name="InventoryCCDNomberContextMenu" id="42"/>
+									<ExtendedTooltip name="InventoryCCDNomberExtendedTooltip" id="238"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="GroupAdditional" id="114">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additionally</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительно</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Suplimentar</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additionally</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительно</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Suplimentar</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="GroupAdditionalExtendedTooltip" id="239"/>
+					<ChildItems>
+						<UsualGroup name="AdditionalAttributesGroup" id="139">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional attributes</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительные реквизиты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Atribute suplimentare</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional attribute group</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа дополнительные реквизиты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul atribute suplimentare</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="AdditionalAttributesGroupExtendedTooltip" id="240"/>
+							<ChildItems>
+								<UsualGroup name="LabelsGroup" id="124">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group labels</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа надписи</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Grupul etichete</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group labels</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа надписи</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Grupul etichete</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="FolderTextBoxExtendedTooltip" id="241"/>
+									<ChildItems>
+										<LabelDecoration name="DecorationShipper" id="122">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Consignor:</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Грузоотправитель:</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Comitent:</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="DecorationShipperContextMenu" id="123"/>
+											<ExtendedTooltip name="DecorationShipperExtendedTooltip" id="242"/>
+										</LabelDecoration>
+										<LabelDecoration name="DecorationConsignee" id="125">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Consignee:</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Грузополучатель:</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Destinatar:</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="DecorationConsigneeContextMenu" id="126"/>
+											<ExtendedTooltip name="DecorationConsigneeExtendedTooltip" id="243"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="GroupFields" id="127">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Field group</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа поля</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Grupul câmpului</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Field group</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа поля</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Grupul câmpului</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="GroupFieldsExtendedTooltip" id="244"/>
+									<ChildItems>
+										<UsualGroup name="GroupShipper" id="115">
+											<Title>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Group shipper</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа грузоотправитель</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Group shipper</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Consignor</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Грузоотправитель</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Consignor</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Horizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="GroupSenderExtendedTooltip" id="245"/>
+											<ChildItems>
+												<CheckBoxField name="Same" id="118">
+													<DataPath>Object.Same</DataPath>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="SameContextMenu" id="119"/>
+													<ExtendedTooltip name="SameExtendedTooltip" id="246"/>
+												</CheckBoxField>
+												<InputField name="Consignor" id="116">
+													<DataPath>Object.Consignor</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<Width>35</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="ShipperContextMenu" id="117"/>
+													<ExtendedTooltip name="ShipperExtendedTooltip" id="247"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<InputField name="Consignee" id="120">
+											<DataPath>Object.Consignee</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<Width>43</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ConsigneeContextMenu" id="121"/>
+											<ExtendedTooltip name="ConsigneeExtendedTooltip" id="248"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="GroupFix" id="157">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group correction</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа исправление</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul corectare</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group correction</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа исправление</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Grupul corectare</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="GroupFixExtendedTooltip" id="249"/>
+							<ChildItems>
+								<CheckBoxField name="Correction" id="158">
+									<DataPath>Object.Correction</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="FixContextMenu" id="159"/>
+									<ExtendedTooltip name="FixExtendedTooltip" id="250"/>
+								</CheckBoxField>
+								<LabelDecoration name="DecorationIndentCorrection" id="172">
+									<ContextMenu name="IndentDecorationFixContextMenu" id="173"/>
+									<ExtendedTooltip name="IndentDecorationFixExtendedTooltip" id="251"/>
+								</LabelDecoration>
+								<Pages name="GroupCorrectionVisibleManagement" id="160">
+									<Title>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group correction visibility management</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа управления видимостью исправления</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Grupul de dirijare a vizibilității corectării</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Group correction visibility management</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа управления видимостью исправления</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>ro</v8:lang>
+											<v8:content>Grupul de dirijare a vizibilității corectării</v8:content>
+										</v8:item>
+									</ToolTip>
+									<PagesRepresentation>None</PagesRepresentation>
+									<ExtendedTooltip name="GroupManagementVisibilityFixExtendedTooltip" id="252"/>
+									<ChildItems>
+										<Page name="CorrectionInvisible" id="161">
+											<Title>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Correction is invisible</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Исправление невидимо</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Corecție este invizibil</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Correction is invisible</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Исправление невидимо</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Corecție este invizibil</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="FixInvisiblyExtendedTooltip" id="253"/>
+											<ChildItems>
+												<LabelDecoration name="DecorationEmptyTitle" id="174">
+													<ContextMenu name="EmptyDecorationLabelContextMenu" id="175"/>
+													<ExtendedTooltip name="DecorationEmptyLabelExtendedTooltip" id="254"/>
+												</LabelDecoration>
+											</ChildItems>
+										</Page>
+										<Page name="GroupCorrectionVisible" id="162">
+											<Title>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Group correction visible</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа исправление видимо</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Grupul corectare vizibil</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Group correction visible</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа исправление видимо</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Grupul corectare vizibil</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="GroupFixApparentlyExtendedTooltip" id="255"/>
+											<ChildItems>
+												<InputField name="NumberOfCorrection" id="163">
+													<DataPath>Object.NumberOfCorrection</DataPath>
+													<Width>15</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ClearButton>false</ClearButton>
+													<SpinButton>true</SpinButton>
+													<ContextMenu name="NumberOfCorrectionContextMenu" id="164"/>
+													<ExtendedTooltip name="NumberOfCorrectionExtendedTooltip" id="256"/>
+												</InputField>
+												<UsualGroup name="DataGroupFix" id="165">
+													<Title>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Data fix group</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа данные исправления</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ro</v8:lang>
+															<v8:content>Grup fix de date</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Data fix group</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа данные исправления</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ro</v8:lang>
+															<v8:content>Grup fix de date</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="DataGroupFixExtendedTooltip" id="257"/>
+													<ChildItems>
+														<InputField name="InitialDocumentNumber" id="166">
+															<DataPath>Object.InitialDocumentNumber</DataPath>
+															<Width>15</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ClearButton>true</ClearButton>
+															<ContextMenu name="NumberOfSourceDocumentContextMenu" id="167"/>
+															<ExtendedTooltip name="NumberOfSourceDocumentExtendedTooltip" id="258"/>
+														</InputField>
+														<InputField name="InitialDocumentDate" id="168">
+															<DataPath>Object.InitialDocumentDate</DataPath>
+															<Width>15</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="DateOfOriginalDocumentContextMenu" id="169"/>
+															<ExtendedTooltip name="DateOfOriginalDocumentExtendedTooltip" id="259"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+												<LabelField name="CorrectedInvoice" id="170">
+													<DataPath>Object.CorrectedInvoice</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<ContextMenu name="InvoiceFixedContextMenu" id="171"/>
+													<ExtendedTooltip name="FixedInvoiceExtendedTooltip" id="260"/>
+												</LabelField>
+											</ChildItems>
+										</Page>
+									</ChildItems>
+								</Pages>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="IncomingInformation" id="180">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Incoming information</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Входящая информация</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Informațiile primite</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Incoming information</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Входящая информация</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Informațiile primite</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="IncomingInformationExtendedTooltip" id="261"/>
+							<ChildItems>
+								<InputField name="IncomingDocumentNo" id="181">
+									<DataPath>Object.IncomingDocumentNo</DataPath>
+									<Width>15</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="IncomingDocumentNumberContextMenu" id="182"/>
+									<ExtendedTooltip name="IncomingDocumentNumberExtendedTooltip" id="262"/>
+								</InputField>
+								<InputField name="DateOfIncomingDocument" id="183">
+									<DataPath>Object.DateOfIncomingDocument</DataPath>
+									<ContextMenu name="IncomingDocumentDateContextMenu" id="184"/>
+									<ExtendedTooltip name="IncomingDocumentDateExtendedTooltip" id="263"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<UsualGroup name="Footer" id="68">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Footer</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подвал</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Subsol</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="FooterExtendedTooltip" id="264"/>
+			<ChildItems>
+				<InputField name="Comment" id="10">
+					<DataPath>Object.Comment</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>75</Width>
+					<Wrap>false</Wrap>
+					<ContextMenu name="CommentContextMenu" id="11"/>
+					<ExtendedTooltip name="CommentExtendedTooltip" id="265"/>
+				</InputField>
+				<UsualGroup name="Totals" id="69">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Totals</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итоги</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Totaluri</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="TotalsExtendedTooltip" id="266"/>
+					<ChildItems>
+						<InputField name="StocksTotalAll" id="70">
+							<DataPath>Object.Inventory.TotalTotalAmount</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Amount (total)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма (итог)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>Suma (total)</v8:content>
+								</v8:item>
+							</Title>
+							<Width>13</Width>
+							<ChoiceButton>false</ChoiceButton>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>false</OpenButton>
+							<TextEdit>false</TextEdit>
+							<ChoiceListButton>false</ChoiceListButton>
+							<ContextMenu name="InventoryTotalTotalContextMenu" id="71"/>
+							<ExtendedTooltip name="InventoryTotalTotalExtendedTooltip" id="267"/>
+						</InputField>
+						<InputField name="InventoryTotalSumOfVAT" id="72">
+							<DataPath>Object.Inventory.TotalVATAmount</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>VAT Amount (total)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ro</v8:lang>
+									<v8:content>VAT Amount (total)</v8:content>
+								</v8:item>
+							</Title>
+							<Width>13</Width>
+							<ChoiceButton>false</ChoiceButton>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>false</OpenButton>
+							<TextEdit>false</TextEdit>
+							<ChoiceListButton>false</ChoiceListButton>
+							<ContextMenu name="InventoryTotalVATAmountContextMenu" id="73"/>
+							<ExtendedTooltip name="InventoryTotalVATAmountExtendedTooltip" id="268"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="TotalCurrency" id="74">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Currency totals</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итоги валюта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Total valuta</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="TotalsCurrencyExtendedTooltip" id="269"/>
+					<ChildItems>
+						<LabelField name="DocumentCurrency" id="75">
+							<DataPath>Object.DocumentCurrency</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="DocumentCurrencyContextMenu" id="76"/>
+							<ExtendedTooltip name="DocumentCurrencyExtendedTooltip" id="270"/>
+						</LabelField>
+						<LabelField name="DocumentCur1" id="77">
+							<DataPath>Object.DocumentCurrency</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="DocumentCur1ContextMenu" id="78"/>
+							<ExtendedTooltip name="DocumentCur1ExtendedTooltip" id="271"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="GroupEDState" id="177">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>ED state group</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа состояние ЭД</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Grup de stat ED</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>ED state group</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа состояние ЭД</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Grup de stat ED</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="GroupStateEDExtendedTooltip" id="272"/>
+			<ChildItems>
+				<LabelField name="EDStatus" id="178">
+					<DataPath>EDStateText</DataPath>
+					<ContextMenu name="EDStatusContextMenu" id="179"/>
+					<ExtendedTooltip name="StateEDExtendedTooltip" id="273"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="InformationGroup" id="103">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Information</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Informații</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group information</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа информация</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Grupul informații</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="GroupInformationExtendedTooltip" id="274"/>
+			<ChildItems>
+				<PictureField name="PictureDocumentStatus" id="104">
+					<DataPath>PictureDocumentStatus</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Document state: new, not posted, posted, recorded.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состояние документа: новый, не проведен, проведен, записан.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>De stat documentului: noi, nu postat, postat, înregistrate.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>2</Width>
+					<Height>1</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<Zoomable>true</Zoomable>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.DocumentStatuses</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</ValuesPicture>
+					<Border width="1">
+						<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+					</Border>
+					<ContextMenu name="PictureDocumentStateContextMenu" id="105"/>
+					<ExtendedTooltip name="PictureDocumentStateExtendedTooltip" id="275"/>
+				</PictureField>
+				<LabelField name="DocumentStatus" id="106">
+					<DataPath>DocumentStatus</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Document state</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состояние документа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Statutul documentului</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Document state: new, not posted, posted, recorded.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состояние документа: новый, не проведен, проведен, записан.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>De stat documentului: noi, nu postat, postat, înregistrate.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Height>1</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<TextColor>#993300</TextColor>
+					<ContextMenu name="StateDocumentContextMenu" id="107"/>
+					<ExtendedTooltip name="StateDocumentExtendedTooltip" id="276"/>
+				</LabelField>
+				<PictureDecoration name="PictureDocumentAuthor" id="108">
+					<Width>2</Width>
+					<Height>1</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<SkipOnInput>false</SkipOnInput>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Author of document</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Автор документа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Autorul documentului</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>User who is author of document</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь, автор документа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Utilizatorul, autorul documentului</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.User</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="PictureDocumentAuthorContextMenu" id="109"/>
+					<ExtendedTooltip name="PictureDocumentAuthorExtendedTooltip" id="277"/>
+				</PictureDecoration>
+				<LabelField name="DocumentAuthor" id="110">
+					<DataPath>Object.Author</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Author of document</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Автор документа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ro</v8:lang>
+							<v8:content>Autorul documentului</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Height>1</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<TextColor>#993300</TextColor>
+					<ContextMenu name="AuthorDocumentContextMenu" id="111"/>
+					<ExtendedTooltip name="DocumentAuthorExtendedTooltip" id="278"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Object" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Invoice</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Object.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="MainRecvisits" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main attributes</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основные реквизиты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Atribute principale</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="PricesAndCurrency" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Prices and currency</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цены и валюта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Prețuri și valută</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.CurrencyTransactions</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="Counterparty" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Counterparty</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Partener</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="DocumentDate" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Docment date</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата документа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Data documentului</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Counterparty" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Counterparty</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Partener</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Counterparties</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="DoNotOpenForm" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not open form</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не открывать форму</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Nu deschide forma</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="PictureDocumentStatus" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Document status</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Картинка состояния документа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Statutul documentului</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="PostingIsAllowed" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Picture document status</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разрешено проведение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Pictura statutului documentului</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="DocumentStatus" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Document state</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние документа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Statutul documentului</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="UsePeripherals" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use external equipment</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать подключаемое оборудование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Utilizare echipamentul extern</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="NationalCurrency" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>National currency</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Национальная валюта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Valuta națională</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Currencies</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Contract" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Contract</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Договор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Contract</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.CounterpartyContracts</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ValidTypesDocumentBasis" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Valid types document basis</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Допустимые типы документ основание</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Tipuri admisibile document temei</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="PaymentDocuments" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Payment document</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документы оплаты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Documente de plată</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="EDStateText" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>ED state</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние ЭД</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>De stat ED</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.UseEDExchange</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="RateNationalCurrency" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Rate national currency</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Курс национальная валюта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Rata de schimb valuta națională</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>4</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="RepetitionNationalCurrency" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Repetition national currency</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кратность национальная валюта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Divizibilitatea valuta națională</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="EditPricesAndCurrency" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit prices and currency</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать цены и валюту</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Editare prețurile și valuta</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit prices and currency</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать цены и валюту</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Editare prețurile și valuta</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Magnifier</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<FunctionalOptions>
+				<Item>FunctionalOption.CurrencyTransactions</Item>
+			</FunctionalOptions>
+			<Representation>Picture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="Pick" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pick</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Selectare</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pick</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрать</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Selectare</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>F8</Shortcut>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="FillByBasis" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill by basis</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по основанию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Completare conform temeiului</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill by basis</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по основанию</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Completare conform temeiului</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.FillByBasis</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Representation>Picture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="FillCCDNumbers" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill by existing data</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по имеющимся данным</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Umple de date existente</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill CCD numbers</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить номера ГТД</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Completare numerele DVM</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Done</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="SearchByBarcode" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search by barcode</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск по штрихкоду</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Căutare conform codului de bare</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search by barcode</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск по штрихкоду</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Căutare conform codului de bare</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>F7</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.NewByBarcode</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="GetWeight" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Weight</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вес</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Greutatea</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Get weight</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить вес</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Primire greutatea</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.GetWeight</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<FunctionalOptions>
+				<Item>FunctionalOption.UsePeripherals</Item>
+			</FunctionalOptions>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="LoadDataFromDTC" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load data from DTC</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные из ТСД</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Încărcare datele din terminalul de colectare a datelor</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load data from DTC</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные из ТСД</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Încărcare datele din terminalul de colectare a datelor</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.PeripheralsDataCollectionTerminal16</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:TransparentPixel x="13" y="2"/>
+			</Picture>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="BasisDocumentsEditInList" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Lista</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Basis documents edit in list</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документы основания редактировать списком</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Documente temei editare în listă</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="SetCCDNumber" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Set CCD number</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить номер ГТД</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Setați numărul CCD</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Install the CCD number for the selected rows</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить номер ГТД для выделенных строк</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Instalați numărul CCD pentru rândurile selectate</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>Text</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="PickUpCFDNumber" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pick up CFD numbers</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор номеров ГТД</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Pick up numere de CFD-uri</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pick up CFD numbers</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор номеров ГТД</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ro</v8:lang>
+					<v8:content>Pick up numere de CFD-uri</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ToFillForm</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+		</Command>
+	</Commands>
+	<BaseForm version="2.2">
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
+		<AutoCommandBar name="FormCommandBar" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="Header" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Header</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Antet</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalStretch>true</HorizontalStretch>
+				<Group>Horizontal</Group>
+				<Representation>StrongSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="HeaderExtendedTooltip" id="188"/>
+				<ChildItems>
+					<UsualGroup name="LeftColumn" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Left column</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Левая колонка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Coloana din stânga</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="LeftColumnExtendedTooltip" id="189"/>
+						<ChildItems>
+							<UsualGroup name="NumberDateGroup" id="81">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group number date</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа номер дата</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul numărul data</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group number date</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа номер дата</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul numărul data</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="NumberDateGroupExtendedTooltip" id="190"/>
+								<ChildItems>
+									<InputField name="Number" id="82">
+										<DataPath>Object.Number</DataPath>
+										<SkipOnInput>true</SkipOnInput>
+										<Width>10</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<Wrap>false</Wrap>
+										<ContextMenu name="NumberContextMenu" id="83"/>
+										<ExtendedTooltip name="NumberExtendedTooltip" id="191"/>
+									</InputField>
+									<InputField name="Date" id="84">
+										<DataPath>Object.Date</DataPath>
+										<SkipOnInput>true</SkipOnInput>
+										<Title>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>from</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>от</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>de la</v8:content>
+											</v8:item>
+										</Title>
+										<Width>15</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<Wrap>false</Wrap>
+										<ContextMenu name="DateContextMenu" id="85"/>
+										<ExtendedTooltip name="DateExtendedTooltip" id="192"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<InputField name="Entity" id="86">
+								<DataPath>Object.Entity</DataPath>
+								<SkipOnInput>true</SkipOnInput>
+								<Width>33</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<Wrap>false</Wrap>
+								<ContextMenu name="CounterpartyContextMenu" id="87"/>
+								<ExtendedTooltip name="CounterpartyExtendedTooltip" id="193"/>
+							</InputField>
+							<UsualGroup name="GroupDocumentBasis" id="91">
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group document basis</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа документ основание</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul document temei</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="GroupDocumentBasisExtendedTooltip" id="194"/>
+								<ChildItems>
+									<Pages name="BasisPages" id="140">
+										<Title>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Basis pages</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страницы основания</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Paginile bazei</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Basis pages</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Страницы основания</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Paginile bazei</v8:content>
+											</v8:item>
+										</ToolTip>
+										<PagesRepresentation>None</PagesRepresentation>
+										<ExtendedTooltip name="PagesBasesExtendedTooltip" id="195"/>
+										<ChildItems>
+											<Page name="PageDocumentBasis" id="141">
+												<Title>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Page document basis</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Страница документ основание</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Pagina document temei</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Page document basis</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Страница документ основание</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Pagina document temei</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="PageDocumentBasisExtendedTooltip" id="196"/>
+												<ChildItems>
+													<UsualGroup name="PageLabelDocumentBasis" id="149">
+														<Title>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Page label document basis</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Страница надпись документ основание</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ro</v8:lang>
+																<v8:content>Pagina înscris document temei</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Page label document basis</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Страница надпись документ основание</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ro</v8:lang>
+																<v8:content>Pagina înscris document temei</v8:content>
+															</v8:item>
+														</ToolTip>
+														<Group>Horizontal</Group>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="PageLabelDocumentBasisExtendedTooltip" id="197"/>
+														<ChildItems>
+															<LabelDecoration name="Decoration1" id="150">
+																<Width>8</Width>
+																<HorizontalStretch>false</HorizontalStretch>
+																<Title formatted="false">
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Basis:</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Основание:</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>ro</v8:lang>
+																		<v8:content>Pe baza:</v8:content>
+																	</v8:item>
+																</Title>
+																<ContextMenu name="Decoration1ContextMenu" id="151"/>
+																<ExtendedTooltip name="Decoration1ExtendedTooltip" id="198"/>
+															</LabelDecoration>
+															<InputField name="DocumentBasis" id="142">
+																<DataPath>Object.DocumentBasis</DataPath>
+																<SkipOnInput>true</SkipOnInput>
+																<TitleLocation>None</TitleLocation>
+																<Width>21</Width>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ContextMenu name="DocumentBasisContextMenu" id="143"/>
+																<ExtendedTooltip name="DocumentBasisExtendedTooltip" id="199"/>
+															</InputField>
+														</ChildItems>
+													</UsualGroup>
+												</ChildItems>
+											</Page>
+											<Page name="PageBasisDocuments" id="144">
+												<Title>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Page basis documents</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Страница документы основания</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Pagina documente temei</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Page basis documents</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Страница документы основания</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Pagina documente temei</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="PageBasisDocumentsExtendedTooltip" id="200"/>
+												<ChildItems>
+													<UsualGroup name="GroupGoToList" id="154">
+														<Title>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group go to list</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа перейти к списку</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ro</v8:lang>
+																<v8:content>Grupul trecere la listă</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group go to list</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа перейти к списку</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ro</v8:lang>
+																<v8:content>Grupul trecere la listă</v8:content>
+															</v8:item>
+														</ToolTip>
+														<Group>Horizontal</Group>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="NavigateToListGroupExtendedTooltip" id="201"/>
+														<ChildItems>
+															<LabelDecoration name="GoToList" id="145">
+																<Width>33</Width>
+																<HorizontalStretch>false</HorizontalStretch>
+																<Title formatted="false">
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Group go to list of the documents array</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Перейти к списку документов оснований...</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>ro</v8:lang>
+																		<v8:content>Trecere la lista documentelor temei...</v8:content>
+																	</v8:item>
+																</Title>
+																<Hyperlink>true</Hyperlink>
+																<ContextMenu name="GoToListContextMenu" id="146"/>
+																<ExtendedTooltip name="GotoListExtendedTooltip" id="202"/>
+															</LabelDecoration>
+														</ChildItems>
+													</UsualGroup>
+												</ChildItems>
+											</Page>
+										</ChildItems>
+									</Pages>
+									<CommandBar name="BasisDocumentsCommandBar" id="147">
+										<Title>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Basis documents command bar</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Документы основания командная панель</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Documente temei panou de comenzi</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Basis documents command bar</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Документы основания командная панель</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Documente temei panou de comenzi</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Width>6</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ExtendedTooltip name="BasicDocumentsCommandPanelExtendedTooltip" id="203"/>
+										<ChildItems>
+											<Button name="BasisDocumentsEditInList" id="148">
+												<Type>CommandBarButton</Type>
+												<SkipOnInput>true</SkipOnInput>
+												<CommandName>Form.Command.BasisDocumentsEditInList</CommandName>
+												<ExtendedTooltip name="BasisDocumentsEditListExtendedTooltip" id="204"/>
+											</Button>
+										</ChildItems>
+									</CommandBar>
+									<Button name="FillByBasis" id="94">
+										<Type>UsualButton</Type>
+										<SkipOnInput>true</SkipOnInput>
+										<CommandName>Form.Command.FillByBasis</CommandName>
+										<ExtendedTooltip name="FillByBasisExtendedTooltip" id="205"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="NumberAndSeries" id="279">
+								<Title>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Number and series</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Number and series</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="NumberAndSeriesExtendedTooltip" id="280"/>
+								<ChildItems>
+									<InputField name="Series" id="281">
+										<DataPath>Object.Series</DataPath>
+										<ContextMenu name="SeriesContextMenu" id="282"/>
+										<ExtendedTooltip name="SeriesExtendedTooltip" id="283"/>
+									</InputField>
+									<InputField name="InvoiceNumber" id="284">
+										<DataPath>Object.InvoiceNumber</DataPath>
+										<ContextMenu name="InvoiceNumberContextMenu" id="285"/>
+										<ExtendedTooltip name="InvoiceNumberExtendedTooltip" id="286"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="RightColumn" id="7">
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>OWRight column</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Правая колонка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Coloana din dreapta</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="RightColumnExtendedTooltip" id="206"/>
+						<ChildItems>
+							<InputField name="TransactionType" id="88">
+								<DataPath>Object.TransactionType</DataPath>
+								<UserVisible>
+									<xr:Common>false</xr:Common>
+								</UserVisible>
+								<SkipOnInput>true</SkipOnInput>
+								<Width>33</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<Wrap>false</Wrap>
+								<ChoiceButton>true</ChoiceButton>
+								<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+								<ClearButton>false</ClearButton>
+								<SpinButton>false</SpinButton>
+								<OpenButton>false</OpenButton>
+								<ListChoiceMode>true</ListChoiceMode>
+								<ChoiceList>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation/>
+											<Value xsi:type="xr:DesignTimeRef">Enum.TransactionTypesSaleQuotation.EnumValue.Sale</Value>
+										</xr:Value>
+									</xr:Item>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation/>
+											<Value xsi:type="xr:DesignTimeRef">Enum.TransactionTypesSaleQuotation.EnumValue.Advance</Value>
+										</xr:Value>
+									</xr:Item>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation/>
+											<Value xsi:type="xr:DesignTimeRef">Enum.TransactionTypesSaleQuotation.EnumValue.AccrualDifferences</Value>
+										</xr:Value>
+									</xr:Item>
+								</ChoiceList>
+								<ChoiceListButton>false</ChoiceListButton>
+								<BackColor>style:AdministratingFieldBackground</BackColor>
+								<ContextMenu name="OperationTypeContextMenu" id="89"/>
+								<ExtendedTooltip name="OperationTypeExtendedTooltip" id="207"/>
+							</InputField>
+							<InputField name="Counterparty" id="5">
+								<DataPath>Object.Counterparty</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<Width>33</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<Wrap>false</Wrap>
+								<ContextMenu name="CounterpartyContextMenu" id="6"/>
+								<ExtendedTooltip name="CounterpartyExtendedTooltip" id="208"/>
+							</InputField>
+							<InputField name="Contract" id="8">
+								<DataPath>Object.Contract</DataPath>
+								<SkipOnInput>true</SkipOnInput>
+								<EditMode>EnterOnInput</EditMode>
+								<Width>33</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<Wrap>false</Wrap>
+								<ContextMenu name="ContractContextMenu" id="9"/>
+								<ExtendedTooltip name="ContractExtendedTooltip" id="209"/>
+							</InputField>
+							<LabelField name="PaymentDocuments" id="155">
+								<DataPath>PaymentDocuments</DataPath>
+								<SkipOnInput>true</SkipOnInput>
+								<Width>34</Width>
+								<HorizontalStretch>false</HorizontalStretch>
+								<Hiperlink>true</Hiperlink>
+								<ContextMenu name="DocumentsPaymentsContextMenu" id="156"/>
+								<ExtendedTooltip name="DocumentsPaymentsExtendedTooltip" id="210"/>
+							</LabelField>
+							<UsualGroup name="GroupPricesAndCurrency" id="80">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group prices and currency</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа цены и валюта</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul prețuri și valuta</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group prices and currency</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа цены и валюта</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul prețuri și valuta</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="FolderPricesAndCurrencyExtendedTooltip" id="211"/>
+								<ChildItems>
+									<LabelField name="PricesAndCurrency" id="65">
+										<DataPath>PricesAndCurrency</DataPath>
+										<SkipOnInput>true</SkipOnInput>
+										<TitleLocation>None</TitleLocation>
+										<HorizontalAlign>Right</HorizontalAlign>
+										<Width>43</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<TextColor>#000080</TextColor>
+										<ContextMenu name="PricesAndCurrencyContextMenu" id="66"/>
+										<ExtendedTooltip name="PricesAndCurrencyExtendedTooltip" id="212"/>
+									</LabelField>
+									<Button name="EditPricesAndCurrency" id="67">
+										<Type>UsualButton</Type>
+										<SkipOnInput>true</SkipOnInput>
+										<CommandName>Form.Command.EditPricesAndCurrency</CommandName>
+										<ExtendedTooltip name="EditPricesAndCurrencyExtendedTooltip" id="213"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<Pages name="Pages" id="113">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pages</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Pagini</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pages</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Pagini</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="PagesExtendedTooltip" id="214"/>
+				<ChildItems>
+					<Page name="GroupInventory" id="13">
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Inventory</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Запасы</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Stocuri</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="InventoryGroupExtendedTooltip" id="215"/>
+						<ChildItems>
+							<Table name="Inventory" id="14">
+								<Representation>List</Representation>
+								<SkipOnInput>false</SkipOnInput>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<DataPath>Object.Inventory</DataPath>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="InventoryContextMenu" id="15">
+									<ChildItems>
+										<Button name="SetCCDNumber" id="176">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.SetCCDNumber</CommandName>
+											<ExtendedTooltip name="SetCCDNomberExtendedTooltip" id="216"/>
+										</Button>
+									</ChildItems>
+								</ContextMenu>
+								<AutoCommandBar name="InventoryCommandPanel" id="16">
+									<ChildItems>
+										<Button name="InventorySearchByBarcode" id="112">
+											<Type>CommandBarButton</Type>
+											<SkipOnInput>false</SkipOnInput>
+											<CommandName>Form.Command.SearchByBarcode</CommandName>
+											<ExtendedTooltip name="InventorySearchByBarCodeExtendedTooltip" id="217"/>
+										</Button>
+										<Button name="InventoryLoadDataFromDTC" id="130">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.LoadDataFromDTC</CommandName>
+											<ExtendedTooltip name="InventoryLoadDataFromSDExtendedTooltip" id="218"/>
+										</Button>
+										<Button name="InventoryGetWeight" id="128">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.GetWeight</CommandName>
+											<ExtendedTooltip name="InventoryGetWeightExtendedTooltip" id="219"/>
+										</Button>
+										<Button name="InventorySelection" id="79">
+											<Type>CommandBarButton</Type>
+											<SkipOnInput>true</SkipOnInput>
+											<CommandName>Form.Command.Pick</CommandName>
+											<ExtendedTooltip name="InventorySelectionExtendedTooltip" id="220"/>
+										</Button>
+										<Popup name="GroupFillCCDNumbers" id="185">
+											<Title>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>CCD Numbers</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Номера ГТД</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Numerele DVM</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Fill CCD numbers</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Заполнить номера ГТД</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>ro</v8:lang>
+													<v8:content>Completare numerele DVM</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="GroupFillCCDNumbersExtendedTooltip" id="221"/>
+											<ChildItems>
+												<Button name="InventoryFillCCDNumbers" id="102">
+													<Type>CommandBarButton</Type>
+													<SkipOnInput>false</SkipOnInput>
+													<CommandName>Form.Command.FillCCDNumbers</CommandName>
+													<ExtendedTooltip name="InventoryFillCCDNumbersExtendedTooltip" id="222"/>
+												</Button>
+												<Button name="InventorySelectionCCDNumber" id="187">
+													<Type>CommandBarButton</Type>
+													<CommandName>Form.Command.PickUpCFDNumber</CommandName>
+													<ExtendedTooltip name="InventoryPickUpCCDNumberExtendedTooltip" id="223"/>
+												</Button>
+											</ChildItems>
+										</Popup>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="InventoryExtendedTooltip" id="224"/>
+								<SearchStringAddition name="InventorySearchString" id="287">
+									<AdditionSource>
+										<Item>Inventory</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="InventorySearchStringContextMenu" id="288"/>
+									<ExtendedTooltip name="InventorySearchStringExtendedTooltip" id="289"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="InventoryViewStatus" id="290">
+									<AdditionSource>
+										<Item>Inventory</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="InventoryViewStatusContextMenu" id="291"/>
+									<ExtendedTooltip name="InventoryViewStatusExtendedTooltip" id="292"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="InventorySearchControl" id="293">
+									<AdditionSource>
+										<Item>Inventory</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="InventorySearchControlContextMenu" id="294"/>
+									<ExtendedTooltip name="InventorySearchControlExtendedTooltip" id="295"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="InventoryLineNumber" id="17">
+										<DataPath>Object.Inventory.LineNumber</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Wrap>false</Wrap>
+										<ContextMenu name="InventoryStringsNumberContextMenu" id="18"/>
+										<ExtendedTooltip name="InventoryStringsNumberExtendedTooltip" id="225"/>
+									</InputField>
+									<InputField name="InventoryNomenclature" id="19">
+										<DataPath>Object.Inventory.Nomenclature</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Wrap>false</Wrap>
+										<ContextMenu name="InventoryNomenclatureContextMenu" id="20"/>
+										<ExtendedTooltip name="InventoryNomenclatureExtendedTooltip" id="226"/>
+									</InputField>
+									<InputField name="InventoryCharacteristic" id="21">
+										<DataPath>Object.Inventory.Characteristic</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Wrap>false</Wrap>
+										<ContextMenu name="InventoryCharacteristicContextMenu" id="22"/>
+										<ExtendedTooltip name="InventoryCharacteristicExtendedTooltip" id="227"/>
+									</InputField>
+									<InputField name="InventoryBatch" id="23">
+										<DataPath>Object.Inventory.Batch</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Wrap>false</Wrap>
+										<ContextMenu name="InventoryBatchContextMenu" id="24"/>
+										<ExtendedTooltip name="InventoryBatchExtendedTooltip" id="228"/>
+									</InputField>
+									<InputField name="InventoryContent" id="100">
+										<DataPath>Object.Inventory.Content</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>20</Width>
+										<DropListButton>true</DropListButton>
+										<ChoiceListButton>true</ChoiceListButton>
+										<ContextMenu name="InventoryContentContextMenu" id="101"/>
+										<ExtendedTooltip name="InventoryContentExtendedTooltip" id="229"/>
+									</InputField>
+									<InputField name="InventoryQuantity" id="25">
+										<DataPath>Object.Inventory.Quantity</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Wrap>false</Wrap>
+										<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
+										<AutoMarkIncomplete>true</AutoMarkIncomplete>
+										<ContextMenu name="InventoryQuantityComtextMenu" id="26"/>
+										<ExtendedTooltip name="InventoryQuantityExtendedTooltip" id="230"/>
+									</InputField>
+									<InputField name="InventoryUnitOfMeasure" id="27">
+										<DataPath>Object.Inventory.UnitOfMeasure</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>8</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<Wrap>false</Wrap>
+										<DropListButton>true</DropListButton>
+										<ChoiceButton>false</ChoiceButton>
+										<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+										<ClearButton>false</ClearButton>
+										<SpinButton>false</SpinButton>
+										<OpenButton>false</OpenButton>
+										<CreateButton>false</CreateButton>
+										<ListChoiceMode>true</ListChoiceMode>
+										<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
+										<AutoMarkIncomplete>true</AutoMarkIncomplete>
+										<TextEdit>false</TextEdit>
+										<ChoiceListButton>true</ChoiceListButton>
+										<ContextMenu name="InventoryUnitOfMeasurementContextMenu" id="28"/>
+										<ExtendedTooltip name="InventoryUnitOfMeasurementExtendedTooltip" id="231"/>
+									</InputField>
+									<InputField name="InventoryPrice" id="29">
+										<DataPath>Object.Inventory.Price</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Wrap>false</Wrap>
+										<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
+										<AutoMarkIncomplete>true</AutoMarkIncomplete>
+										<ContextMenu name="InventoryPriceContextMenu" id="30"/>
+										<ExtendedTooltip name="InventoryPriceExtendedTooltip" id="232"/>
+									</InputField>
+									<InputField name="InventoryAmount" id="31">
+										<DataPath>Object.Inventory.Amount</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Wrap>false</Wrap>
+										<ContextMenu name="InventorySummContextMenu" id="32"/>
+										<ExtendedTooltip name="InventorySummExtendedTooltip" id="233"/>
+									</InputField>
+									<InputField name="InventoryVATRate" id="33">
+										<DataPath>Object.Inventory.VATRate</DataPath>
+										<SkipOnInput>true</SkipOnInput>
+										<EditMode>EnterOnInput</EditMode>
+										<Wrap>false</Wrap>
+										<ContextMenu name="InventoryVATRateContextMenu" id="34"/>
+										<ExtendedTooltip name="InventoryVATRateExtendedTooltip" id="234"/>
+									</InputField>
+									<InputField name="InventoryVATAmount" id="35">
+										<DataPath>Object.Inventory.VATAmount</DataPath>
+										<SkipOnInput>true</SkipOnInput>
+										<EditMode>EnterOnInput</EditMode>
+										<Wrap>false</Wrap>
+										<ContextMenu name="InventoryVATAmountContextMenu" id="36"/>
+										<ExtendedTooltip name="InventoryVATAmountExtendedTooltip" id="235"/>
+									</InputField>
+									<InputField name="InventoryAmountTotal" id="37">
+										<DataPath>Object.Inventory.TotalAmount</DataPath>
+										<ReadOnly>true</ReadOnly>
+										<SkipOnInput>true</SkipOnInput>
+										<EditMode>EnterOnInput</EditMode>
+										<Wrap>false</Wrap>
+										<ContextMenu name="InventoryAmountTotalContextMenu" id="38"/>
+										<ExtendedTooltip name="InventoryAmountTotalExtendedTooltip" id="236"/>
+									</InputField>
+									<InputField name="InventoryCountryOfOrigin" id="39">
+										<DataPath>Object.Inventory.CountryOfOrigin</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Width>27</Width>
+										<Wrap>false</Wrap>
+										<ContextMenu name="InventoryCountryOfOriginContextMenu" id="40"/>
+										<ExtendedTooltip name="InventoryCountryOfOriginExtendedTooltip" id="237"/>
+									</InputField>
+									<InputField name="InventoryCCDNo" id="41">
+										<DataPath>Object.Inventory.CCDNo</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<Wrap>false</Wrap>
+										<ContextMenu name="InventoryCCDNomberContextMenu" id="42"/>
+										<ExtendedTooltip name="InventoryCCDNomberExtendedTooltip" id="238"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="GroupAdditional" id="114">
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Additionally</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дополнительно</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Suplimentar</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Additionally</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дополнительно</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Suplimentar</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="GroupAdditionalExtendedTooltip" id="239"/>
+						<ChildItems>
+							<UsualGroup name="AdditionalAttributesGroup" id="139">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Additional attributes</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дополнительные реквизиты</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Atribute suplimentare</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Additional attribute group</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа дополнительные реквизиты</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul atribute suplimentare</v8:content>
+									</v8:item>
+								</ToolTip>
+								<HorizontalStretch>true</HorizontalStretch>
+								<Group>Horizontal</Group>
+								<ExtendedTooltip name="AdditionalAttributesGroupExtendedTooltip" id="240"/>
+								<ChildItems>
+									<UsualGroup name="LabelsGroup" id="124">
+										<Title>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Group labels</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа надписи</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Grupul etichete</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Group labels</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа надписи</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Grupul etichete</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="FolderTextBoxExtendedTooltip" id="241"/>
+										<ChildItems>
+											<LabelDecoration name="DecorationShipper" id="122">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Consignor:</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Грузоотправитель:</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Comitent:</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="DecorationShipperContextMenu" id="123"/>
+												<ExtendedTooltip name="DecorationShipperExtendedTooltip" id="242"/>
+											</LabelDecoration>
+											<LabelDecoration name="DecorationConsignee" id="125">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Consignee:</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Грузополучатель:</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Destinatar:</v8:content>
+													</v8:item>
+												</Title>
+												<ContextMenu name="DecorationConsigneeContextMenu" id="126"/>
+												<ExtendedTooltip name="DecorationConsigneeExtendedTooltip" id="243"/>
+											</LabelDecoration>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="GroupFields" id="127">
+										<Title>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Field group</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа поля</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Grupul câmpului</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Field group</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа поля</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Grupul câmpului</v8:content>
+											</v8:item>
+										</ToolTip>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="GroupFieldsExtendedTooltip" id="244"/>
+										<ChildItems>
+											<UsualGroup name="GroupShipper" id="115">
+												<Title>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group shipper</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Группа грузоотправитель</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Group shipper</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Consignor</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Грузоотправитель</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Consignor</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Group>Horizontal</Group>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="GroupSenderExtendedTooltip" id="245"/>
+												<ChildItems>
+													<CheckBoxField name="Same" id="118">
+														<DataPath>Object.Same</DataPath>
+														<TitleLocation>Right</TitleLocation>
+														<CheckBoxType>Auto</CheckBoxType>
+														<ContextMenu name="SameContextMenu" id="119"/>
+														<ExtendedTooltip name="SameExtendedTooltip" id="246"/>
+													</CheckBoxField>
+													<InputField name="Consignor" id="116">
+														<DataPath>Object.Consignor</DataPath>
+														<TitleLocation>None</TitleLocation>
+														<Width>35</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="ShipperContextMenu" id="117"/>
+														<ExtendedTooltip name="ShipperExtendedTooltip" id="247"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<InputField name="Consignee" id="120">
+												<DataPath>Object.Consignee</DataPath>
+												<TitleLocation>None</TitleLocation>
+												<Width>43</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ConsigneeContextMenu" id="121"/>
+												<ExtendedTooltip name="ConsigneeExtendedTooltip" id="248"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="GroupFix" id="157">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group correction</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа исправление</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul corectare</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Group correction</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа исправление</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Grupul corectare</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="GroupFixExtendedTooltip" id="249"/>
+								<ChildItems>
+									<CheckBoxField name="Correction" id="158">
+										<DataPath>Object.Correction</DataPath>
+										<TitleLocation>Right</TitleLocation>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="FixContextMenu" id="159"/>
+										<ExtendedTooltip name="FixExtendedTooltip" id="250"/>
+									</CheckBoxField>
+									<LabelDecoration name="DecorationIndentCorrection" id="172">
+										<ContextMenu name="IndentDecorationFixContextMenu" id="173"/>
+										<ExtendedTooltip name="IndentDecorationFixExtendedTooltip" id="251"/>
+									</LabelDecoration>
+									<Pages name="GroupCorrectionVisibleManagement" id="160">
+										<Title>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Group correction visibility management</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа управления видимостью исправления</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Grupul de dirijare a vizibilității corectării</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Group correction visibility management</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа управления видимостью исправления</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Grupul de dirijare a vizibilității corectării</v8:content>
+											</v8:item>
+										</ToolTip>
+										<PagesRepresentation>None</PagesRepresentation>
+										<ExtendedTooltip name="GroupManagementVisibilityFixExtendedTooltip" id="252"/>
+										<ChildItems>
+											<Page name="CorrectionInvisible" id="161">
+												<Title>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Correction is invisible</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Исправление невидимо</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Corecție este invizibil</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Correction is invisible</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Исправление невидимо</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Corecție este invizibil</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="FixInvisiblyExtendedTooltip" id="253"/>
+												<ChildItems>
+													<LabelDecoration name="DecorationEmptyTitle" id="174">
+														<ContextMenu name="EmptyDecorationLabelContextMenu" id="175"/>
+														<ExtendedTooltip name="DecorationEmptyLabelExtendedTooltip" id="254"/>
+													</LabelDecoration>
+												</ChildItems>
+											</Page>
+											<Page name="GroupCorrectionVisible" id="162">
+												<Title>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group correction visible</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Группа исправление видимо</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Grupul corectare vizibil</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group correction visible</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Группа исправление видимо</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>ro</v8:lang>
+														<v8:content>Grupul corectare vizibil</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="GroupFixApparentlyExtendedTooltip" id="255"/>
+												<ChildItems>
+													<InputField name="NumberOfCorrection" id="163">
+														<DataPath>Object.NumberOfCorrection</DataPath>
+														<Width>15</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ClearButton>false</ClearButton>
+														<SpinButton>true</SpinButton>
+														<ContextMenu name="NumberOfCorrectionContextMenu" id="164"/>
+														<ExtendedTooltip name="NumberOfCorrectionExtendedTooltip" id="256"/>
+													</InputField>
+													<UsualGroup name="DataGroupFix" id="165">
+														<Title>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Data fix group</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа данные исправления</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ro</v8:lang>
+																<v8:content>Grup fix de date</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Data fix group</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа данные исправления</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>ro</v8:lang>
+																<v8:content>Grup fix de date</v8:content>
+															</v8:item>
+														</ToolTip>
+														<Group>Vertical</Group>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="DataGroupFixExtendedTooltip" id="257"/>
+														<ChildItems>
+															<InputField name="InitialDocumentNumber" id="166">
+																<DataPath>Object.InitialDocumentNumber</DataPath>
+																<Width>15</Width>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ClearButton>true</ClearButton>
+																<ContextMenu name="NumberOfSourceDocumentContextMenu" id="167"/>
+																<ExtendedTooltip name="NumberOfSourceDocumentExtendedTooltip" id="258"/>
+															</InputField>
+															<InputField name="InitialDocumentDate" id="168">
+																<DataPath>Object.InitialDocumentDate</DataPath>
+																<Width>15</Width>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ContextMenu name="DateOfOriginalDocumentContextMenu" id="169"/>
+																<ExtendedTooltip name="DateOfOriginalDocumentExtendedTooltip" id="259"/>
+															</InputField>
+														</ChildItems>
+													</UsualGroup>
+													<LabelField name="CorrectedInvoice" id="170">
+														<DataPath>Object.CorrectedInvoice</DataPath>
+														<TitleLocation>None</TitleLocation>
+														<ContextMenu name="InvoiceFixedContextMenu" id="171"/>
+														<ExtendedTooltip name="FixedInvoiceExtendedTooltip" id="260"/>
+													</LabelField>
+												</ChildItems>
+											</Page>
+										</ChildItems>
+									</Pages>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="IncomingInformation" id="180">
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Incoming information</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Входящая информация</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Informațiile primite</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Incoming information</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Входящая информация</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Informațiile primite</v8:content>
+									</v8:item>
+								</ToolTip>
+								<HorizontalStretch>true</HorizontalStretch>
+								<Group>Horizontal</Group>
+								<ExtendedTooltip name="IncomingInformationExtendedTooltip" id="261"/>
+								<ChildItems>
+									<InputField name="IncomingDocumentNo" id="181">
+										<DataPath>Object.IncomingDocumentNo</DataPath>
+										<Width>15</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="IncomingDocumentNumberContextMenu" id="182"/>
+										<ExtendedTooltip name="IncomingDocumentNumberExtendedTooltip" id="262"/>
+									</InputField>
+									<InputField name="DateOfIncomingDocument" id="183">
+										<DataPath>Object.DateOfIncomingDocument</DataPath>
+										<ContextMenu name="IncomingDocumentDateContextMenu" id="184"/>
+										<ExtendedTooltip name="IncomingDocumentDateExtendedTooltip" id="263"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+			<UsualGroup name="Footer" id="68">
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Footer</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подвал</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Subsol</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="FooterExtendedTooltip" id="264"/>
+				<ChildItems>
+					<InputField name="Comment" id="10">
+						<DataPath>Object.Comment</DataPath>
+						<TitleLocation>Top</TitleLocation>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>75</Width>
+						<Wrap>false</Wrap>
+						<ContextMenu name="CommentContextMenu" id="11"/>
+						<ExtendedTooltip name="CommentExtendedTooltip" id="265"/>
+					</InputField>
+					<UsualGroup name="Totals" id="69">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Totals</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Итоги</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Totaluri</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="TotalsExtendedTooltip" id="266"/>
+						<ChildItems>
+							<InputField name="StocksTotalAll" id="70">
+								<DataPath>Object.Inventory.TotalTotalAmount</DataPath>
+								<ReadOnly>true</ReadOnly>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Amount (total)</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сумма (итог)</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>Suma (total)</v8:content>
+									</v8:item>
+								</Title>
+								<Width>13</Width>
+								<ChoiceButton>false</ChoiceButton>
+								<ClearButton>false</ClearButton>
+								<SpinButton>false</SpinButton>
+								<OpenButton>false</OpenButton>
+								<TextEdit>false</TextEdit>
+								<ChoiceListButton>false</ChoiceListButton>
+								<ContextMenu name="InventoryTotalTotalContextMenu" id="71"/>
+								<ExtendedTooltip name="InventoryTotalTotalExtendedTooltip" id="267"/>
+							</InputField>
+							<InputField name="InventoryTotalSumOfVAT" id="72">
+								<DataPath>Object.Inventory.TotalVATAmount</DataPath>
+								<ReadOnly>true</ReadOnly>
+								<Title>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>VAT Amount (total)</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>ro</v8:lang>
+										<v8:content>VAT Amount (total)</v8:content>
+									</v8:item>
+								</Title>
+								<Width>13</Width>
+								<ChoiceButton>false</ChoiceButton>
+								<ClearButton>false</ClearButton>
+								<SpinButton>false</SpinButton>
+								<OpenButton>false</OpenButton>
+								<TextEdit>false</TextEdit>
+								<ChoiceListButton>false</ChoiceListButton>
+								<ContextMenu name="InventoryTotalVATAmountContextMenu" id="73"/>
+								<ExtendedTooltip name="InventoryTotalVATAmountExtendedTooltip" id="268"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="TotalCurrency" id="74">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Currency totals</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Итоги валюта</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Total valuta</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="TotalsCurrencyExtendedTooltip" id="269"/>
+						<ChildItems>
+							<LabelField name="DocumentCurrency" id="75">
+								<DataPath>Object.DocumentCurrency</DataPath>
+								<TitleLocation>None</TitleLocation>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="DocumentCurrencyContextMenu" id="76"/>
+								<ExtendedTooltip name="DocumentCurrencyExtendedTooltip" id="270"/>
+							</LabelField>
+							<LabelField name="DocumentCur1" id="77">
+								<DataPath>Object.DocumentCurrency</DataPath>
+								<TitleLocation>None</TitleLocation>
+								<HorizontalStretch>false</HorizontalStretch>
+								<ContextMenu name="DocumentCur1ContextMenu" id="78"/>
+								<ExtendedTooltip name="DocumentCur1ExtendedTooltip" id="271"/>
+							</LabelField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="GroupEDState" id="177">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>ED state group</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа состояние ЭД</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Grup de stat ED</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>ED state group</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа состояние ЭД</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Grup de stat ED</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="GroupStateEDExtendedTooltip" id="272"/>
+				<ChildItems>
+					<LabelField name="EDStatus" id="178">
+						<DataPath>EDStateText</DataPath>
+						<ContextMenu name="EDStatusContextMenu" id="179"/>
+						<ExtendedTooltip name="StateEDExtendedTooltip" id="273"/>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="InformationGroup" id="103">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Information</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Информация</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Informații</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Group information</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа информация</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Grupul informații</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="GroupInformationExtendedTooltip" id="274"/>
+				<ChildItems>
+					<PictureField name="PictureDocumentStatus" id="104">
+						<DataPath>PictureDocumentStatus</DataPath>
+						<TitleLocation>None</TitleLocation>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Document state: new, not posted, posted, recorded.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Состояние документа: новый, не проведен, проведен, записан.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>De stat documentului: noi, nu postat, postat, înregistrate.</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Width>2</Width>
+						<Height>1</Height>
+						<HorizontalStretch>false</HorizontalStretch>
+						<VerticalStretch>false</VerticalStretch>
+						<Zoomable>true</Zoomable>
+						<ValuesPicture>
+							<xr:Ref>CommonPicture.DocumentStatuses</xr:Ref>
+							<xr:LoadTransparent>false</xr:LoadTransparent>
+						</ValuesPicture>
+						<Border width="1">
+							<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+						</Border>
+						<ContextMenu name="PictureDocumentStateContextMenu" id="105"/>
+						<ExtendedTooltip name="PictureDocumentStateExtendedTooltip" id="275"/>
+					</PictureField>
+					<LabelField name="DocumentStatus" id="106">
+						<DataPath>DocumentStatus</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Document state</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Состояние документа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Statutul documentului</v8:content>
+							</v8:item>
+						</Title>
+						<TitleLocation>None</TitleLocation>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Document state: new, not posted, posted, recorded.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Состояние документа: новый, не проведен, проведен, записан.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>De stat documentului: noi, nu postat, postat, înregistrate.</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Height>1</Height>
+						<HorizontalStretch>false</HorizontalStretch>
+						<VerticalStretch>false</VerticalStretch>
+						<TextColor>#993300</TextColor>
+						<ContextMenu name="StateDocumentContextMenu" id="107"/>
+						<ExtendedTooltip name="StateDocumentExtendedTooltip" id="276"/>
+					</LabelField>
+					<PictureDecoration name="PictureDocumentAuthor" id="108">
+						<Width>2</Width>
+						<Height>1</Height>
+						<HorizontalStretch>false</HorizontalStretch>
+						<VerticalStretch>false</VerticalStretch>
+						<SkipOnInput>false</SkipOnInput>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Author of document</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Автор документа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Autorul documentului</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>User who is author of document</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пользователь, автор документа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Utilizatorul, autorul documentului</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Picture>
+							<xr:Ref>StdPicture.User</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ContextMenu name="PictureDocumentAuthorContextMenu" id="109"/>
+						<ExtendedTooltip name="PictureDocumentAuthorExtendedTooltip" id="277"/>
+					</PictureDecoration>
+					<LabelField name="DocumentAuthor" id="110">
+						<DataPath>Object.Author</DataPath>
+						<TitleLocation>None</TitleLocation>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Author of document</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Автор документа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>ro</v8:lang>
+								<v8:content>Autorul documentului</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Height>1</Height>
+						<HorizontalStretch>true</HorizontalStretch>
+						<VerticalStretch>false</VerticalStretch>
+						<TextColor>#993300</TextColor>
+						<ContextMenu name="AuthorDocumentContextMenu" id="111"/>
+						<ExtendedTooltip name="DocumentAuthorExtendedTooltip" id="278"/>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Object" id="1">
+				<Type>
+					<v8:Type>cfg:DocumentObject.Invoice</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+				<UseAlways>
+					<Field>Object.RegisterRecords</Field>
+				</UseAlways>
+			</Attribute>
+			<Attribute name="MainRecvisits" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Main attributes</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Основные реквизиты</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Atribute principale</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="PricesAndCurrency" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Prices and currency</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Цены и валюта</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Prețuri și valută</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FunctionalOptions>
+					<Item>FunctionalOption.CurrencyTransactions</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="Counterparty" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Counterparty</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Контрагент</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Partener</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="DocumentDate" id="5">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Docment date</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дата документа</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Data documentului</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>Date</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="Counterparty" id="6">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Counterparty</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Контрагент</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Partener</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Counterparties</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="DoNotOpenForm" id="8">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Do not open form</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Не открывать форму</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Nu deschide forma</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="PictureDocumentStatus" id="9">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Document status</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Картинка состояния документа</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Statutul documentului</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>1</v8:Digits>
+						<v8:FractionDigits>0</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="PostingIsAllowed" id="10">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Picture document status</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Разрешено проведение</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Pictura statutului documentului</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="DocumentStatus" id="11">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Document state</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Состояние документа</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Statutul documentului</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>20</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="UsePeripherals" id="12">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Use external equipment</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Использовать подключаемое оборудование</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Utilizare echipamentul extern</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="NationalCurrency" id="13">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>National currency</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Национальная валюта</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Valuta națională</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Currencies</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="Contract" id="14">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Contract</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Договор</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Contract</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>cfg:CatalogRef.CounterpartyContracts</v8:Type>
+				</Type>
+			</Attribute>
+			<Attribute name="ValidTypesDocumentBasis" id="15">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Valid types document basis</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Допустимые типы документ основание</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Tipuri admisibile document temei</v8:content>
+					</v8:item>
+				</Title>
+				<Type/>
+			</Attribute>
+			<Attribute name="PaymentDocuments" id="16">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Payment document</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Документы оплаты</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Documente de plată</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="EDStateText" id="18">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>ED state</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Состояние ЭД</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>De stat ED</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>0</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FunctionalOptions>
+					<Item>FunctionalOption.UseEDExchange</Item>
+				</FunctionalOptions>
+			</Attribute>
+			<Attribute name="RateNationalCurrency" id="7">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Rate national currency</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Курс национальная валюта</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Rata de schimb valuta națională</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>10</v8:Digits>
+						<v8:FractionDigits>4</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+			</Attribute>
+			<Attribute name="RepetitionNationalCurrency" id="17">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Repetition national currency</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кратность национальная валюта</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Divizibilitatea valuta națională</v8:content>
+					</v8:item>
+				</Title>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>10</v8:Digits>
+						<v8:FractionDigits>0</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+			</Attribute>
+		</Attributes>
+		<Commands>
+			<Command name="EditPricesAndCurrency" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Edit prices and currency</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Редактировать цены и валюту</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Editare prețurile și valuta</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Edit prices and currency</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Редактировать цены и валюту</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Editare prețurile și valuta</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.Magnifier</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<FunctionalOptions>
+					<Item>FunctionalOption.CurrencyTransactions</Item>
+				</FunctionalOptions>
+				<Representation>Picture</Representation>
+				<ModifiesSavedData>true</ModifiesSavedData>
+			</Command>
+			<Command name="Pick" id="2">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pick</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подобрать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Selectare</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pick</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подобрать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Selectare</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Shortcut>F8</Shortcut>
+				<ModifiesSavedData>true</ModifiesSavedData>
+			</Command>
+			<Command name="FillByBasis" id="3">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill by basis</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заполнить по основанию</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Completare conform temeiului</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill by basis</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заполнить по основанию</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Completare conform temeiului</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.FillByBasis</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+				<Representation>Picture</Representation>
+				<ModifiesSavedData>true</ModifiesSavedData>
+			</Command>
+			<Command name="FillCCDNumbers" id="4">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill by existing data</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заполнить по имеющимся данным</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Umple de date existente</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill CCD numbers</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заполнить номера ГТД</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Completare numerele DVM</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.Done</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+				<ModifiesSavedData>true</ModifiesSavedData>
+			</Command>
+			<Command name="SearchByBarcode" id="5">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search by barcode</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск по штрихкоду</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Căutare conform codului de bare</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search by barcode</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Поиск по штрихкоду</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Căutare conform codului de bare</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Shortcut>F7</Shortcut>
+				<Picture>
+					<xr:Ref>CommonPicture.NewByBarcode</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+				<ModifiesSavedData>true</ModifiesSavedData>
+			</Command>
+			<Command name="GetWeight" id="6">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Weight</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Вес</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Greutatea</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Get weight</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Получить вес</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Primire greutatea</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.GetWeight</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+				<FunctionalOptions>
+					<Item>FunctionalOption.UsePeripherals</Item>
+				</FunctionalOptions>
+				<ModifiesSavedData>true</ModifiesSavedData>
+			</Command>
+			<Command name="LoadDataFromDTC" id="7">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Load data from DTC</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Загрузить данные из ТСД</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Încărcare datele din terminalul de colectare a datelor</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Load data from DTC</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Загрузить данные из ТСД</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Încărcare datele din terminalul de colectare a datelor</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.PeripheralsDataCollectionTerminal16</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:TransparentPixel x="13" y="2"/>
+				</Picture>
+				<ModifiesSavedData>true</ModifiesSavedData>
+			</Command>
+			<Command name="BasisDocumentsEditInList" id="8">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>List</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Список</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Lista</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Basis documents edit in list</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Документы основания редактировать списком</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Documente temei editare în listă</v8:content>
+					</v8:item>
+				</ToolTip>
+			</Command>
+			<Command name="SetCCDNumber" id="9">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Set CCD number</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Установить номер ГТД</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Setați numărul CCD</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Install the CCD number for the selected rows</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Установить номер ГТД для выделенных строк</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Instalați numărul CCD pentru rândurile selectate</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Representation>Text</Representation>
+				<ModifiesSavedData>true</ModifiesSavedData>
+			</Command>
+			<Command name="PickUpCFDNumber" id="10">
+				<Title>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pick up CFD numbers</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подбор номеров ГТД</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Pick up numere de CFD-uri</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pick up CFD numbers</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подбор номеров ГТД</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>ro</v8:lang>
+						<v8:content>Pick up numere de CFD-uri</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>CommonPicture.ToFillForm</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+			</Command>
+		</Commands>
+	</BaseForm>
+</Form>

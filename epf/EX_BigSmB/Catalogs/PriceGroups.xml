@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="c276086a-7937-44d9-b8fe-5eec9c63d6c4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.PriceGroups" category="Object">
+				<xr:TypeId>ab161ef7-e3fe-4028-82ac-df9147095b0c</xr:TypeId>
+				<xr:ValueId>bdaf577a-df64-4254-8337-8c23912144e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.PriceGroups" category="Ref">
+				<xr:TypeId>2c500885-ac26-46e0-994f-9e5a824b86fe</xr:TypeId>
+				<xr:ValueId>9d234331-9fd9-44fd-bf7a-d7c44f6ce7a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.PriceGroups" category="Selection">
+				<xr:TypeId>8595d560-9dc2-40b6-8cbb-6509eba6697d</xr:TypeId>
+				<xr:ValueId>55265e2f-da89-409a-8001-ac374cfb7b51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.PriceGroups" category="List">
+				<xr:TypeId>4c5fe897-a6e5-4a9c-ae55-841a80c2211b</xr:TypeId>
+				<xr:ValueId>12413c63-63c6-4903-a918-c375aa16a82b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.PriceGroups" category="Manager">
+				<xr:TypeId>b3ece072-4e08-4576-bc0e-81ab5ea532dc</xr:TypeId>
+				<xr:ValueId>ed6cabaa-126b-4a99-aedc-7b7f4b7ac981</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>PriceGroups</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

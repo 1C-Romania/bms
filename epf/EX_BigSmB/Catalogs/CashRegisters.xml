@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="fb2a06b1-9f78-47f1-a46f-a65619bb2d9d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.CashRegisters" category="Object">
+				<xr:TypeId>8f652e0f-b9cb-44c3-a88c-188502e074c8</xr:TypeId>
+				<xr:ValueId>e4a12b27-587d-4e2e-b227-94274c04c0bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.CashRegisters" category="Ref">
+				<xr:TypeId>ddbfdc35-3492-4e76-85c2-74ac20923574</xr:TypeId>
+				<xr:ValueId>02627d71-3e01-459f-a20f-d7f4d0e4bbea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.CashRegisters" category="Selection">
+				<xr:TypeId>4ff4cf04-5a11-4bbc-8040-2e55e3cbebb9</xr:TypeId>
+				<xr:ValueId>0268d3da-ba3f-4f24-b38d-f8f699c052a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.CashRegisters" category="List">
+				<xr:TypeId>f6deda48-09d8-44b4-8c69-04e3cfe6ad20</xr:TypeId>
+				<xr:ValueId>a1ab226b-78a9-47cd-978e-0bf17487b658</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.CashRegisters" category="Manager">
+				<xr:TypeId>dea405c1-13cc-461e-89cf-24cfda463383</xr:TypeId>
+				<xr:ValueId>e0a53049-d684-4da5-bf74-7daf56fceeb1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CashRegisters</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

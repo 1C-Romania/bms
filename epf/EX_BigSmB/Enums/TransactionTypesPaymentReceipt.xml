@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="f005bb9d-0d20-41c9-9a0a-992058f77a7d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesPaymentReceipt" category="Ref">
+				<xr:TypeId>ab26c7f7-40f9-4576-a73f-ad955c2bb0ba</xr:TypeId>
+				<xr:ValueId>a9525af0-ad48-43c3-8b64-949317d263be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesPaymentReceipt" category="Manager">
+				<xr:TypeId>934beefe-3e2c-4739-8337-5b8cbfcc8a13</xr:TypeId>
+				<xr:ValueId>0871dc00-95b8-4f3f-a4da-8da0d02daa86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesPaymentReceipt" category="List">
+				<xr:TypeId>80be7b8f-1404-4503-9333-2ffc8f657c8f</xr:TypeId>
+				<xr:ValueId>d37a766a-8162-4804-8ced-d184d089653a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesPaymentReceipt</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

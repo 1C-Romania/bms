@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="b70ae3bd-8192-49f0-81c7-4d11bfefb0d8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TimeDataInputMethods" category="Ref">
+				<xr:TypeId>3d8a24cc-48fa-4cf6-9097-f8cf1f86b012</xr:TypeId>
+				<xr:ValueId>2fd614fe-0a85-40a6-9eca-0b4ff5401321</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TimeDataInputMethods" category="Manager">
+				<xr:TypeId>33947cb2-01f5-4a47-86ea-30500a5bc4c4</xr:TypeId>
+				<xr:ValueId>96e73e64-59f6-4703-9661-deb1ea53a815</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TimeDataInputMethods" category="List">
+				<xr:TypeId>68f99b8d-7200-45d8-9f48-6dfda9941c04</xr:TypeId>
+				<xr:ValueId>351c96cf-01ad-4448-b763-ad5f47376f73</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TimeDataInputMethods</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="0897c0e6-3a24-4354-87b3-369b2339fe13">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesPaymentExpense" category="Ref">
+				<xr:TypeId>ead401dd-044e-4e97-94d2-24d3027dbc69</xr:TypeId>
+				<xr:ValueId>4b2e6c90-08b7-419c-b686-6b9f51e9f8b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesPaymentExpense" category="Manager">
+				<xr:TypeId>afc0deae-a1ac-4d3e-8f40-28317cb96541</xr:TypeId>
+				<xr:ValueId>2aed0dab-e233-41f8-9d51-b8d2175da339</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesPaymentExpense" category="List">
+				<xr:TypeId>1a9192e5-5d71-4847-b239-a3f5343596b1</xr:TypeId>
+				<xr:ValueId>6a522b7b-0349-4791-b7b1-0e479a8ab5ed</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesPaymentExpense</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<AccumulationRegister uuid="2f952480-89b6-49e6-b2af-c3e9a2d58f98">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.InvoicesAndOrdersPayment" category="Record">
+				<xr:TypeId>80d347ed-526b-4a6a-a6ef-0c97ab3fe26d</xr:TypeId>
+				<xr:ValueId>815959d8-5744-4cbd-9c33-3fa31a216303</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.InvoicesAndOrdersPayment" category="Manager">
+				<xr:TypeId>bb7f92a1-895c-4832-9c7a-fc4edac9cdba</xr:TypeId>
+				<xr:ValueId>8eb1d46f-ac4f-43e8-80c3-e457ccdf0dbb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.InvoicesAndOrdersPayment" category="Selection">
+				<xr:TypeId>a4692a93-81a9-49fa-ab8a-9097ea582f78</xr:TypeId>
+				<xr:ValueId>4b8caf7f-5ebe-4d1b-bb9a-4f5033a174f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.InvoicesAndOrdersPayment" category="List">
+				<xr:TypeId>dbd0b428-a569-4972-a578-9008aaffa7ab</xr:TypeId>
+				<xr:ValueId>1a899f0f-28e7-49d9-a583-c1ffce34c89b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.InvoicesAndOrdersPayment" category="RecordSet">
+				<xr:TypeId>f941795d-fcb6-4c39-8a97-8a04adcfff81</xr:TypeId>
+				<xr:ValueId>8f52a0ea-d719-4574-9854-6598243fae4a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.InvoicesAndOrdersPayment" category="RecordKey">
+				<xr:TypeId>d924877f-8536-40a7-aa64-7e93ed9219d6</xr:TypeId>
+				<xr:ValueId>071cb11c-c398-47e4-a21f-7fdb0520b765</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>InvoicesAndOrdersPayment</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="8909042f-d996-45fd-8a41-af522dc958eb">
+				<Properties>
+					<Name>AmountOfPayment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="7108d4e2-7c14-4e40-b8ed-1565d8663e43">
+				<Properties>
+					<Name>InvoiceForPayment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

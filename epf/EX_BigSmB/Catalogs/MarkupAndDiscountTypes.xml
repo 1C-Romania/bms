@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="6bdab0b2-8247-4754-9795-85d72f9385f8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.MarkupAndDiscountTypes" category="Object">
+				<xr:TypeId>cdaf3602-93fb-472d-9e7b-645273f445ad</xr:TypeId>
+				<xr:ValueId>6dbd1f28-8c7a-4952-ae69-6ad536d8256d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.MarkupAndDiscountTypes" category="Ref">
+				<xr:TypeId>460928ae-2954-4682-be35-83489ec3a8a3</xr:TypeId>
+				<xr:ValueId>05a1a054-5e1e-472c-bbc7-e2b77c5b196e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.MarkupAndDiscountTypes" category="Selection">
+				<xr:TypeId>e3364006-4ee8-4922-803d-fbcbd54fac4b</xr:TypeId>
+				<xr:ValueId>dc69d527-9599-4c8d-ae2a-462c73d10a75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.MarkupAndDiscountTypes" category="List">
+				<xr:TypeId>87f563c3-b476-4c2e-9ab6-52a62ec58de0</xr:TypeId>
+				<xr:ValueId>51040ccf-cbc6-4a34-83bb-9273d23d03bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.MarkupAndDiscountTypes" category="Manager">
+				<xr:TypeId>74cf3277-f1df-449f-8189-5a7cfcaaa3d9</xr:TypeId>
+				<xr:ValueId>cc26a1e6-d9fe-4f7b-a417-855115575c0f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>MarkupAndDiscountTypes</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

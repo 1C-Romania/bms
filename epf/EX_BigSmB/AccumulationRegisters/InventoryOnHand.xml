@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<AccumulationRegister uuid="f5f4c2ce-8904-4c19-97ae-1ee1c7b518fc">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.InventoryOnHand" category="Record">
+				<xr:TypeId>25527e9f-cd32-49ae-be6c-e2f9d6e25b51</xr:TypeId>
+				<xr:ValueId>1fc1459c-f923-440d-83da-bf1ddc334850</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.InventoryOnHand" category="Manager">
+				<xr:TypeId>53f252fa-2f9c-43db-b5cd-4219bd284ac3</xr:TypeId>
+				<xr:ValueId>e432f629-6e02-4512-9af0-7f9b83abc640</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.InventoryOnHand" category="Selection">
+				<xr:TypeId>838b6b21-6983-4c0b-8614-4a4ff0210b10</xr:TypeId>
+				<xr:ValueId>523302cc-070e-4b96-8604-66e6f5eb9769</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.InventoryOnHand" category="List">
+				<xr:TypeId>b80bdf2f-6b19-40cd-aedd-a69cfdd92364</xr:TypeId>
+				<xr:ValueId>a22660ae-2b18-4aa8-8f2c-e5d355ac7e23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.InventoryOnHand" category="RecordSet">
+				<xr:TypeId>ef5f54cd-5b2f-4b10-ab81-648680d0217a</xr:TypeId>
+				<xr:ValueId>36533e0f-34d3-4514-80cf-7505257d2e47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.InventoryOnHand" category="RecordKey">
+				<xr:TypeId>cc4921e3-03c5-4658-8fb4-ab405aaae02d</xr:TypeId>
+				<xr:ValueId>1ea33147-bdfd-453c-9486-34496f8aea19</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>InventoryOnHand</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="0ed17e00-0dcc-41a0-8771-c9847eed64a5">
+				<Properties>
+					<Name>Quantity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="bce0d967-0ae2-41c4-88aa-3fffaeeca67b">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ce53a4a8-17fa-4336-abd4-d5f9f5c653c7">
+				<Properties>
+					<Name>Nomenclature</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Nomenclature</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="c4e358c6-91d3-4f4c-aa03-00382e9eeba9">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

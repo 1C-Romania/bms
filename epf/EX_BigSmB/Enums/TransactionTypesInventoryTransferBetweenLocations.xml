@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="f61aa1ce-797c-41ed-a73a-6a4985b4d683">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesInventoryTransferBetweenLocations" category="Ref">
+				<xr:TypeId>58ad191e-0346-470b-9f71-0963dcb6b326</xr:TypeId>
+				<xr:ValueId>100e71e8-e32f-46be-acff-35980652f1a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesInventoryTransferBetweenLocations" category="Manager">
+				<xr:TypeId>431a6a27-000c-402a-9b98-1fd8b6860243</xr:TypeId>
+				<xr:ValueId>644c713f-96a5-4d22-98cf-d6c3d23f5f00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesInventoryTransferBetweenLocations" category="List">
+				<xr:TypeId>6c3dc781-ed66-438c-86d9-40e27acb9ac3</xr:TypeId>
+				<xr:ValueId>3c4d9017-82a0-48e8-a6bc-0ba69e43ee72</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesInventoryTransferBetweenLocations</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

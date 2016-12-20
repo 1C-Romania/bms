@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Report uuid="871dfe86-e09c-42af-a76f-9d95e4843136">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.PaymentByVendorOrdersAnalysis" category="Object">
+				<xr:TypeId>2c73dd09-702f-46f1-a832-a3b4813b752d</xr:TypeId>
+				<xr:ValueId>8af0547c-eb12-4eb9-97e0-8f2011ca4dab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.PaymentByVendorOrdersAnalysis" category="Manager">
+				<xr:TypeId>a29445e0-7195-4b40-82fb-94bc02b85f73</xr:TypeId>
+				<xr:ValueId>cb85468e-197c-44db-8f8f-d0976f5bf6fa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>PaymentByVendorOrdersAnalysis</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="e5c12759-311c-42a3-8961-dc1d164e0863">
+				<Properties>
+					<Name>PaymentByOrderAnalysis</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelSeeAlso</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

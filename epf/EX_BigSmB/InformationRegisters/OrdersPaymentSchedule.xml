@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<InformationRegister uuid="91c654e3-577f-4b56-b2f5-5deee9a064c8">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.OrdersPaymentSchedule" category="Record">
+				<xr:TypeId>d6987c1e-b2ae-4e49-888d-402e99fbb815</xr:TypeId>
+				<xr:ValueId>45f35b4e-b12d-47ad-92ed-1868caf1b728</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.OrdersPaymentSchedule" category="Manager">
+				<xr:TypeId>caa057dd-a0df-404c-881b-0e8450d89257</xr:TypeId>
+				<xr:ValueId>c557953e-02b5-4bd5-8fac-3d21995630f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.OrdersPaymentSchedule" category="Selection">
+				<xr:TypeId>9b52f416-db25-42c2-b6f1-b7caec52319e</xr:TypeId>
+				<xr:ValueId>db4fbc69-fb52-4888-8283-8765ad1bd2d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.OrdersPaymentSchedule" category="List">
+				<xr:TypeId>c42ecb0a-956f-4702-b16f-65554208ac95</xr:TypeId>
+				<xr:ValueId>3d30ef68-f448-4190-99a2-7a5856fa1c95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.OrdersPaymentSchedule" category="RecordSet">
+				<xr:TypeId>3e2d0977-9c3e-4155-9d2c-aa2a47578b7f</xr:TypeId>
+				<xr:ValueId>c639a67b-7f01-49c4-bd80-05c539e34c0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.OrdersPaymentSchedule" category="RecordKey">
+				<xr:TypeId>fd26f303-2e75-4122-8140-fe7e2fd0907a</xr:TypeId>
+				<xr:ValueId>088d6b75-9aed-489a-bab2-87fe656b578b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.OrdersPaymentSchedule" category="RecordManager">
+				<xr:TypeId>4db4b1d0-b56b-428a-8b6a-8fa74fcec268</xr:TypeId>
+				<xr:ValueId>96fe9463-bec7-417b-97e5-76bf7cc07d71</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>OrdersPaymentSchedule</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="fadff541-fec9-4723-8f52-fe599aadde97">
+				<Properties>
+					<Name>InvoiceForPayment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

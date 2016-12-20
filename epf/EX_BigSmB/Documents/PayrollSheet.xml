@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="6c98f4a9-2fdb-481f-b55e-4c620c4268e5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.PayrollSheet" category="Object">
+				<xr:TypeId>585b25f5-5b35-4668-9591-0ded85b85108</xr:TypeId>
+				<xr:ValueId>517976b6-ecd5-4843-be50-50d3993be4db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.PayrollSheet" category="Ref">
+				<xr:TypeId>79dae0bb-130a-4d0b-8d30-145b4f198771</xr:TypeId>
+				<xr:ValueId>b75bad66-d5e4-4882-93c4-5ff5bdc08059</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.PayrollSheet" category="Selection">
+				<xr:TypeId>e4c623e9-3ba0-4ce4-978f-9968f1cb20a0</xr:TypeId>
+				<xr:ValueId>e66cc033-ff5f-4b21-8412-f2ae4d1ffc4a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.PayrollSheet" category="List">
+				<xr:TypeId>bd3c1773-ddc3-466a-81fc-4a3dcac66313</xr:TypeId>
+				<xr:ValueId>62d4395a-adad-4f2c-9e81-9f6c95030cf5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.PayrollSheet" category="Manager">
+				<xr:TypeId>2baea655-ce35-4682-9f75-647fcddc9743</xr:TypeId>
+				<xr:ValueId>23acef78-e837-4c9f-9c84-e3d86d73be6f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>PayrollSheet</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ecdb19a5-4388-45be-8282-e93e5acb621d">
+				<Properties>
+					<Name>TransactionType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.TransactionTypesPayrollSheet</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="74eb00dc-0648-435d-867a-ac5cf83bd0d8">
+				<Properties>
+					<Name>RegistrationPeriod</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="680eac98-9c76-4710-a08c-fb152e9d337a">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="df9d8ce9-571c-420e-960a-c2575570feaf">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7bdf3bea-956c-4259-8fb7-7042ff73bfb9">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3bf81bf4-5f6f-42af-b2a8-7667aa515280">
+				<Properties>
+					<Name>DocumentCurrency</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Currencies</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cb9589d8-9054-4dce-9c6b-05f91b5e54d4">
+				<Properties>
+					<Name>DocumentAmount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0b49392a-1593-461c-9ae6-235281c0b32a">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+			<TabularSection uuid="b11bfdf7-cc22-460d-b4b2-d1cceb4796d7">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.PayrollSheet.Employees" category="TabularSection">
+						<xr:TypeId>4856a744-9116-46d2-97bb-c303bf29f08c</xr:TypeId>
+						<xr:ValueId>dc8ea82d-52ae-4579-be48-6a349a91e92d</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.PayrollSheet.Employees" category="TabularSectionRow">
+						<xr:TypeId>e6ecdfca-394e-40f8-a8cc-dcfbd4662258</xr:TypeId>
+						<xr:ValueId>ec1a3f75-a076-48e0-be5c-28105cd8bf91</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Employees</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="75637cb3-5370-44a9-bac5-3a6560545f3d">
+						<Properties>
+							<Name>Employee</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Employees</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

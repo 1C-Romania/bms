@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<DocumentJournal uuid="9f02168a-a205-400c-b71d-2e0fc21aa3b7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.CashDocuments" category="Selection">
+				<xr:TypeId>54659ee9-5ca4-4613-a848-2e9a3fb8738a</xr:TypeId>
+				<xr:ValueId>e5ce90f7-9cae-4618-bb20-3148b7b9c125</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.CashDocuments" category="List">
+				<xr:TypeId>3c0cab51-4a4c-47a0-a95a-3d6657a46bef</xr:TypeId>
+				<xr:ValueId>a4586955-a18a-4af4-a316-f82d84cdb1da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.CashDocuments" category="Manager">
+				<xr:TypeId>ee5a5838-0ade-40a5-8487-fa6b9c9e85a3</xr:TypeId>
+				<xr:ValueId>85f4fd3a-f98e-4f09-a26e-886750503db6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CashDocuments</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.PettyCashExpense</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="479ae590-1939-4919-9767-4409f60200eb">
+				<Properties>
+					<Name>AmountExpense</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="5093d658-bebf-4b9c-b12f-5e289c2e4426">
+				<Properties>
+					<Name>Article</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="781595f4-f833-4dd0-be25-a9b6778e5d39">
+				<Properties>
+					<Name>Counterparty</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="5cc7b4b2-e941-4e12-a12c-748aa918872b">
+				<Properties>
+					<Name>CashRegister</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="821b70a8-a154-4218-b33c-986d3ffbc4fa">
+				<Properties>
+					<Name>Currency</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="344d17fe-824d-4e89-9366-38305571379a">
+				<Properties>
+					<Name>PettyCash</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="77142161-81f7-4643-a9b0-5ce61191aa21">
+				<Properties>
+					<Name>AdvanceHolder</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="388b6f0f-5f16-40f4-bc04-9b6a1fc17f1e">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="b1f5fe38-d880-43cf-8713-031f361ee8bd">
+				<Properties>
+					<Name>TransactionType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="4acfc712-6499-4d33-a6ca-e2b848c6aebb">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="4d72f9b7-380e-4742-8dce-e5dd5eb2f8e4">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="e2574438-b7b9-4975-b2f8-c13658f19d49">
+				<Properties>
+					<Name>AmountReceipt</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

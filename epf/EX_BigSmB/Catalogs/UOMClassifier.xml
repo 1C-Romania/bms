@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="5d6cd34d-663c-494d-9d7a-1be36ef63547">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.UOMClassifier" category="Object">
+				<xr:TypeId>008fe0cc-a662-4c29-854a-6ef08c9fe98d</xr:TypeId>
+				<xr:ValueId>b20b7544-cf72-41f4-81ee-fb5333681475</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.UOMClassifier" category="Ref">
+				<xr:TypeId>704e06bf-9bd9-4977-b3c4-f9fc307fb541</xr:TypeId>
+				<xr:ValueId>21ba5f4a-4608-41d9-9436-4005ab5b297e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.UOMClassifier" category="Selection">
+				<xr:TypeId>99f3212d-b1a0-462d-9ee1-0a499cb08acc</xr:TypeId>
+				<xr:ValueId>e39300e6-9ceb-420e-9e03-9516eaa37c6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.UOMClassifier" category="List">
+				<xr:TypeId>7ab0568b-7e7e-4a89-9f5c-310a8f2c51b0</xr:TypeId>
+				<xr:ValueId>ea90a788-71a6-41a4-b891-03976cd9bd4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.UOMClassifier" category="Manager">
+				<xr:TypeId>a785bfc5-0349-4309-aacd-c2a954a10ad2</xr:TypeId>
+				<xr:ValueId>1f6a4ffd-49b5-4382-b669-8d72abd71aa8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>UOMClassifier</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

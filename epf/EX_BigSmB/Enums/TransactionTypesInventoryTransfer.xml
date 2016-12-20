@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="467c6734-a885-477a-bcf9-75f8e7ba4a4b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesInventoryTransfer" category="Ref">
+				<xr:TypeId>2845c94c-eb0d-4383-aa8b-513ff5b22e5d</xr:TypeId>
+				<xr:ValueId>f58752d3-2d78-44fc-af9d-b9f9ff369a99</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesInventoryTransfer" category="Manager">
+				<xr:TypeId>95be9656-b48a-4b70-be3d-be8c862db00f</xr:TypeId>
+				<xr:ValueId>43cfc1dd-6b4e-4b13-b9e7-82ed2bf4cdfa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesInventoryTransfer" category="List">
+				<xr:TypeId>072b432b-7321-4128-93a3-5235226e873e</xr:TypeId>
+				<xr:ValueId>0216efa6-b8e2-4c7e-9632-afe990e1ffe3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesInventoryTransfer</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

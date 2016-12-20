@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="41b4a1fd-b353-4145-9293-87eb4bfc0501">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.InventoryWriteOff" category="Object">
+				<xr:TypeId>ef4e4702-b23b-4b62-af4d-2f730ec01e18</xr:TypeId>
+				<xr:ValueId>a5ec2163-aac5-417f-bd6a-3254f30792cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.InventoryWriteOff" category="Ref">
+				<xr:TypeId>bc78a4fb-61f2-48a0-bfe9-5e9903671029</xr:TypeId>
+				<xr:ValueId>eb0b0f1c-dcef-4b66-a981-1bb61673da86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.InventoryWriteOff" category="Selection">
+				<xr:TypeId>a465ae32-172b-4231-b3ff-47dfd5c5e597</xr:TypeId>
+				<xr:ValueId>087d4d96-6da0-4415-b274-764bc6877cc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.InventoryWriteOff" category="List">
+				<xr:TypeId>760481e6-d3e8-408f-a9cb-f83139dbca44</xr:TypeId>
+				<xr:ValueId>9c75d9f5-a23d-4f52-8817-c72e2756e5a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.InventoryWriteOff" category="Manager">
+				<xr:TypeId>1f1978bf-9d82-4ef5-b40f-7baddbeca733</xr:TypeId>
+				<xr:ValueId>7d0eabf5-cfde-4611-a00d-176dcf646a7f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>InventoryWriteOff</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="db0ca441-992d-48f3-a348-3961377dc80c">
+				<Properties>
+					<Name>Correspondence</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Managerial</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="33849f1d-d6a8-41bf-8873-007e2e3724c6">
+				<Properties>
+					<Name>DocumentBasis</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.InventoryReconciliation</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8af2b9e3-bc96-4ee5-882d-1e09ec302be7">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="88a3cd9c-102f-435a-9ed1-2ded2a2c0072">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="28f44d43-8666-4b7f-9253-0923acaf127b">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="eff67a52-e3ba-4080-882a-0f7cbacfb718">
+				<Properties>
+					<Name>Cell</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Cells</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f573341b-5102-4c3e-aab6-7b3832a7ca63">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

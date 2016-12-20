@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<DocumentJournal uuid="fcbbeed3-fd39-4999-b586-3d1705a0b76d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ResourcesPlanningDocuments" category="Selection">
+				<xr:TypeId>0dd532c1-d8c1-48ce-925e-1908f880b7d3</xr:TypeId>
+				<xr:ValueId>685f493e-7129-46d1-9cfe-37918d7aefbf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ResourcesPlanningDocuments" category="List">
+				<xr:TypeId>10c181f2-d73a-41b9-ab86-d3c0ef70f383</xr:TypeId>
+				<xr:ValueId>bce3f817-e0d9-4293-a2aa-78b776ae4098</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ResourcesPlanningDocuments" category="Manager">
+				<xr:TypeId>385484f5-5f1c-4679-adbc-d0db200359b9</xr:TypeId>
+				<xr:ValueId>0a52459e-69e3-44a7-8ee0-d0282520768c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ResourcesPlanningDocuments</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ProductionOrder</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="1e90556e-d30f-41fa-9d84-4a2336bbecd9">
+				<Properties>
+					<Name>KeyResources</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="a5257489-42b7-45f6-8aa4-f82655170de7">
+				<Properties>
+					<Name>Counterparty</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="d845b4fb-d914-4292-bcf7-6b22f9f880a5">
+				<Properties>
+					<Name>Finish</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="a89d09c9-b394-433a-be17-28c48f42a60c">
+				<Properties>
+					<Name>StatusOfOrder</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="b5a20226-74f7-4a6d-8385-c4575161ba2c">
+				<Properties>
+					<Name>Start</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="c9a4150c-8632-4a30-a92e-e3790c2eb21a">
+				<Properties>
+					<Name>CustomerOrder</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="b30ca3d3-963a-4841-b4ab-6590ae56110b">
+				<Properties>
+					<Name>Closed</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="8b604be4-386d-4d54-9dda-97c56ce69a2c">
+				<Properties>
+					<Name>TransactionType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="6df54752-6903-426c-9768-ac22459d5e91">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="a57a8794-88bd-4e42-8b9b-1d58ee8aea84">
+				<Properties>
+					<Name>Responsible</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="a321cee4-6642-4f06-8097-9be1e2172e73">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="04f8040c-c3e5-472e-ad5b-eff943fa942f">
+				<Properties>
+					<Name>Nomenclature</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="f4fc3d45-51fa-477d-a7c2-ddedf5da20eb">
+				<Properties>
+					<Name>Department</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Report uuid="b1c38908-a3bc-4a55-be65-60d8e70a770e">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.MutualSettlements" category="Object">
+				<xr:TypeId>f633d55f-0bf4-4952-b7d1-b8e36b7985c5</xr:TypeId>
+				<xr:ValueId>d73f7fba-81e4-4f8b-be1f-262c3f8ee688</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.MutualSettlements" category="Manager">
+				<xr:TypeId>6e1ab31b-1892-44a0-94cd-81a491174525</xr:TypeId>
+				<xr:ValueId>d6503239-7c32-40bc-b7c0-63547e7ca08f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>MutualSettlements</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="8c856af2-7608-4a1e-96d4-ded17a575226">
+				<Properties>
+					<Name>MutualSettlements</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelSeeAlso</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

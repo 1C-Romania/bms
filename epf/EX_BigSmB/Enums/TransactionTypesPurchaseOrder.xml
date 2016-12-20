@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="808c114e-ba0c-48cb-a59c-4e4895b00681">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesPurchaseOrder" category="Ref">
+				<xr:TypeId>65168e3f-0363-4ee8-be57-1813feabc2ff</xr:TypeId>
+				<xr:ValueId>27b38890-01bf-43e8-9377-1188fe510f7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesPurchaseOrder" category="Manager">
+				<xr:TypeId>6ee8d011-7b60-4cba-aa5f-90e84d062d47</xr:TypeId>
+				<xr:ValueId>61fb8c9a-f89a-4946-8a05-a9d5cb2d33f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesPurchaseOrder" category="List">
+				<xr:TypeId>a0f47614-204d-489a-9173-2d9df568c50c</xr:TypeId>
+				<xr:ValueId>a3c168cc-7de9-47fd-b312-68f17841f465</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesPurchaseOrder</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="8c4af023-0ac0-41c9-9d0b-d6f856c51b92">
+				<Properties>
+					<Name>OrderForPurchase</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

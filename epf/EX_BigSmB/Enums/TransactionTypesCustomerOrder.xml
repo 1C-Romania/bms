@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="8e97269c-c687-4d5b-8114-42d23184fb33">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesCustomerOrder" category="Ref">
+				<xr:TypeId>e650b635-dfa0-4c54-be78-26ea468a060c</xr:TypeId>
+				<xr:ValueId>d8ae4d7d-0ee5-412e-a240-5addb49d2a37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesCustomerOrder" category="Manager">
+				<xr:TypeId>7322888b-53bd-4994-8e95-880d44155562</xr:TypeId>
+				<xr:ValueId>dcd23d67-4050-49f1-beb9-2026406900e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesCustomerOrder" category="List">
+				<xr:TypeId>0213a124-337c-40cb-9029-855e8f48a215</xr:TypeId>
+				<xr:ValueId>d9c56570-5064-4e36-ad50-43fbb1302d45</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesCustomerOrder</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b003ec19-53bf-4fc6-ab77-a2f2b009d4a8">
+				<Properties>
+					<Name>WorkOrder</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e633bc8e-8817-483c-98d6-5142028f1248">
+				<Properties>
+					<Name>OrderForSale</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

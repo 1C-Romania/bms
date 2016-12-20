@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="d7be5bbd-0ec8-47e0-b384-0a88fdd552ff">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.KeyResources" category="Object">
+				<xr:TypeId>138b7e11-7399-4e97-af53-49158a005939</xr:TypeId>
+				<xr:ValueId>afcc9877-151f-4187-9846-5c23504a7aca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.KeyResources" category="Ref">
+				<xr:TypeId>29fd9106-c610-46ee-a685-093ce7a3ae4e</xr:TypeId>
+				<xr:ValueId>e996e51a-ad9c-4a8e-ad21-7298bd04fba8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.KeyResources" category="Selection">
+				<xr:TypeId>91098b97-63bb-4196-b25c-a77016fd192e</xr:TypeId>
+				<xr:ValueId>0b9f3289-e992-4aea-b1fd-98c866f29623</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.KeyResources" category="List">
+				<xr:TypeId>7ce8150e-9a0a-4c38-ad42-83e43410f113</xr:TypeId>
+				<xr:ValueId>39b7e90f-c22e-4b99-80ad-1aa9f40a7e51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.KeyResources" category="Manager">
+				<xr:TypeId>5f7cde9b-78e4-44f1-8e5a-761100b7f5ff</xr:TypeId>
+				<xr:ValueId>ebbcb5bb-ec55-4c5b-9100-a436cc49da26</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>KeyResources</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

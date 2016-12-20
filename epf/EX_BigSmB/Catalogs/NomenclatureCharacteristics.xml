@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="b125a4ab-2abe-4e8e-b574-a2e4630e47f7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.NomenclatureCharacteristics" category="Object">
+				<xr:TypeId>0d970a0e-2e78-4796-94d1-7acf6f80bb3a</xr:TypeId>
+				<xr:ValueId>fc7b60dd-a1d2-4ce5-aa96-3abd54ab9a55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.NomenclatureCharacteristics" category="Ref">
+				<xr:TypeId>381499af-a72b-4f66-be96-a92b40ccf406</xr:TypeId>
+				<xr:ValueId>728d5607-927d-4a32-943e-28acc1c5d864</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.NomenclatureCharacteristics" category="Selection">
+				<xr:TypeId>f821d057-5265-4438-8984-0ea0d482e690</xr:TypeId>
+				<xr:ValueId>6a64163d-1629-4f5f-8060-eee7b1a6e9da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.NomenclatureCharacteristics" category="List">
+				<xr:TypeId>1b2225c9-be08-4d9b-9843-6144c2a7adfd</xr:TypeId>
+				<xr:ValueId>caae9b09-7283-47ed-bb40-9d0313b5a245</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.NomenclatureCharacteristics" category="Manager">
+				<xr:TypeId>3a3adf89-18a5-4165-97bb-8b0990a73ee2</xr:TypeId>
+				<xr:ValueId>3501409d-04b6-4999-a8b4-dabcb940782b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>NomenclatureCharacteristics</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

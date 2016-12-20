@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="571757fa-f3dc-44d6-be01-005a27646b32">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.JobOrder" category="Object">
+				<xr:TypeId>6475ba7d-8d3b-4e29-acc4-f8d2e295e685</xr:TypeId>
+				<xr:ValueId>eab306b9-440c-4ca1-98fd-cc30d9e2bb1a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.JobOrder" category="Ref">
+				<xr:TypeId>17a47afd-df62-468f-b78f-8e2f30cff282</xr:TypeId>
+				<xr:ValueId>919ee232-e071-4511-83ac-643e94e78652</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.JobOrder" category="Selection">
+				<xr:TypeId>1ea314c4-227d-4732-8b05-94b3977287f6</xr:TypeId>
+				<xr:ValueId>40df2d1f-bc73-4f15-a93c-6ac7d78b2fac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.JobOrder" category="List">
+				<xr:TypeId>80ed10e0-9c84-426f-b559-f1e53035c058</xr:TypeId>
+				<xr:ValueId>fe448d89-6603-4ace-a746-d7b4ceb5cbc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.JobOrder" category="Manager">
+				<xr:TypeId>5d9ba76d-8937-4ad1-91a7-8679e0a38c5f</xr:TypeId>
+				<xr:ValueId>35ad6831-9390-40e7-bf75-4c26c0201887</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>JobOrder</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8b04f003-fe0c-44d2-8f5e-2a453fff1ffe">
+				<Properties>
+					<Name>DocumentAmount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="653ef781-d64c-47a3-93dd-7aaa1ccca843">
+				<Properties>
+					<Name>Event</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.Event</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0d377187-5e60-4f00-a6a9-0666dd441652">
+				<Properties>
+					<Name>TransactionType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.TransactionTypesWorkTask</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9df6fab5-3fcd-4af0-aa48-d324c1f7d973">
+				<Properties>
+					<Name>Employee</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Employees</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c74c26de-a4b0-4f85-b226-f264192a0068">
+				<Properties>
+					<Name>JobKindPosition</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.AttributePositionOnForm</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="042f6b32-6622-410f-827d-b828e5bb6c2b">
+				<Properties>
+					<Name>Status</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.EventStatuses</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ab77d4f2-9685-489a-9e14-bf6e3b019a95">
+				<Properties>
+					<Name>DeleteClosed</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4f9040d9-f2f0-4c06-bd4a-9ea0e6f13b59">
+				<Properties>
+					<Name>JobKind</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Nomenclature</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="68aad930-50ee-4b28-b864-75a536bf5075">
+				<Properties>
+					<Name>PricesKind</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.PriceKinds</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="949a2fab-14cd-456f-b2f6-fe1360054328">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="aadc2159-d072-47eb-a056-9c726a76b03c">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8f88a646-a14c-4095-be27-e6d4f60be51f">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9460d59e-884f-426b-81c5-60c570325e30">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="92a7a495-aee8-453f-9784-0e625cb60b1a">
+				<Properties>
+					<Name>DeleteKeyResource</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.KeyResources</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+			<TabularSection uuid="2f581cc8-a1c5-40c3-a287-ed258597e89c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.JobOrder.Jobs" category="TabularSection">
+						<xr:TypeId>5e6aca8a-fbea-41f0-ab7b-a6deeed959a0</xr:TypeId>
+						<xr:ValueId>aaa97f2d-e6fc-4a9d-b5e8-c40991c07d0e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.JobOrder.Jobs" category="TabularSectionRow">
+						<xr:TypeId>f1e24976-9d19-4321-bad4-1b2522e92b15</xr:TypeId>
+						<xr:ValueId>12811dfd-171e-48c8-8e17-93b5de7831f5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Jobs</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="b28992e3-dc8c-4b74-b741-f1c0f5680579">
+						<Properties>
+							<Name>Nomenclature</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Nomenclature</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b014f8ce-84d4-45b7-a331-ecc11b3f9632">
+						<Properties>
+							<Name>DurationInHours</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="51b8acd8-2172-49aa-8eef-933e9cd0d904">
+						<Properties>
+							<Name>Duration</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Time</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fe5a4473-cb7c-4279-be42-456c641b76a0">
+						<Properties>
+							<Name>JobKind</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Nomenclature</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="67a363ba-de64-498a-90b8-67d332b6c1ca">
+						<Properties>
+							<Name>Amount</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="34c4cb06-47be-48eb-8255-2ca197653987">
+						<Properties>
+							<Name>Customer</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ec61eab1-a3aa-475b-a510-ac0989bd88fc">
+						<Properties>
+							<Name>Price</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d4bb169a-34a4-46c7-af15-c41d083833de">
+						<Properties>
+							<Name>Characteristic</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.NomenclatureCharacteristics</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="22cd71f7-0de5-45c8-b30c-e98311582357">
+						<Properties>
+							<Name>Day</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9661ced4-794d-4aa5-9fd3-bcbaeb8cb3df">
+						<Properties>
+							<Name>Comment</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e83f6b0f-6a6d-4c9b-826b-f95b6a7db449">
+						<Properties>
+							<Name>EndingTime</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Time</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="52e7cffd-5e92-4d10-b27d-7c9751e0db1f">
+						<Properties>
+							<Name>BeginTime</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Time</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

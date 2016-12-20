@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="18530a43-ab8e-459f-87de-e79afa64732e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.hiDeliveryPoints" category="Object">
+				<xr:TypeId>5af89491-1556-4e96-92bf-03274ccac04b</xr:TypeId>
+				<xr:ValueId>e6ca829b-af18-4848-800b-2cf9af337c93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.hiDeliveryPoints" category="Ref">
+				<xr:TypeId>ca32d329-da99-49a5-b5c8-cf75007912e4</xr:TypeId>
+				<xr:ValueId>7d0a1783-8b98-4021-b323-3d32feadf413</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.hiDeliveryPoints" category="Selection">
+				<xr:TypeId>a5987f2c-5280-48f3-bf6c-ba97ad12ceba</xr:TypeId>
+				<xr:ValueId>d3d3735f-f57e-42dc-87c3-0c19e8a47f4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.hiDeliveryPoints" category="List">
+				<xr:TypeId>a7ebcd7e-5ab4-4a08-b436-1770621c4c25</xr:TypeId>
+				<xr:ValueId>e22fa538-ca8e-4936-857d-7d83f799435c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.hiDeliveryPoints" category="Manager">
+				<xr:TypeId>2234dc69-25c8-4dc7-8565-de48cb10eee0</xr:TypeId>
+				<xr:ValueId>0f328690-4334-4b4c-a105-f6377f7ed679</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>hiDeliveryPoints</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

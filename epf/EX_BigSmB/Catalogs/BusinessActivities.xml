@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="ae99bed0-ca8e-479a-87d5-a768f6d3435c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.BusinessActivities" category="Object">
+				<xr:TypeId>2ce52e88-df99-42df-92ca-a28446474b55</xr:TypeId>
+				<xr:ValueId>5b090a78-064a-4d0d-967d-38310ce453bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.BusinessActivities" category="Ref">
+				<xr:TypeId>fc7a24d5-1719-43ea-9e33-0e2c4264edd3</xr:TypeId>
+				<xr:ValueId>b3a875ef-06ce-4496-9883-2380fd1eef0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.BusinessActivities" category="Selection">
+				<xr:TypeId>5ed5dcc5-65a6-42b1-93fa-1c2ff14eb5b9</xr:TypeId>
+				<xr:ValueId>bd8387f2-87b9-4166-b9f5-de37a90d0b02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.BusinessActivities" category="List">
+				<xr:TypeId>032ad6cb-ffc5-4eff-a6fc-0bff1a420d65</xr:TypeId>
+				<xr:ValueId>b86fe0dc-43fa-48ae-b2bd-b142759fc4cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.BusinessActivities" category="Manager">
+				<xr:TypeId>73f4425a-38ed-4164-9d09-b510d9912f34</xr:TypeId>
+				<xr:ValueId>e008bbdc-dc1a-4a1a-b5dc-d877778e7c38</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>BusinessActivities</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

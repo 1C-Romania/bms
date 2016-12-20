@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="1a1889f8-ba16-4414-874f-cf38d5f1838d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Counterparties" category="Object">
+				<xr:TypeId>0a6b6dfd-38fa-4246-9d5f-4f87b1f8fa1a</xr:TypeId>
+				<xr:ValueId>9b4b0257-d5bd-42ec-ba83-35a35f3c7b4f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Counterparties" category="Ref">
+				<xr:TypeId>027fe642-94c3-489a-a5b5-2b8c0b7e0a48</xr:TypeId>
+				<xr:ValueId>aee1e689-7a29-4d48-ab4e-4e55df7c1f9b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Counterparties" category="Selection">
+				<xr:TypeId>1b91d142-ace7-4ff5-9bab-606ffd09800b</xr:TypeId>
+				<xr:ValueId>11ef3736-335d-4cd3-90de-739488b22ced</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Counterparties" category="List">
+				<xr:TypeId>0107f967-9b01-4b0c-ba6a-39304fdfaee6</xr:TypeId>
+				<xr:ValueId>40e1c92c-425d-4e4e-82b6-1c5fc812abd6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Counterparties" category="Manager">
+				<xr:TypeId>228c2d10-fe92-4c97-b151-be08a2c83361</xr:TypeId>
+				<xr:ValueId>ddb6ecc8-438c-4f75-a67c-5e5df6498de8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Counterparties</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="dbd279b2-6388-418c-8c27-344270940e27">
+				<Properties>
+					<Name>BankAccountByDefault</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e3939753-a016-42f8-8561-afba4bae0639">
+				<Properties>
+					<Name>LegalEntityIndividual</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="da05c807-6dfc-4f33-8d1f-601693c2419a">
+				<Properties>
+					<Name>CodeByOKPO</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ceae57d6-eacf-444f-8f22-22e7d22c57e4">
+				<Properties>
+					<Name>CIO</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2f352680-9beb-4bfd-9f4d-4c186865ae02">
+				<Properties>
+					<Name>DescriptionFull</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c3c46d4a-023a-4a0a-add2-8d7c9c51c0fa">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4634713f-fa0f-482e-8cdb-b05f24bd2be3">
+				<Properties>
+					<Name>ContractByDefault</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="193a72f8-6c36-4ab9-a352-ecbc92675b21">
+				<Properties>
+					<Name>ContactPerson</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1a3f88c2-ed15-4b25-bebd-1c3ff7781ec3">
+				<Properties>
+					<Name>TIN</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a2e0f2a7-3be3-4fc2-abc8-9d8de369e93d">
+				<Properties>
+					<Name>Individual</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c2036212-c633-47d1-b4de-f78f870f9d0f">
+				<Properties>
+					<Name>Responsible</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2f45c394-1f4f-4778-b33d-717ef57880b7">
+				<Properties>
+					<Name>DoOperationsByContracts</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8d84b9cb-4256-48db-ad36-eeea8a8a4ce1">
+				<Properties>
+					<Name>eXiteExchange</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0a674a6e-2893-4039-b96d-ad054230a042">
+				<Properties>
+					<Name>eXiteInvoice</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8d3ba376-e0bc-4fec-a6a9-43f10f9ade62">
+				<Properties>
+					<Name>eXiteShipmentReport</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d4ecdd34-97c0-4320-8790-58dc90ce3b8e">
+				<Properties>
+					<Name>eXiteOrderConfirmation</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="83ae1174-d91d-4905-ba24-6b304948f12c">
+				<Properties>
+					<Name>DoPaymentsAccountingByBills</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ee30d511-5a75-4978-868a-af9dd375387a">
+				<Properties>
+					<Name>DoOperationsByOrders</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3c27f6c5-4827-428c-8312-20df8b25eb67">
+				<Properties>
+					<Name>hiGLN</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="121e7800-6255-43c3-b462-2f6255a47331">
+				<Properties>
+					<Name>DoOperationsByDocuments</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Form>CounterpartiesListForm</Form>
+			<Form>ItemForm</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

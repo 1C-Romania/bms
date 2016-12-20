@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="cf6e72fb-0457-48a9-abfd-e7b567ffb2d7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.RetailReport" category="Object">
+				<xr:TypeId>4489d059-463c-403b-bff7-64bbb93e6178</xr:TypeId>
+				<xr:ValueId>6838b7db-3d91-48a1-b641-c4f2b68975ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.RetailReport" category="Ref">
+				<xr:TypeId>cffbb0e4-16f5-4501-bf99-2e40b4a6a9b0</xr:TypeId>
+				<xr:ValueId>2ba20504-2cde-464b-8b3a-19ea7cf544e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.RetailReport" category="Selection">
+				<xr:TypeId>d2bbd83b-64cb-4388-82a7-2712b539d1d8</xr:TypeId>
+				<xr:ValueId>a1499174-94c4-403d-8328-a8e3c4f15c00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.RetailReport" category="List">
+				<xr:TypeId>1d1414a1-58b5-4730-9dfd-b44889d47219</xr:TypeId>
+				<xr:ValueId>6d5367a7-052b-4da7-87de-efc9082d7df4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.RetailReport" category="Manager">
+				<xr:TypeId>915aac37-9dc8-43df-8db2-464de80d99dd</xr:TypeId>
+				<xr:ValueId>89d5bfa4-3b60-4456-971d-077ca5685754</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>RetailReport</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e976cc40-0b7b-41ca-ac10-132095064e81">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="575b2fed-c885-40c6-b25a-4a58c7ff8069">
+				<Properties>
+					<Name>CashRegister</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.CashRegisters</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f77a68b6-2121-4df4-b9f7-cb21f4fe8021">
+				<Properties>
+					<Name>DocumentAmount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="24807378-7921-4ea7-8539-5d3e5a495212">
+				<Properties>
+					<Name>CashSessionStatus</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.CashSessionStatuses</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+			<Form>DocumentsListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

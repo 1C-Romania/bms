@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Report uuid="8fa4e338-bd16-4a97-9d42-a465bb494220">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.VendorsAccountsPayableAnalysis" category="Object">
+				<xr:TypeId>dbcb9f0d-f9bd-4745-bf84-e2e33cc3ae83</xr:TypeId>
+				<xr:ValueId>d10f7b79-53a1-4ce5-bc78-1cac01b3fa20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.VendorsAccountsPayableAnalysis" category="Manager">
+				<xr:TypeId>74ed40bf-56d6-416a-b0ad-4a54e1bc3f2e</xr:TypeId>
+				<xr:ValueId>1046fbb7-44c4-49eb-8ae8-c13daaee97b6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>VendorsAccountsPayableAnalysis</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="bc9dcbbe-c3d5-4e0e-a70a-cccaf37a5a70">
+				<Properties>
+					<Name>AccountPayableAnalysis</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelSeeAlso</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="5549e673-3a6b-4a33-9d59-0b77a30dca59">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.NomenclatureTypes" category="Ref">
+				<xr:TypeId>fc1d68f5-6e3a-4aa1-9515-ab2d5218381c</xr:TypeId>
+				<xr:ValueId>6fec88dc-dfb0-4425-8955-33c35ea729d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.NomenclatureTypes" category="Manager">
+				<xr:TypeId>b24206f6-f56d-415d-966b-cb7eb8784ded</xr:TypeId>
+				<xr:ValueId>a4008667-0678-49f8-ad8b-97fce6e9a79d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.NomenclatureTypes" category="List">
+				<xr:TypeId>aecbf3b3-7b36-46da-98b8-08d5ac2a7b19</xr:TypeId>
+				<xr:ValueId>fd25ffa4-3866-4604-9731-7e67391d7873</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>NomenclatureTypes</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="65f98efa-c893-4003-82c1-e5338271e219">
+				<Properties>
+					<Name>InventoryItem</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ba889eb8-fece-4605-851b-2f82c4f381fa">
+				<Properties>
+					<Name>Service</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d37041ba-e6fd-4acf-b236-3ccd698135eb">
+				<Properties>
+					<Name>Work</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7270744a-5a28-434b-9f42-11d6b4be738a">
+				<Properties>
+					<Name>Operation</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1e6aec24-0a1f-4e63-9705-fd1670ccfe2e">
+				<Properties>
+					<Name>JobKind</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

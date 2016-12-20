@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="2f018f5c-e233-4763-8a78-640e4a6a00cf">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.SalesInvoiceReceipt" category="Object">
+				<xr:TypeId>022e5f29-d85c-4ef1-bd12-1ee4c97c4401</xr:TypeId>
+				<xr:ValueId>df17b23a-94b7-4a87-bf6d-f09fe4e4dd6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.SalesInvoiceReceipt" category="Ref">
+				<xr:TypeId>e3446d1d-8af5-4d97-9c56-a3d3f9a2dcaa</xr:TypeId>
+				<xr:ValueId>0dcf87ad-ac30-4da0-a603-d93c1006a652</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.SalesInvoiceReceipt" category="Selection">
+				<xr:TypeId>ce7a2ae6-2b34-4f96-bb71-9180426634a0</xr:TypeId>
+				<xr:ValueId>44f9c3e8-9e27-4a10-8adf-3596fdbfdbdc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.SalesInvoiceReceipt" category="List">
+				<xr:TypeId>61a60c54-acc6-4284-8eae-687c6593e89c</xr:TypeId>
+				<xr:ValueId>bfc198ac-f03c-4405-9ba3-d01dbebae824</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.SalesInvoiceReceipt" category="Manager">
+				<xr:TypeId>4c521fcc-57fb-48e5-82d8-1240bfa7e2c8</xr:TypeId>
+				<xr:ValueId>7227f12a-8f0c-4df3-9528-7098c947c9b2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>SalesInvoiceReceipt</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="847d1e39-d95c-4ee5-9859-a60924aa9d5c">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e4b892d3-a662-43a1-842e-d7138685d47a">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0607df79-6563-4745-b65a-9fca90475895">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ca58a6e0-85aa-48ea-950e-7e2d2fe70aae">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="08e3aeab-232a-4a6e-8ce1-343a8f3396b6">
+				<Properties>
+					<Name>Cell</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Cells</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

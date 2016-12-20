@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="6d105c58-4d1b-4925-96a6-d820f81be7d8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.PlanningPeriods" category="Object">
+				<xr:TypeId>269e7249-1d7e-494c-9c6a-fa5f22150aba</xr:TypeId>
+				<xr:ValueId>a456d05f-8779-46b2-9bb4-c3518f738dda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.PlanningPeriods" category="Ref">
+				<xr:TypeId>4cbf50a6-9c8a-4f08-819e-a1bfa1e7fd7d</xr:TypeId>
+				<xr:ValueId>a2115ec2-81ed-46a0-8342-3bf68356d97f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.PlanningPeriods" category="Selection">
+				<xr:TypeId>7d9d3960-9663-466b-a0c3-04c7d4731060</xr:TypeId>
+				<xr:ValueId>c7356060-b206-4d38-9ab1-51d9e9b30ae3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.PlanningPeriods" category="List">
+				<xr:TypeId>6bd54d45-6e34-4ec5-83fb-c1418848cc97</xr:TypeId>
+				<xr:ValueId>aaf260bd-d873-462d-ac42-cac73ddf311c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.PlanningPeriods" category="Manager">
+				<xr:TypeId>b43e46f5-17f8-4641-bbfb-dbb2deb5c20d</xr:TypeId>
+				<xr:ValueId>d760ee1e-0aef-4a5d-992b-351c88aed869</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>PlanningPeriods</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

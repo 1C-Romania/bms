@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="a1a43abe-d178-4b81-861c-d3e1f609a301">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.TaxesAccrual" category="Object">
+				<xr:TypeId>287c0d0e-6818-4611-ad18-bb82b864af7e</xr:TypeId>
+				<xr:ValueId>bdd20e59-03ab-4498-961b-b03f2c3b599e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.TaxesAccrual" category="Ref">
+				<xr:TypeId>dbf9057b-32c4-4acb-9a81-9cb7bbf97c30</xr:TypeId>
+				<xr:ValueId>572f916f-8885-424d-82da-42aa575860fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.TaxesAccrual" category="Selection">
+				<xr:TypeId>0cbc848c-4263-404f-b36c-67a09db83811</xr:TypeId>
+				<xr:ValueId>17565019-b01b-43a9-afcb-6458c4bf8839</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.TaxesAccrual" category="List">
+				<xr:TypeId>2b86f594-7862-47ca-8e69-f3b83ad9944f</xr:TypeId>
+				<xr:ValueId>2b11f570-77cf-4698-9f21-b0612cf8db24</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.TaxesAccrual" category="Manager">
+				<xr:TypeId>d462ceb8-991a-45a3-acc8-9173e5f8e49e</xr:TypeId>
+				<xr:ValueId>22c3b05b-f8aa-4d15-8802-bf69de286ef4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TaxesAccrual</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4d8dc1f9-fabe-462e-9627-0c1685c37710">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="db1cc509-0b58-4538-8965-be4441b223b9">
+				<Properties>
+					<Name>TransactionType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.TransactionTypesTaxAccrual</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3db96373-2d2c-4870-8361-30c3a60db2e9">
+				<Properties>
+					<Name>DocumentAmount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="43a1050e-7c1c-44bc-b2a5-569c357f3293">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1e00199a-9ab8-4ecf-8821-7a475b415ee2">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="8f153afa-57af-4f55-ad38-7ed9b6b24b9c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.RevaluationRetailAccrualAccounting" category="Object">
+				<xr:TypeId>a51fb988-8c39-4800-b2ff-a85116130723</xr:TypeId>
+				<xr:ValueId>640acca8-f903-4060-9c9b-2d79a6a910ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.RevaluationRetailAccrualAccounting" category="Ref">
+				<xr:TypeId>9b93cd65-79bd-4b9d-8c59-1141400944ec</xr:TypeId>
+				<xr:ValueId>f9f77862-00b6-4ff1-9726-e82f67c4946e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.RevaluationRetailAccrualAccounting" category="Selection">
+				<xr:TypeId>bd72c486-e271-41a5-a3d4-3809e74c6ce8</xr:TypeId>
+				<xr:ValueId>98d076c9-3946-48bc-911d-0923e0abf924</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.RevaluationRetailAccrualAccounting" category="List">
+				<xr:TypeId>dee584d2-8bee-4917-9a67-071215d4173b</xr:TypeId>
+				<xr:ValueId>9725521c-56c3-4b21-a441-e884f3b687c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.RevaluationRetailAccrualAccounting" category="Manager">
+				<xr:TypeId>01ea4e5e-ef7c-4e81-bcae-3b327f19fed6</xr:TypeId>
+				<xr:ValueId>f2022013-1357-40be-b0ea-fb37ea29f94e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>RevaluationRetailAccrualAccounting</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7aa7927e-084f-4bc0-8ac2-f1322e04aa66">
+				<Properties>
+					<Name>PricesKind</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.PriceKinds</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a5f860bf-85e4-449d-a855-d74cafeec30c">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5005dbf9-d59e-42b3-9ec7-a00ccb8049d2">
+				<Properties>
+					<Name>DocumentCurrency</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Currencies</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f8555f34-80ab-46b7-a79a-3d22aa039135">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="995ad0b9-bcee-4756-9480-0e72146145a7">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="70e77478-e120-4707-a617-fec65e0090da">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

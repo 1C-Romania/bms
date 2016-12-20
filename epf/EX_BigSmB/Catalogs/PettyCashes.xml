@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="0528d980-a3d7-4b4b-bb8c-dfaf9227b657">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.PettyCashes" category="Object">
+				<xr:TypeId>9083fd1f-6229-4218-a1bd-c8d3ed2dac2a</xr:TypeId>
+				<xr:ValueId>053a2fb0-0abc-4511-a3d5-346786a77ddf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.PettyCashes" category="Ref">
+				<xr:TypeId>b62836a1-4ade-41a1-a034-e11fa8cbb7c0</xr:TypeId>
+				<xr:ValueId>bee0e8c2-a003-4416-b63a-a69c067cd60d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.PettyCashes" category="Selection">
+				<xr:TypeId>b3ef6a3d-5bf1-4229-bbda-7c79ab7996b1</xr:TypeId>
+				<xr:ValueId>81350351-c533-435d-8797-307a54012b9d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.PettyCashes" category="List">
+				<xr:TypeId>a6e4bb40-bfd0-419f-ae75-773cac54a1c8</xr:TypeId>
+				<xr:ValueId>3b4292e9-45f4-4996-a458-113fd11dd263</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.PettyCashes" category="Manager">
+				<xr:TypeId>0ca34860-385f-430e-bc96-59023f255ea3</xr:TypeId>
+				<xr:ValueId>fefaae18-0c0d-485c-bbe2-2d521727aaec</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>PettyCashes</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="de32e2f6-9155-4867-8323-cfa6315a54fb">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesTaxAccrual" category="Ref">
+				<xr:TypeId>255946a4-c9fd-456a-bb45-4e79034197fe</xr:TypeId>
+				<xr:ValueId>9e4fe5d8-6262-463a-abca-2c8d0ec11512</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesTaxAccrual" category="Manager">
+				<xr:TypeId>e977e41e-c126-46d2-bb14-97b770bf4f34</xr:TypeId>
+				<xr:ValueId>b4bfc7e0-c3c2-4838-b443-f221ac265ad7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesTaxAccrual" category="List">
+				<xr:TypeId>d5ea74ee-96d8-46b3-97e1-cc2fc49bbede</xr:TypeId>
+				<xr:ValueId>9a3abfdd-88f8-45f2-aea0-101ed82d0918</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesTaxAccrual</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

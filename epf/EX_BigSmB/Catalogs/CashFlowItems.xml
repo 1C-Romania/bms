@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="152a1c68-2906-4f50-9a2b-83e88a2def1d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.CashFlowItems" category="Object">
+				<xr:TypeId>fb8bc867-84ef-4368-8782-ad48faba3598</xr:TypeId>
+				<xr:ValueId>c0578fd5-05f6-4645-a368-743560a9cdc9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.CashFlowItems" category="Ref">
+				<xr:TypeId>1294d667-d0fe-4dac-b5ec-c5c9444bbfe4</xr:TypeId>
+				<xr:ValueId>709dc888-5080-4c8d-b518-d3039f16a4de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.CashFlowItems" category="Selection">
+				<xr:TypeId>4b363133-855a-4599-a01a-af8a0f5a08ab</xr:TypeId>
+				<xr:ValueId>f7aa716c-3c39-47aa-a136-d89ab5f98473</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.CashFlowItems" category="List">
+				<xr:TypeId>25d953f8-fcc4-4d40-b852-1687d7fcebea</xr:TypeId>
+				<xr:ValueId>0fbb799d-5f30-4d30-b7e0-b7212dc251d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.CashFlowItems" category="Manager">
+				<xr:TypeId>b376b96e-be0b-4de0-994f-fd86a0c4c71c</xr:TypeId>
+				<xr:ValueId>88a7939c-f02a-471c-9569-dcde189d2ca7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CashFlowItems</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

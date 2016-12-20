@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="7be55f74-5ae3-42a3-9b26-290cb78e6826">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.EmailAccounts" category="Object">
+				<xr:TypeId>743161f3-f94a-43c8-83b3-43e57b3f34e5</xr:TypeId>
+				<xr:ValueId>ff1436e0-ba5c-4469-8d91-8f2e84b7d3b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.EmailAccounts" category="Ref">
+				<xr:TypeId>b8f0331d-0dd4-4a9b-a595-924a597e16ec</xr:TypeId>
+				<xr:ValueId>1356816d-a7c4-4fc0-ad1f-8bc6e14f7bdd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.EmailAccounts" category="Selection">
+				<xr:TypeId>b21dd221-4995-4caf-96c0-8ffbfa30dd45</xr:TypeId>
+				<xr:ValueId>35c3f94b-0a9a-418a-8f53-ab9a1994a94c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.EmailAccounts" category="List">
+				<xr:TypeId>bfac181c-3533-4e5a-93d2-21d975064b22</xr:TypeId>
+				<xr:ValueId>f37e4069-2c12-4535-a19a-1b00cbeeed9c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.EmailAccounts" category="Manager">
+				<xr:TypeId>9d504de3-7083-4c87-a9b3-1d1e9aa4eac7</xr:TypeId>
+				<xr:ValueId>cda5d25e-1171-4dee-a732-857ebf44487c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>EmailAccounts</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

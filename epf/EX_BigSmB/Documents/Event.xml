@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="9bbd40b7-73f5-4ed4-b7af-61a8f8a6f8d7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Event" category="Object">
+				<xr:TypeId>864be515-c5d4-4d4d-a64e-6a77c65392f3</xr:TypeId>
+				<xr:ValueId>202f5095-abf3-4ee6-bfe7-6f4083582639</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Event" category="Ref">
+				<xr:TypeId>2541d971-34ab-440f-85f9-7c0946980f4e</xr:TypeId>
+				<xr:ValueId>6e3024a0-4025-4d48-8f92-c57f8e58d1de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Event" category="Selection">
+				<xr:TypeId>948f6932-679a-4692-bb61-6b6644d583cd</xr:TypeId>
+				<xr:ValueId>1136ef98-b00b-4eae-8886-db77dcc1459b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Event" category="List">
+				<xr:TypeId>696bc060-d2b6-41c0-9f2e-02961b5ad25d</xr:TypeId>
+				<xr:ValueId>d5de3f82-877e-4584-a92a-08b327509b16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Event" category="Manager">
+				<xr:TypeId>61318179-adff-4918-983b-0f227d44ece3</xr:TypeId>
+				<xr:ValueId>54b5e841-8753-4da5-9107-2d2433ff8e6d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Event</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="99ddd6a7-54af-4258-8254-d892bcc8da8d">
+				<Properties>
+					<Name>EventBegin</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="24087f9e-612b-4e5a-89fb-23cf19ac916a">
+				<Properties>
+					<Name>State</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.EventStatuses</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3dc2967d-7791-4d3b-8eca-d7e907a2b7e5">
+				<Properties>
+					<Name>Responsible</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Employees</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0741fb97-a500-4b5c-bca1-99dafc4782be">
+				<Properties>
+					<Name>DocumentBasis</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="21409700-d7a8-459c-9bb9-585b9f751481">
+				<Properties>
+					<Name>MembersList</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1785c200-bd61-44d6-b067-26f5d8f77fc8">
+				<Properties>
+					<Name>Project</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Projects</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0aa08169-098e-4308-b899-543b218c3e2c">
+				<Properties>
+					<Name>Content</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9f4e1179-b6d1-459d-9798-74b7a815b3e8">
+				<Properties>
+					<Name>IncomingOutgoingEvent</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.IncomingOutgoingEvent</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="34d0cc5b-17ef-4a42-8bbe-631276a41c31">
+				<Properties>
+					<Name>Counterparty</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Counterparties</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="db4653d7-e572-48d3-bb8d-f30708000039">
+				<Properties>
+					<Name>EventType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.EventTypes</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8b0ba0b2-23c4-409d-ab1b-50d85dd1d471">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a0c2db75-9782-43c6-9cfc-ab2caa8ef9c7">
+				<Properties>
+					<Name>Subject</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b7e10132-3ec3-4c82-b0b0-68aa683caad2">
+				<Properties>
+					<Name>EventEnding</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+			<TabularSection uuid="fb900f8c-1bb6-4ddf-b1e9-53b8d4e06114">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.Event.Parties" category="TabularSection">
+						<xr:TypeId>5d2ec942-6642-4ed0-9cb7-53683ffd1b21</xr:TypeId>
+						<xr:ValueId>bf5bff92-89b8-4fa3-9e92-9cfc1996a040</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.Event.Parties" category="TabularSectionRow">
+						<xr:TypeId>d8fae411-d458-4c55-9dbb-7b996a3c7cb1</xr:TypeId>
+						<xr:ValueId>68c37303-45ae-4a20-97b6-878cd4d6abe8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Parties</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="49a56f03-1e39-4dc9-ba36-9500ab96654d">
+						<Properties>
+							<Name>HowToContact</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="118a396f-8bf0-471a-9bc2-d5261ea4e8b6">
+						<Properties>
+							<Name>ContactPerson</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ContactPersons</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a436106c-d508-4388-a78b-658adcf5b7f2">
+						<Properties>
+							<Name>ContactPresentation</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Command uuid="519b0116-56e9-411e-9ce3-404c7a84ae06">
+				<Properties>
+					<Name>OpenEventByBasis</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

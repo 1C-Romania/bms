@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="3284ad2a-58d1-4e79-9015-9d3a6f61b632">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.AttributePositionOnForm" category="Ref">
+				<xr:TypeId>14b273c6-f8d4-4654-a6fe-ffeba6812c52</xr:TypeId>
+				<xr:ValueId>8946874c-5df3-4afc-a51d-92c18febc927</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.AttributePositionOnForm" category="Manager">
+				<xr:TypeId>46ba914a-5e56-482e-95de-ce01f53e2bd5</xr:TypeId>
+				<xr:ValueId>82da8307-7cab-4adb-be5a-9e75288f4e08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.AttributePositionOnForm" category="List">
+				<xr:TypeId>35cf3855-05a9-44ff-8c6f-244746e8504b</xr:TypeId>
+				<xr:ValueId>edad120e-fbbd-4624-8015-e5a57416d771</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>AttributePositionOnForm</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

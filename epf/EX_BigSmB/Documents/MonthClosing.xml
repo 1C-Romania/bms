@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="9436463a-5c2d-4702-afdc-8b8aad4ee528">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.MonthClosing" category="Object">
+				<xr:TypeId>520402a5-ab8d-4302-bb1d-f4429b3b16fc</xr:TypeId>
+				<xr:ValueId>218e9328-92fd-4f1d-8e4c-53e2ac0b16bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.MonthClosing" category="Ref">
+				<xr:TypeId>47d66a46-4d04-4fbe-866b-7b27fb1ba11c</xr:TypeId>
+				<xr:ValueId>21ebaef5-0586-44a3-ba5a-a85bb5e6ba04</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.MonthClosing" category="Selection">
+				<xr:TypeId>f5b4e45a-2cc0-42d0-ab67-720c85c2d448</xr:TypeId>
+				<xr:ValueId>48cebe47-7fe0-45ea-baff-9b9b67d732ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.MonthClosing" category="List">
+				<xr:TypeId>4fd99eb6-c6c6-4f13-b4ee-76173ef5f19f</xr:TypeId>
+				<xr:ValueId>e85c8432-3a41-47dd-a975-dbe2fc0eb609</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.MonthClosing" category="Manager">
+				<xr:TypeId>91ccf220-943d-4a80-833f-acf41fe0a22e</xr:TypeId>
+				<xr:ValueId>2aa66d00-42f8-48b9-9022-c83622b81a89</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>MonthClosing</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2d065755-7b80-4c4c-a000-39a2e1af8d04">
+				<Properties>
+					<Name>FinancialPerformanceCalculation</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c6a0c336-8170-43ba-b31e-dd00aa8435fd">
+				<Properties>
+					<Name>ActualPrimeCostCalculation</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="90976bd0-2238-4479-8d34-f82453a3c9e4">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f877eb62-f2a9-4e15-91f0-5288618ce335">
+				<Properties>
+					<Name>DirectCostCalculation</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ebb6890c-c527-473e-afd1-2d5fefbd7910">
+				<Properties>
+					<Name>Costing</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="412b579e-ecde-494e-99d2-74047aad422d">
+				<Properties>
+					<Name>ExchangeDifferencesCalculation</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3ded1671-f72b-44ae-83f4-59c967a8299f">
+				<Properties>
+					<Name>RetailCostCalculationAccrualAccounting</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="065ff4c9-eec9-4cdf-8310-342d1244b470">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="291f994e-6180-4295-8ff7-e0c4cab15603">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

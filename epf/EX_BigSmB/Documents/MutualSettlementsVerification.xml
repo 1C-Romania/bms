@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="dcfc7669-1d8f-49b6-b3c1-52015b5c93d3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.MutualSettlementsVerification" category="Object">
+				<xr:TypeId>8f9e246d-fb15-4432-9174-2ee906bbc122</xr:TypeId>
+				<xr:ValueId>df4dda35-1ead-421a-894d-f6e77b2e3758</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.MutualSettlementsVerification" category="Ref">
+				<xr:TypeId>7626434d-12fc-417c-860c-3a64ba5f6ac1</xr:TypeId>
+				<xr:ValueId>16e82bcf-7534-404a-9bc3-8f0a1b010988</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.MutualSettlementsVerification" category="Selection">
+				<xr:TypeId>e32ca3de-57b8-460b-95f5-819efe3cc481</xr:TypeId>
+				<xr:ValueId>26e5c2f4-d40a-428d-adcc-e76931dd8c9c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.MutualSettlementsVerification" category="List">
+				<xr:TypeId>743e2335-e89a-4d32-b411-095286317697</xr:TypeId>
+				<xr:ValueId>03ca9ff7-1dae-40bb-bd3e-104266d1bc6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.MutualSettlementsVerification" category="Manager">
+				<xr:TypeId>3f2e09c7-7d05-4efb-b923-c5137f8dc1f6</xr:TypeId>
+				<xr:ValueId>212b17aa-2d87-4abd-8584-f84ae8bb4bf6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>MutualSettlementsVerification</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="365c9422-bf3f-40df-ada5-93b203d5b20b">
+				<Properties>
+					<Name>Responsible</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Employees</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d70789b3-413c-4ea4-a2c0-a06cda6b5d6e">
+				<Properties>
+					<Name>EndOfPeriod</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0aa5eeec-5e50-4cf1-a403-9f0ef7de6ccb">
+				<Properties>
+					<Name>Counterparty</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Counterparties</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6647d200-ce83-47ee-864f-3098767c693f">
+				<Properties>
+					<Name>Status</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.StatusesOfMutualSettlements</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4c732e46-884b-4ba2-b7f7-2938bf42a5ed">
+				<Properties>
+					<Name>Contract</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.CounterpartyContracts</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fb6873f3-f538-43c5-8b0a-39de65bbf4f3">
+				<Properties>
+					<Name>BeginOfPeriod</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="91b6fb88-f1de-4660-a3db-697073a60b0b">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

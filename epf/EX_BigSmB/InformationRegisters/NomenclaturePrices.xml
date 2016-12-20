@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<InformationRegister uuid="0e1aa326-cf28-4ac2-95e1-2440a97fa3c9">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.NomenclaturePrices" category="Record">
+				<xr:TypeId>6a8bd8b6-9093-49d2-9539-67d8da2319fe</xr:TypeId>
+				<xr:ValueId>624db58e-58fb-44a3-a168-c01d1a0f79e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.NomenclaturePrices" category="Manager">
+				<xr:TypeId>26dd92cf-4627-44aa-9c3f-613d4f43287c</xr:TypeId>
+				<xr:ValueId>ec531ac0-77fc-4d6c-b2f8-4b887979ea11</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.NomenclaturePrices" category="Selection">
+				<xr:TypeId>d92363db-b342-4c48-81e5-6051f5e94163</xr:TypeId>
+				<xr:ValueId>14d7ba37-23f7-4c2b-a695-33f0d10e1ae1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.NomenclaturePrices" category="List">
+				<xr:TypeId>4f39ac77-bcc9-4998-bfa1-827c02b5ed18</xr:TypeId>
+				<xr:ValueId>0cc0d57f-d344-4ae0-81ce-7fb69272df27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.NomenclaturePrices" category="RecordSet">
+				<xr:TypeId>71dab1a1-f188-4b0f-a9be-3d1e76598eae</xr:TypeId>
+				<xr:ValueId>fa235a5c-6a66-4dc0-bb5e-f42ff7a8a1a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.NomenclaturePrices" category="RecordKey">
+				<xr:TypeId>0f1e60d2-1bf9-4e1d-a7cf-c549f84e4905</xr:TypeId>
+				<xr:ValueId>8938ecb1-2469-4812-9f64-75eb31a0b25c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.NomenclaturePrices" category="RecordManager">
+				<xr:TypeId>e18b15d1-ed98-4fbc-a626-e3934a641e9c</xr:TypeId>
+				<xr:ValueId>527e5ebc-5383-4c92-b4fa-1cd4789bc9e3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>NomenclaturePrices</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="ea2f0286-6876-468d-a506-34821bd74ab2">
+				<Properties>
+					<Name>Price</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="15ce830e-987a-4038-b628-099b50f604b8">
+				<Properties>
+					<Name>Actuality</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="30bd6ca1-b5f5-4a6f-a34e-5ccfc1b49679">
+				<Properties>
+					<Name>PricesKind</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.PriceKinds</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="fddc7185-7d6e-44bd-899f-5d6d56649050">
+				<Properties>
+					<Name>Nomenclature</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Nomenclature</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

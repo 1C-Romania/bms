@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="024d6360-49d3-4fe1-ba19-64d3ea08c41d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Payroll" category="Object">
+				<xr:TypeId>0a47080d-38ed-406b-9caf-095dabeff3d7</xr:TypeId>
+				<xr:ValueId>6fb6f6d0-6554-4d97-aa31-6a3435dfaa07</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Payroll" category="Ref">
+				<xr:TypeId>2ed225b7-369e-4d34-83bf-89aa8316095f</xr:TypeId>
+				<xr:ValueId>d1807c50-2808-466c-b2b7-37bad8268895</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Payroll" category="Selection">
+				<xr:TypeId>36ba89c1-0374-46dd-9ff1-e8965fbd0d17</xr:TypeId>
+				<xr:ValueId>c7225edc-7794-474e-9aec-a27ec39f9b5a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Payroll" category="List">
+				<xr:TypeId>a5c4268a-3775-4035-9e25-5c1245fd3153</xr:TypeId>
+				<xr:ValueId>80bba669-4b61-4ba1-9b47-3b63e767efd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Payroll" category="Manager">
+				<xr:TypeId>74641416-49ec-42af-aaa3-7cb42e8883c0</xr:TypeId>
+				<xr:ValueId>3c04326c-36b3-4759-a129-7ba7899ed1a4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Payroll</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="30520418-811c-47fe-ab3e-89d28f578b0e">
+				<Properties>
+					<Name>DocumentCurrency</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Currencies</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ac72ed7e-3b75-4abf-ba47-54bfdfcb61ed">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fe84a13d-a596-4b7a-9f2a-44e3c79f93f5">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="06b16092-f8d6-4366-a3c0-9ed08b099d4b">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="47b5c0da-1958-409e-930a-b83eee5f7e9c">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dfa76201-3ec1-4189-bd70-1b7cedf1b1db">
+				<Properties>
+					<Name>DocumentAmount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a37b721c-18bc-43b6-be31-a78be991d795">
+				<Properties>
+					<Name>RegistrationPeriod</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+			<TabularSection uuid="c88c665d-ad0d-4278-947a-a66bda649eff">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.Payroll.AccrualsDeductions" category="TabularSection">
+						<xr:TypeId>b5a74ebc-bffb-4423-8810-33b42c4ed15f</xr:TypeId>
+						<xr:ValueId>49554b3b-016b-4d25-ab77-fbd6317c6070</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.Payroll.AccrualsDeductions" category="TabularSectionRow">
+						<xr:TypeId>02741ca5-6328-4030-ac50-5ef5ae965cea</xr:TypeId>
+						<xr:ValueId>609b5131-c83a-4380-8837-cd232281feee</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>AccrualsDeductions</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f83ffe8e-071c-424c-ae42-1cea598e9d36">
+						<Properties>
+							<Name>Employee</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Employees</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

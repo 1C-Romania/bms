@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="13ddf103-87f8-4e42-b301-9af28bc4214e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesPurchaseQuotation" category="Ref">
+				<xr:TypeId>efa06903-502a-42ca-a94b-28a0e23b1c8e</xr:TypeId>
+				<xr:ValueId>faf37a28-76dd-4d8f-9f44-c50607593baf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesPurchaseQuotation" category="Manager">
+				<xr:TypeId>d2790d83-5915-44fc-9a5e-56fab2365501</xr:TypeId>
+				<xr:ValueId>efbce939-f1d1-4ee9-9b17-ad83d9066da7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesPurchaseQuotation" category="List">
+				<xr:TypeId>0aabde29-491d-4976-9a67-1f7ad9505715</xr:TypeId>
+				<xr:ValueId>5db2ac75-2b3d-4d46-a5a0-5b8a365e28c2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesPurchaseQuotation</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="65fa029a-522b-46d6-a018-f6d4007a2b81">
+				<Properties>
+					<Name>Advance</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5ecd1dea-a5e7-4d3d-a943-5a02cd1afd2e">
+				<Properties>
+					<Name>Receipt</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c61f8c6c-5896-4a75-9de5-e42282ec9970">
+				<Properties>
+					<Name>AccrualDifferences</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

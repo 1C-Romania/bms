@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="aea874dc-dd0d-404a-a2e8-23db3a0beff3">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.EventTypes" category="Ref">
+				<xr:TypeId>5bd4bffc-5425-41d9-b9ee-4eb269204d26</xr:TypeId>
+				<xr:ValueId>9ba9ad3e-059c-4b95-bad7-b89bae2dd5e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.EventTypes" category="Manager">
+				<xr:TypeId>ecc7defd-71fa-44fc-ad97-99be47832306</xr:TypeId>
+				<xr:ValueId>2e52f057-c7e5-457c-8a3f-f3f4face9338</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.EventTypes" category="List">
+				<xr:TypeId>4a3ef144-a5de-46ab-a79d-2faba3479fc0</xr:TypeId>
+				<xr:ValueId>0e4de585-5058-4f8a-a639-8cffe0ed3c6c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>EventTypes</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3213a105-5535-40ed-9055-f3ec31217dfe">
+				<Properties>
+					<Name>PrivateMeeting</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e02bd206-294e-4813-9118-bb6604573cd9">
+				<Properties>
+					<Name>ELetter</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="06f67e85-8922-4bd8-9472-eb29fb801f10">
+				<Properties>
+					<Name>MailLetter</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fdda78ad-de31-495e-8689-a9e36eb26104">
+				<Properties>
+					<Name>PhoneCall</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="28bbad70-e987-4cd4-9f7b-e5867d9269f4">
+				<Properties>
+					<Name>Other</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

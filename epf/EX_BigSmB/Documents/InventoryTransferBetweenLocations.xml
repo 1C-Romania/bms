@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="d918419c-8e11-46ed-a193-b6bfc80c5a99">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.InventoryTransferBetweenLocations" category="Object">
+				<xr:TypeId>2fb0a8ae-6ee6-44b7-bc0f-defe5f278fcf</xr:TypeId>
+				<xr:ValueId>48aae184-1894-4c45-a1dd-6b341601edf2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.InventoryTransferBetweenLocations" category="Ref">
+				<xr:TypeId>72e74f20-3eac-4902-ac9e-0dc4ebcb16d8</xr:TypeId>
+				<xr:ValueId>8633028c-72f9-4439-ac3c-2494ae500703</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.InventoryTransferBetweenLocations" category="Selection">
+				<xr:TypeId>30baeaed-8c73-4009-b04a-e30df6e042c4</xr:TypeId>
+				<xr:ValueId>0530b82f-6f05-4fe2-94f4-ec7c347feaaf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.InventoryTransferBetweenLocations" category="List">
+				<xr:TypeId>6f5a8c4c-a5bf-4260-b20a-b329771a15ab</xr:TypeId>
+				<xr:ValueId>2d54a1b5-4606-4932-ba2d-734c6462f728</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.InventoryTransferBetweenLocations" category="Manager">
+				<xr:TypeId>5c19c7f0-1729-498c-bb5b-77c407ac8db8</xr:TypeId>
+				<xr:ValueId>652c39ad-c6ad-4c9f-9fa5-75f254b82d36</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>InventoryTransferBetweenLocations</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="aa2d2677-e358-4a9a-8624-4faeb545ef80">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cabd1c03-9f94-418c-930d-de422cbe88a5">
+				<Properties>
+					<Name>TransactionType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.TransactionTypesInventoryTransferBetweenLocations</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="22ff9fff-0b18-4261-8faf-0ceeffb59e2c">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d5c5f9a5-dab9-4f11-8088-2e9cb95576b5">
+				<Properties>
+					<Name>Cell</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Cells</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cde297c5-a562-4529-8055-380c596502d3">
+				<Properties>
+					<Name>BaseUnit</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.BaseUnits</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9c9fdf3a-e029-4563-85fd-d8c810794b34">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Entities</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Document uuid="a1912bbd-93bd-4c63-8fec-518d0f1a2461">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.RetailReceiptReturn" category="Object">
+				<xr:TypeId>a2a88b2a-1723-4822-a09d-501985e5108e</xr:TypeId>
+				<xr:ValueId>06f86f9b-5361-4de9-b112-702ba3bb3212</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.RetailReceiptReturn" category="Ref">
+				<xr:TypeId>ab9856f9-13e9-4e7d-aa63-aedb0f9de95d</xr:TypeId>
+				<xr:ValueId>7696d8e0-ed13-4e02-920f-41f087bd5bf4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.RetailReceiptReturn" category="Selection">
+				<xr:TypeId>4d228f33-39d9-4f9c-8eac-d45662b3e01d</xr:TypeId>
+				<xr:ValueId>0a893f65-9f54-432a-a5ab-a020b5e13ffc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.RetailReceiptReturn" category="List">
+				<xr:TypeId>93058cec-a45a-467f-beb1-78b5a773f00b</xr:TypeId>
+				<xr:ValueId>f4477839-a4e4-4558-8f84-7b9c4cefff13</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.RetailReceiptReturn" category="Manager">
+				<xr:TypeId>74c89447-05cc-46a1-bcf1-8806a4acc007</xr:TypeId>
+				<xr:ValueId>a5516d5c-444c-4f06-97cd-2664bdbae534</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>RetailReceiptReturn</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="473acbbc-95d7-4d35-a17b-5563c695661f">
+				<Properties>
+					<Name>RetailReceipt</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.RetailReceipt</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a5e7dcd6-1eed-4898-bb2b-072f5c4a5597">
+				<Properties>
+					<Name>Archival</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="96675d16-ea69-4fb4-9fdb-5a04f12c6e4e">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e3ecdd71-05c9-4a0d-b4c2-9462e5dfa272">
+				<Properties>
+					<Name>Author</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Users</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="801db368-76c3-4ed3-a076-efaec3cee96d">
+				<Properties>
+					<Name>CashRegister</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.CashRegisters</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="67c31ac3-8df4-4dff-a40c-039cad81dabf">
+				<Properties>
+					<Name>RetailReceiptNo</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8f00d448-2718-4a4d-a8a7-26744a73093e">
+				<Properties>
+					<Name>DocumentAmount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

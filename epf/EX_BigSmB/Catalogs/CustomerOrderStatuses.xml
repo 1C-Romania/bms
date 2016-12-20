@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="d38c7ffb-cd8c-47c7-b188-3629baad51c9">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.CustomerOrderStatuses" category="Object">
+				<xr:TypeId>1c386677-b254-4a89-b75c-961d9089cfef</xr:TypeId>
+				<xr:ValueId>8210417d-36a2-484b-8cd5-8765ae1efe18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.CustomerOrderStatuses" category="Ref">
+				<xr:TypeId>8e722872-98c8-445b-8d35-9b4d0bdaf162</xr:TypeId>
+				<xr:ValueId>14bc7f78-51dd-4a29-a044-48fe91811894</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.CustomerOrderStatuses" category="Selection">
+				<xr:TypeId>2e380a0a-57c8-4488-9232-04262a9f9fae</xr:TypeId>
+				<xr:ValueId>e743fa74-9498-4c98-acac-32b11d01e9f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.CustomerOrderStatuses" category="List">
+				<xr:TypeId>2cbae487-2f99-4062-a9aa-042cfbf8c0a5</xr:TypeId>
+				<xr:ValueId>7de77273-5c7f-473e-8e70-ca33cdb9791f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.CustomerOrderStatuses" category="Manager">
+				<xr:TypeId>5e9e5127-2d0b-4919-981c-556349f63f8a</xr:TypeId>
+				<xr:ValueId>8f56b4c5-c631-4a7e-a89f-fc37c368920a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CustomerOrderStatuses</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7a2a5098-21f5-46bc-8500-ff5e74ab7acb">
+				<Properties>
+					<Name>OrderStatus</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.OrderStatuses</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

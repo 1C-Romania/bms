@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="1f6e375e-ef8c-4451-ac4e-997525a2fc2f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.TransactionTypesWorkTask" category="Ref">
+				<xr:TypeId>ce4fe534-27e9-4c6c-b596-b72f1d5eb6de</xr:TypeId>
+				<xr:ValueId>85e4ca7f-922f-4bc2-a8bf-6ff6ccf1e53b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.TransactionTypesWorkTask" category="Manager">
+				<xr:TypeId>07af37ec-8ddb-4a30-b76d-51d94681080d</xr:TypeId>
+				<xr:ValueId>49e4a906-1584-4606-81de-11cfa93ee316</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.TransactionTypesWorkTask" category="List">
+				<xr:TypeId>9cfe108f-a1fe-4c6c-9fe7-f47809e50582</xr:TypeId>
+				<xr:ValueId>cd000901-dddc-4b74-8fe4-635bf3b465a9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>TransactionTypesWorkTask</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

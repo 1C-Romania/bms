@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Enum uuid="de6486db-bceb-4ea1-b53b-c468f4ad0ad2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.InventoryReplenishmentMethods" category="Ref">
+				<xr:TypeId>d2eb22c9-7666-4a32-aa0f-8122b2058cdc</xr:TypeId>
+				<xr:ValueId>7aa5d275-3590-41ac-9d6b-3aa4230f97a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.InventoryReplenishmentMethods" category="Manager">
+				<xr:TypeId>4ea9e5d8-85b8-4acf-b1d9-d37a4a84cfcf</xr:TypeId>
+				<xr:ValueId>03b68940-3b1f-4af1-ac2f-3ac82cb76c51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.InventoryReplenishmentMethods" category="List">
+				<xr:TypeId>c258da09-4134-4823-bf1f-f057e7175a22</xr:TypeId>
+				<xr:ValueId>5fc3438f-d538-4ecb-b5df-f164ab447a38</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>InventoryReplenishmentMethods</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

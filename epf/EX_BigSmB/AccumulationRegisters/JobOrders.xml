@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<AccumulationRegister uuid="df229540-e81b-481e-81c0-97703f8c0d2f">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.JobOrders" category="Record">
+				<xr:TypeId>382b036e-242b-45c6-99b0-91936a0773de</xr:TypeId>
+				<xr:ValueId>f1fc79f6-14fa-4265-930a-1e36da417065</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.JobOrders" category="Manager">
+				<xr:TypeId>2b79404b-a091-4313-969d-0238f670cfb4</xr:TypeId>
+				<xr:ValueId>812e3131-ce2b-4ab6-b3d8-05192f0e8205</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.JobOrders" category="Selection">
+				<xr:TypeId>07aa8118-4e43-4002-a09d-83ccacb56336</xr:TypeId>
+				<xr:ValueId>ae65511a-de61-41de-93e0-2b410392dcd2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.JobOrders" category="List">
+				<xr:TypeId>a164f07d-5155-4f65-aa9f-e4672992c7e2</xr:TypeId>
+				<xr:ValueId>0f54c13c-b140-4e98-a3c7-e1525c7510bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.JobOrders" category="RecordSet">
+				<xr:TypeId>b6eb5ad2-d07c-4143-ac3e-9cf0030e749d</xr:TypeId>
+				<xr:ValueId>dfc50cf9-fff4-43c0-8e54-db81b018bbf2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.JobOrders" category="RecordKey">
+				<xr:TypeId>732b18fe-4013-4a03-bd7d-c71096f264bc</xr:TypeId>
+				<xr:ValueId>cf507316-cedd-4ea7-908b-791223f8ccc6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>JobOrders</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="02ac5a39-14e0-4261-a6c8-57d60d444af0">
+				<Properties>
+					<Name>BeginTime</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7682b4dc-ce27-45d5-a97d-fda3f6d0102a">
+				<Properties>
+					<Name>EndingTime</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

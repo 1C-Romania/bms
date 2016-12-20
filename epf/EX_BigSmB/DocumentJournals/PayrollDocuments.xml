@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<DocumentJournal uuid="a0e7fd87-cabe-462d-99de-1976af90fd07">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.PayrollDocuments" category="Selection">
+				<xr:TypeId>43147a7c-e1a1-4dc6-b567-c683af542681</xr:TypeId>
+				<xr:ValueId>e67049b9-eb51-4490-b788-d5bf32970026</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.PayrollDocuments" category="List">
+				<xr:TypeId>050790b0-4afc-4e0d-b8ed-a328b5f72360</xr:TypeId>
+				<xr:ValueId>502a1ce9-73de-4326-8aaf-5afea4a21c7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.PayrollDocuments" category="Manager">
+				<xr:TypeId>7ba244ea-5430-400c-9285-4571804ae067</xr:TypeId>
+				<xr:ValueId>0d8bafc5-ddfd-478a-a1d3-9dd76a8594f9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>PayrollDocuments</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Payroll</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="ff6186bc-3089-4489-ab09-69371b0dd04e">
+				<Properties>
+					<Name>Entity</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="95100039-2663-4e1a-b8b4-1a06779629bf">
+				<Properties>
+					<Name>RegistrationPeriod</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="d0c7d25e-dc4c-4f33-a9d4-708e943138b3">
+				<Properties>
+					<Name>TransactionType</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="d833f101-02f3-42dc-9524-9509bc9b3098">
+				<Properties>
+					<Name>Amount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="92b57efd-6bb5-42f4-ad94-5a245ead4e63">
+				<Properties>
+					<Name>Comment</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="e0b807a0-60fd-439a-b0ac-959e628680b0">
+				<Properties>
+					<Name>Department</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Column uuid="879702a3-9e36-41d5-ae21-68ba22e9f6c9">
+				<Properties>
+					<Name>Currency</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Column>
+			<Form>ListForm</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2">
+	<Catalog uuid="247bc83f-27a6-4109-9461-008da8de7693">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.BankAccounts" category="Object">
+				<xr:TypeId>e236b8ad-a06c-49b6-9056-55da5d5819ca</xr:TypeId>
+				<xr:ValueId>05b9184b-a6d2-4c0d-a6c2-31ad83a02fc9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.BankAccounts" category="Ref">
+				<xr:TypeId>9e34055e-16cd-478c-accb-9406512fa3eb</xr:TypeId>
+				<xr:ValueId>bbb4b103-e35c-4673-86a3-a6d6a5ac4369</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.BankAccounts" category="Selection">
+				<xr:TypeId>358a242d-92cf-4413-b4b2-483428c66bcf</xr:TypeId>
+				<xr:ValueId>75a96237-6c25-45ba-ba2c-ef27cb2a4309</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.BankAccounts" category="List">
+				<xr:TypeId>c5862a3b-5610-4b07-bb30-1b6ceeea16bd</xr:TypeId>
+				<xr:ValueId>a0e85d08-f387-4cb1-909a-b3978bb51b2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.BankAccounts" category="Manager">
+				<xr:TypeId>cea96990-b005-4d4a-af2d-2d777ae3df27</xr:TypeId>
+				<xr:ValueId>ba9703fb-14c1-4b13-bcdd-22a70df26e82</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>BankAccounts</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

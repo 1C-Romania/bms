@@ -32,7 +32,7 @@ Procedure Cut_CutProfilesBeforeAtServer()
 		TextMessage = StrTemplate(
 			NStr("ru='Номенклатура %1 не найдена в таблице ""Материалы"".';
 				 |en='Nomenclature %1 was not found in table ""Materials""';
-				 |ro='Nomenclature %1 was not found in table ""Materials""'"),
+				 |ro='Produsul %1 nu a fost gasit in ""Materiale""'"),
 			FinishedGoodsSourceRow.Nomenclature);
 		CommonUseClientServer.MessageToUser(TextMessage);
 		Return;
@@ -45,7 +45,7 @@ Procedure Cut_CutProfilesBeforeAtServer()
 		TextMessage = StrTemplate(
 			NStr("ru='Не хватает длины профиля. Исходный профиль длиной %1 м. Новый профиль длиной %2 м.';
 				 |en='The source profile has %1 m and New profile has %2 m - Not enough length!';
-				 |ro='The source profile has %1 m and New profile has %2 m - Not enough length!'"),
+				 |ro='Profilul de baza are %1 m iar profilul nou are %2 m - Lungime incorecta!'"),
 			SourceLength,
 			MaterialLength);
 		CommonUseClientServer.MessageToUser(TextMessage);
@@ -70,7 +70,7 @@ Function CheckForCommand()
 	If Object.TransactionType <> Enums.TransactionTypesProduction.Disassembly Then
 		TextMessage = NStr("ru='Команда доступна только для вида операции ""Разборка"".';
 							|en='This command is only available for the type transaction ""Disassembly"".';
-							|ro='This command is only available for the type transaction ""Disassembly"".'");
+							|ro='Aceasta comanda este disponibila doar pentru tipul de tranzactie ""Dezmembrare"".'");
 		CommonUseClientServer.MessageToUser(TextMessage);
 		Check = False;
 		Return Check;
@@ -79,7 +79,7 @@ Function CheckForCommand()
 	If Object.FinishedGoods.Count() <> 1 Then
 		TextMessage = NStr("ru='Команда доступна только если в табличной части ""Продукция"" одна строка.';
 							|en='This command is available only if in table ""Finished goods"" has one line';
-							|ro='This command is available only if in table ""Finished goods"" has one line'");
+							|ro='Aceasta comanda este disponibila doar daca tabelul ""Produse finite"" are o singura linie'");
 		CommonUseClientServer.MessageToUser(TextMessage);
 		Check = False;
 	EndIf;
@@ -87,7 +87,7 @@ Function CheckForCommand()
 	If Object.Inventory.Count() <> 1 Then
 		TextMessage = NStr("ru='Команда доступна только если в табличной части ""Материалы"" одна строка.';
 							|en='This command is available only if in table ""Materials"" has one line';
-							|ro='This command is available only if in table ""Materials"" has one line'");
+							|ro='Aceasta comanda este disponibila doar daca tabelul ""Materiale"" are o singura linie'");
 		CommonUseClientServer.MessageToUser(TextMessage);
 		Check = False;
 	EndIf;
@@ -97,7 +97,7 @@ Function CheckForCommand()
 	If FinishedGoodsQuantity <> InventoryQuantity Then
 		TextMessage = NStr("ru='Не совпадает количество в табличных частях.';
 							|en='Tables has different quantity of products';
-							|ro='Tables has different quantity of products'");
+							|ro='Tabelele au cantitati diferite!'");
 		CommonUseClientServer.MessageToUser(TextMessage);
 		Check = False;
 	EndIf;
@@ -126,7 +126,7 @@ Function CharacteristicOfLength(Length)
 	Else
 		TextMessage = StrTemplate(NStr("ru='Не найдена характеристика с длиной %1.';
 										|en='Characteristic with length %1 is not found.';
-										|ro='Characteristic with length %1 is not found.'"), Length);
+										|ro='Caracteristica cu lungimea %1 nu a fost gasita.'"), Length);
 		CommonUseClientServer.MessageToUser(TextMessage);
 		Return Undefined;
 	EndIf;

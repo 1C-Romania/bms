@@ -810,6 +810,20 @@
 									<Button name="InventoryCutProfiles" id="277">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.CutProfiles</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Cut profiles</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Cut profiles</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>ro</v8:lang>
+												<v8:content>Taiere profile</v8:content>
+											</v8:item>
+										</Title>
 										<ExtendedTooltip name="InventoryCutProfilesРасширеннаяПодсказка" id="278"/>
 									</Button>
 									<Button name="CommandFillBySpecification" id="84">
